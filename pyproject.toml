@@ -1,0 +1,34 @@
+[project]
+name = "pump-signal"
+version = "0.1.0"
+description = "Orquestador de señales FOMO para memecoins de pump.fun (social + on-chain)."
+requires-python = ">=3.11"
+readme = "README.md"
+dependencies = [
+    "websockets>=12.0",
+    "aiohttp>=3.9",
+    "tweepy>=4.14",
+    "telethon>=1.36",
+    "click>=8.1",
+    "python-dotenv>=1.0",
+    "rich>=13.7",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0",
+    "pytest-asyncio>=0.23",
+]
+
+[project.scripts]
+pump-signal = "pump_signal.cli:main"
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+include = ["pump_signal*"]
+
+[tool.pytest.ini_options]
+asyncio_mode = "auto"
