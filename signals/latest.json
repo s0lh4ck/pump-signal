@@ -1,30 +1,29 @@
 {
   "asset": "ETH/USD",
   "etoro_instrument": "ETH.SEP26 (Micro Ether Future)",
-  "generated_at": "2026-08-30T19:10:00Z",
+  "generated_at": "2026-08-30T19:49:00Z",
   "price_usd": 2446.50,
-  "price_source": "eToro ETH.SEP26 (CME), confirmado por el usuario en la app -- antes se usaba un precio spot agregado ($2.455) que no coincide exactamente con la cotizacion CME del futuro. Se prioriza el precio real del instrumento que se opera.",
-  "market_status": "CME cerrado en el momento de esta captura (el futuro sigue el horario de CME, no es 24/7 como el spot de cripto) -- verifica en la app si el mercado esta abierto antes de operar.",
+  "price_source": "Ultimo precio confirmado por el usuario en la app de eToro (ETH.SEP26, CME) sigue siendo la referencia mas fiable -- no ha llegado una captura nueva este ciclo, asi que se mantiene ese valor en vez del spot agregado ($2.455) que sigue apareciendo en las busquedas.",
+  "market_status": "No confirmado si CME ha reabierto desde el ultimo ciclo (era fin de semana). Verifica en la app si el mercado esta abierto antes de operar -- si sigue cerrado, el precio no se movera hasta que reabra.",
   "change_24h_pct": -2.55,
   "change_7d_pct": 3.65,
   "bias": "short",
   "confidence": "media",
   "data_quality": {
-    "sources_checked": 13,
+    "sources_checked": 12,
     "categories_checked": ["tecnico_precio", "sentimiento_fear_greed", "derivados_funding_oi", "on_chain_flows", "correlacion_btc", "calendario_macro", "ballenas_individuales_y_figuras_publicas"],
     "agreement": "media",
-    "note": "Precio estable en $2.455 respecto al ciclo anterior. RSI diario sigue en sobrecompra (76.5-78.7) pero se ha enfriado desde 84.8 mientras el precio se mantiene -- desenlace mas sano que una caida brusca. MACD confirma lo dicho en el ciclo anterior: histograma AMPLIANDOSE (+63.4), impulso alcista reforzandose, no hay contradiccion esta vez. Fear&Greed mayoritariamente en 73 (codicia), pero una fuente (AltIndex, metodologia distinta) marca 53 (neutral) -- se prioriza la mayoria. Nuevo dato relevante: el Open Interest de ETH esta cerca de maximos de 30 dias (+20.85% en un mes) con precio subiendo y funding aun no extremo -- apalancamiento largo acumulandose, mas riesgo de purga/squeeze si el sentimiento gira. BTC combina -3% en 24h con un mensaje de 'volatilidad elevada a corto plazo' segun una fuente, coherente con la cautela de la señal de ETH. On-chain sigue mixto: 220.000 ETH salieron de exchanges (mayor salida desde octubre pasado, alcista) pero el flujo neto semanal sigue subiendo (bajista) -- misma tension que el ciclo anterior. Ningun catalizador macro en 48h (proximo CPI: 11 sep, mas de una semana)."
+    "note": "Este ciclo trae poca informacion nueva: RSI (76.5-78.7, enfriado desde 84.8), MACD (+63.4) y Open Interest (~$32.6B) salen identicos al ciclo anterior -- probablemente las mismas fuentes/cache, se anota en vez de presentarlo como confirmacion fresca. Fear&Greed sigue disperso entre fuentes (53-73), se prioriza la mayoria en zona de codicia. Dato nuevo relevante en on-chain: el cohorte de ballenas medianas (10k-100k ETH) acumulo +182.000 ETH mientras el retail (100-1k ETH) vendio -207.000 ETH -- divergencia clara entre dinero grande (comprando) y minorista (vendiendo). Tambien nuevo: una fuente senala que el precio reclamo la 'base de coste on-chain' en 2.300 -- el mismo nivel que ya se usaba como objetivo de esta señal, lo que le da respaldo adicional como zona tecnica relevante, no arbitraria. Funding rate reportado mas bajo esta vez (0.0035%/8h vs 0.0076%/8h del ciclo anterior) -- posible apalancamiento largo relajandose un poco, coherente con menor riesgo de squeeze inmediato. Ningun catalizador macro en 48h."
   },
-  "thesis": "Nada decisivo ha cambiado desde el ciclo anterior: el precio sigue plano en $2.455, el RSI sigue sobrecomprado (aunque enfriandose de forma sana), el Open Interest apalancado se acerca a maximos de 30 dias, y BTC muestra su propia volatilidad de corto plazo. Se mantiene la misma operacion tactica de corto plazo contra una estructura de fondo que sigue siendo alcista.",
+  "thesis": "Ciclo tranquilo: la mayoria de indicadores tecnicos no se han movido desde la ultima revision. Lo unico genuinamente nuevo es on-chain -- las ballenas medianas siguen acumulando mientras el retail vende, y una fuente confirma que 2.300 es la base de coste on-chain (refuerza el objetivo ya fijado). Se mantiene la misma operacion tactica de corto plazo.",
   "reasoning": [
-    "RSI diario en sobrecompra (76.5-78.7), enfriandose desde 84.8 mientras el precio aguanta -- desenlace mas sano que un desplome, pero sigue siendo sobrecompra real.",
-    "MACD: el histograma diario se sigue AMPLIANDO (+63.4) -- confirma lo anotado en el ciclo anterior, el impulso alcista de fondo sigue reforzandose, no contradice la señal tactica de corto plazo.",
-    "Nuevo: Open Interest de ETH cerca de maximos de 30 dias (+20.85% en un mes) con el precio en zona alta -- apalancamiento largo acumulandose, que historicamente aumenta el riesgo de una purga/squeeze si el sentimiento gira, aunque el funding en si no esta en niveles extremos.",
-    "BTC combina un -3% en 24h con advertencias de 'volatilidad de corto plazo elevada' por concentracion de largos apalancados -- riesgo cruzado coherente con la cautela de esta señal.",
-    "220.000 ETH salieron de exchanges (mayor salida desde octubre pasado) pero el flujo neto semanal sigue en alza -- la misma tension on-chain del ciclo anterior, sin resolverse en ninguna direccion.",
-    "Fear & Greed mayoritariamente en codicia (73), con una fuente aislada en neutral (53, metodologia distinta) -- se prioriza la lectura mayoritaria.",
-    "EN CONTRA de esta señal (no se ignora): estructura de medias moviles totalmente alcista (precio por encima de todas las EMAs diarias, 50D>100D), MACD reforzandose, entradas de ETF de BTC tambien fuertes ($1.9B la semana pasada) -- el contexto de fondo sigue siendo constructivo, por eso el trade mantiene stop ajustado y no es una apuesta de tendencia.",
-    "Correccion de costes: eToro cobra ~0.62% de la exposicion como coste de apertura (~$1.52 con 1 contrato). Con el objetivo anterior ($2.350) el ratio riesgo/recompensa NETO de esos costes bajaba a 1:1.4, por debajo del minimo aceptable -- se movio el objetivo a la zona de soporte mas profunda ($2.300, ya identificada en 'levels') para recuperar un ratio neto saludable (~1:2.2)."
+    "RSI, MACD y Open Interest salen iguales al ciclo anterior -- se anota como posible repeticion de fuentes, no como confirmacion fresca e independiente.",
+    "Nuevo en on-chain: el cohorte de ballenas medianas (10k-100k ETH) acumulo +182.000 ETH esta ultima semana, mientras el retail (100-1k ETH) vendio -207.000 ETH -- el dinero grande sigue comprando mientras el pequeño capitula, algo a favor de la tesis de fondo alcista pero sin cambiar la cautela tactica de corto plazo.",
+    "Nuevo: una fuente confirma que el precio reclamo la base de coste on-chain en 2.300 -- el mismo nivel que ya usabamos como objetivo, lo que le da respaldo tecnico adicional, no es un numero arbitrario.",
+    "Funding rate reportado mas bajo que el ciclo anterior (0.0035%/8h vs 0.0076%/8h) -- el apalancamiento largo parece relajarse un poco, ligero alivio del riesgo de squeeze inmediato que se señalaba antes.",
+    "Fear & Greed sigue disperso entre fuentes (53-73) segun metodologia -- se prioriza la lectura mayoritaria en codicia.",
+    "EN CONTRA de esta señal (no se ignora): estructura de medias moviles totalmente alcista, MACD reforzandose, ETFs de ETH con 5 semanas seguidas de entradas netas (+$245M la ultima semana) -- el contexto de fondo sigue siendo constructivo, por eso el trade mantiene stop ajustado y no es una apuesta de tendencia.",
+    "El coste de apertura de eToro (~0.62% de la exposicion, ~$1.52) sigue descontado en las cifras de riesgo/recompensa, sin cambios respecto al ciclo anterior."
   ],
   "levels": {
     "resistance_near": 2486.8,
@@ -66,22 +65,21 @@
   ],
   "previous_signal_outcome": {
     "status": "pendiente",
-    "note": "El precio sigue en $2.455, sin tocar el stop (2.490) ni el objetivo (2.350) del ciclo anterior. Se mantiene la misma operacion sin cambios."
+    "note": "El precio de referencia sigue en la misma zona ($2.446,50), sin tocar el stop (2.490) ni el objetivo (2.300) del ciclo anterior. Se mantiene la misma operacion sin cambios."
   },
   "sources": [
-    "https://www.investing.com/crypto/ethereum/technical",
+    "https://www.tipranks.com/cryptocurrency/eth-usd/technical-analysis",
     "https://altindex.com/ticker/eth/technical-analysis",
-    "https://rsihunter.com/asset/eth",
-    "https://coinstats.app/ai/a/latest-news-for-bitcoin",
-    "https://www.coindesk.com/price/bitcoin",
+    "https://www.coingecko.com/en/coins/bitcoin",
     "https://feargreedmeter.com/crypto-fear-and-greed-index",
     "https://altindex.com/fear-and-greed-index-crypto",
+    "https://pluang.com/en/news-feed/data-rata-pendanaan-8-jam-eth-positif-ringan-dan-risiko-likuidasi",
     "https://coinalyze.net/ethereum/open-interest/",
-    "https://www.theblock.co/data/crypto-markets/futures/eth-funding-rates",
-    "https://dailycoin.com/ethereum-exchange-outflows-whales-accumulate/",
-    "https://coinmarketcap.com/cmc-ai/ethereum/latest-updates/",
-    "https://fred.stlouisfed.org/releases/calendar?rid=10&y=2026",
-    "https://tradersquant.com/calendar"
+    "https://www.fxstreet.com/cryptocurrencies/news/ethereum-price-forecast-eth-rally-calms-after-reclaiming-2-300-on-chain-cost-basis-202608252354",
+    "https://ambcrypto.com/ethereum-whale-sells-55m-in-eth-can-bulls-absorb-pressure/",
+    "https://cryptoquant.com/asset/eth/chart/exchange-flows/exchange-netflow-total",
+    "https://en.cryptonomist.ch/2026/08/25/49000-eth-transfer-stable-price/",
+    "https://www.coingabbar.com/en/crypto-currency-news/ethereum-news-today-eth-etf-inflows-ico-whale-hacker-transfer"
   ],
   "disclaimer": "No es asesoramiento financiero. Ningun sistema (ni IA ni humano) es 100% fiable con mercados, y contrastar mas fuentes reduce puntos ciegos pero no elimina el riesgo. Producto apalancado de alto riesgo. Ejecucion manual bajo tu propia responsabilidad. Un evento macro sorpresa puede invalidar este analisis en minutos -- el stop es tu proteccion real, no la confianza del analisis."
 }
