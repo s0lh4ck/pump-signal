@@ -31,13 +31,17 @@ o contradictoria:
 
 - Cada ciclo consulta **al menos 3 fuentes independientes** para precio,
   niveles técnicos y noticias.
-- Si las fuentes **coinciden** en lo importante (soporte/resistencia,
-  dirección del momentum), la señal puede tener confianza alta.
-- Si las fuentes **discrepan** en un factor decisivo (p. ej. una dice RSI en
-  sobrecompra extrema y otra dice RSI neutral), la señal baja a confianza
-  media/baja y el sesgo se mantiene en `neutral` en vez de forzar long o
-  short. La discrepancia se deja anotada en `data_quality` y en `reasoning`,
-  no se oculta.
+- **Siempre se da una dirección clara (long o short)**, la que pese más
+  según la evidencia — como haría un analista real. `neutral` se reserva
+  solo para un empate genuino (evidencia repartida ~50/50), no como refugio
+  cómodo ante cualquier duda.
+- Si las fuentes **coinciden** en lo importante, la señal tiene confianza
+  alta. Si **discrepan** en un factor decisivo (p. ej. una dice RSI en
+  sobrecompra extrema y otra dice RSI neutral), la confianza baja a
+  media/baja — pero la dirección se decide igual por el peso de la mayoría
+  de evidencia. La discrepancia se deja anotada en `data_quality` y en
+  `reasoning`, nunca oculta: **la incertidumbre se refleja en la confianza,
+  no en la falta de señal.**
 - Cada ciclo revisa qué pasó con el escenario (long/short) del ciclo
   anterior — si tocó el objetivo, el stop, o sigue pendiente — y lo registra
   en `previous_signal_outcome`. Así hay un histórico verificable de aciertos
