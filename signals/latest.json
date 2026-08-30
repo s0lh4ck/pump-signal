@@ -1,30 +1,29 @@
 {
   "asset": "ETH/USD",
   "etoro_instrument": "ETH.SEP26 (Micro Ether Future)",
-  "generated_at": "2026-08-30T23:49:00Z",
+  "generated_at": "2026-08-31T00:49:00Z",
   "price_usd": 2446.50,
   "price_source": "Ultimo precio confirmado por el usuario en la app de eToro (ETH.SEP26, CME) sigue siendo la referencia mas fiable -- no ha llegado una captura nueva. Fuentes spot agregadas hoy muestran ~$2.459, consistente con esa zona.",
   "market_status": "CME ofrece trading 24/7 para futuros/opciones de cripto desde mayo de 2026 (corregido en el ciclo anterior). Verifica en tu app el estado actual antes de operar.",
   "change_24h_pct": -2.55,
   "change_7d_pct": 3.65,
   "bias": "short",
-  "confidence": "media",
+  "confidence": "media-alta",
   "data_quality": {
-    "sources_checked": 9,
-    "note_confidence": "Confianza sube ligeramente respecto al ciclo anterior: el riesgo macro que se creia bajo resulto ser real y ya materializado (discurso hawkish de la Fed), lo que corrobora la cautela de la señal con un catalizador concreto en vez de solo indicadores tecnicos.",
+    "sources_checked": 6,
     "categories_checked": ["tecnico_precio", "sentimiento_fear_greed", "derivados_funding_oi", "on_chain_flows", "correlacion_btc", "calendario_macro", "ballenas_individuales_y_figuras_publicas"],
-    "agreement": "media",
-    "note": "CORRECCION al calendario macro: en un ciclo anterior se dijo que 'la Fed mantuvo tipos, reduciendo riesgo inmediato' -- eso era incompleto. El presidente de la Fed, Kevin Warsh, dio un discurso hawkish en Jackson Hole el 26 de agosto que elevo la probabilidad de una subida de tipos en septiembre del 35% al 55-57% (segun CME FedWatch), provocando una caida de BTC de ~$81K a ~$77K con $481M en liquidaciones. Esto explica la volatilidad de BTC ya señalada en ciclos anteriores y es un riesgo macro real y elevado, no bajo como se dijo antes. Nuevo en derivados de ETH: opciones por $920M vencen hoy en Deribit, con 'max pain' en $2.050 (por debajo del precio actual, puede actuar como iman a la baja de cara al vencimiento), put/call ratio 0.77 (sesgo hacia calls) y Taker Buy/Sell Ratio de Binance por encima de 1 (compradores dominando) -- posicionamiento mixto. Desarrollos de red (upgrade Glamsterdam, propuesta EIP-8363 sobre reducir emision, staking en 35% del supply) son fundamentales de medio/largo plazo, no catalizadores de 48h. Goldman Sachs comprando el gestor de ETF de BTC NEOS por hasta $2.250M -- señal institucional alcista de fondo."
+    "agreement": "media-alta",
+    "note": "Confirmacion relevante: el aplanamiento del MACD que una fuente sugeria de forma aislada hace 2 ciclos ahora se confirma con una fuente nueva e independiente -- ya no es una discrepancia sin resolver, se sube la confianza en esa lectura. Dato concreto nuevo y significativo: el Open Interest tiene un 70.7% de posicionamiento LARGO -- extremadamente sesgado, lo que historicamente se lee como señal de contrarian (posicion masificada = mas vulnerable a una sacudida). Tension entre marcos temporales: RSI diario 78-86 (sobrecompra) vs RSI horario 58.63 (neutral) -- el corto plazo ya se enfrio algo aunque el diario sigue extendido. Nuevo nivel tecnico: soporte en $2.400, un cierre diario por debajo activaria una correccion hacia $2.328 -- muy cerca del objetivo ya fijado en $2.300, refuerzo tecnico adicional del trade."
   },
-  "thesis": "CORRECCION importante: el riesgo macro no era bajo como se dijo antes -- un discurso hawkish del presidente de la Fed (Kevin Warsh, Jackson Hole, 26 ago) elevo la probabilidad de subida de tipos al 55-57% y ya provoco una caida de BTC con $481M en liquidaciones. Esto refuerza (no debilita) la tesis de cautela de esta señal. En derivados de ETH, el 'max pain' de las opciones que vencen hoy esta en $2.050, por debajo del precio actual -- puede actuar como iman a la baja hacia el vencimiento. Se mantiene SHORT con mas convccion en el riesgo macro, aunque el squeeze de shorts señalado el ciclo anterior sigue siendo un riesgo real en contra.",
+  "thesis": "La confianza sube a media-alta: el aplanamiento del MACD que era una lectura aislada hace 2 ciclos ahora se confirma con una fuente independiente, y aparece un dato concreto de riesgo real -- el Open Interest esta 70.7% concentrado en largos, un sesgo extremo que historicamente precede sacudidas. Un nuevo nivel tecnico ($2.400, con extension a $2.328 si se rompe) confirma casi exactamente el objetivo ya fijado en $2.300. Se mantiene SHORT con mas conviccion tecnica, sin ignorar el riesgo de squeeze ya señalado.",
   "reasoning": [
-    "CORRECCION sobre el ciclo anterior: no es cierto que 'la Fed reduce el riesgo inmediato' -- el presidente Kevin Warsh dio un discurso hawkish en Jackson Hole (26 ago) que elevo la probabilidad de subida de tipos en septiembre del 35% al 55-57%, provocando una caida de BTC de ~$81K a ~$77K con $481M en liquidaciones. Esto explica la volatilidad de BTC de los ultimos ciclos y es un riesgo macro real, no bajo.",
-    "Nuevo en derivados de ETH: ~$920M en opciones vencen hoy en Deribit con 'max pain' en $2.050 (por debajo del precio actual) -- puede actuar como iman a la baja hacia el vencimiento. Put/call ratio 0.77 (sesgo hacia calls) y Taker Buy/Sell Ratio de Binance por encima de 1 -- posicionamiento mixto, no unanime.",
-    "Desarrollos de red de Ethereum (upgrade Glamsterdam, propuesta EIP-8363 sobre reducir emision, 35% del supply en staking) son fundamentales de medio/largo plazo -- no cambian la señal de corto plazo.",
-    "Goldman Sachs compra el gestor de ETF de BTC NEOS por hasta $2.250M -- señal institucional alcista de fondo, coherente con el contexto estructural ya señalado.",
-    "El riesgo de short squeeze señalado en el ciclo anterior (60% de liquidaciones recientes fueron cortas) sigue vigente y no se ha resuelto en ninguna direccion.",
-    "Fear & Greed en 69 (codicia), consistente con ciclos anteriores.",
-    "EN CONTRA de esta señal (no se ignora): estructura de medias moviles totalmente alcista, ETFs con entradas sostenidas, Goldman Sachs comprando exposicion institucional -- el contexto de fondo sigue siendo constructivo pese al riesgo macro de corto plazo.",
+    "CONFIRMACION: el aplanamiento del MACD que se sugeria de forma aislada hace 2 ciclos ahora aparece en una fuente nueva e independiente -- ya no es una discrepancia sin resolver, sube la confianza en esta lectura.",
+    "DATO CONCRETO NUEVO Y RELEVANTE: el Open Interest de ETH tiene un 70.7% de posicionamiento LARGO -- sesgo extremo que historicamente se lee como señal contrarian (posicion masificada = mas vulnerable a una sacudida en cualquier direccion, pero especialmente arriesgado para quienes estan en el lado saturado).",
+    "Tension entre marcos temporales: RSI diario en 78-86 (sobrecompra) vs RSI horario en 58.63 (neutral) -- el impulso de muy corto plazo ya se enfrio algo, aunque el marco diario sigue extendido.",
+    "Nuevo nivel tecnico: soporte en $2.400 -- un cierre diario por debajo activaria una correccion hacia $2.328, casi exactamente el objetivo ya fijado en $2.300. Refuerzo tecnico adicional del trade, no un numero nuevo inventado.",
+    "El riesgo de short squeeze señalado en ciclos anteriores (60% de liquidaciones recientes fueron cortas) sigue vigente y no se ha resuelto en ninguna direccion.",
+    "Fear & Greed en zona de codicia, consistente con ciclos anteriores.",
+    "EN CONTRA de esta señal (no se ignora): estructura de medias moviles totalmente alcista, ETFs con entradas sostenidas, Goldman Sachs comprando exposicion institucional en cripto -- el contexto de fondo sigue siendo constructivo pese al riesgo tecnico y macro de corto plazo.",
     "El coste de apertura de eToro (~0.62% de la exposicion, ~$1.52) sigue descontado en las cifras de riesgo/recompensa, sin cambios respecto al ciclo anterior."
   ],
   "levels": {
@@ -66,22 +65,20 @@
     "CORRECCION: CME ofrece trading 24/7 en cripto desde mayo 2026 -- lo dicho en ciclos anteriores sobre que este futuro seguia horario limitado de bolsa tradicional era impreciso. El 'mercado cerrado' que viste pudo ser una ventana de mantenimiento puntual o una restriccion propia de eToro. Aun asi, verifica siempre el estado del mercado en tu app antes de ejecutar -- por si acaso.",
     "El coste de apertura (~0.62% de la exposicion, ~$1.52 con 1 contrato) ya esta descontado en las cifras de riesgo/recompensa de esta señal. Comprueba en la app si tambien hay un coste al cerrar la operacion -- si lo hay, el margen neto es un poco menor de lo calculado, aunque el ratio sigue siendo favorable incluso en ese escenario.",
     "NUEVO: el 60% de las liquidaciones recientes de ETH fueron de posiciones cortas -- si vuelve a pasar un short squeeze mientras esta operacion esta abierta, el precio puede subir de golpe hacia tu stop. Es exactamente para eso que existe el stop: respetalo sin excepcion.",
-    "CORRECCION: el riesgo macro es mas alto de lo que se dijo en un ciclo anterior. El discurso hawkish del presidente de la Fed (Warsh, 26 ago) ya provoco una caida real de BTC con $481M en liquidaciones, y la probabilidad de subida de tipos subio a 55-57%. Mantente atento a mas declaraciones de la Fed mientras la operacion este abierta."
+    "CORRECCION: el riesgo macro es mas alto de lo que se dijo en un ciclo anterior. El discurso hawkish del presidente de la Fed (Warsh, 26 ago) ya provoco una caida real de BTC con $481M en liquidaciones, y la probabilidad de subida de tipos subio a 55-57%. Mantente atento a mas declaraciones de la Fed mientras la operacion este abierta.",
+    "NUEVO: el 70.7% del Open Interest de ETH esta en posiciones largas -- un sesgo muy extremo. No es garantia de nada, pero historicamente estas concentraciones extremas preceden movimientos bruscos (en cualquier direccion). Es otro motivo mas para respetar el stop sin excepcion."
   ],
   "previous_signal_outcome": {
     "status": "pendiente",
-    "note": "El precio de referencia sigue en la misma zona (~$2.446,50-2.460), sin tocar el stop (2.490) ni el objetivo (2.300) del ciclo anterior. Se mantiene la misma operacion sin cambios."
+    "note": "El precio de referencia sigue en la misma zona (~$2.446,50-2.478), sin tocar el stop (2.490) ni el objetivo (2.300) del ciclo anterior. Se mantiene la misma operacion sin cambios."
   },
   "sources": [
-    "https://www.coingecko.com/en/coins/ethereum",
-    "https://www.coingecko.com/en/coins/bitcoin",
-    "https://feargreedmeter.com/crypto-fear-and-greed-index",
-    "https://finance.yahoo.com/markets/crypto/articles/2-2-billion-crypto-options-075922503.html",
-    "https://www.kucoin.com/news/flash/bitcoin-falls-to-76-877-amid-fed-chair-kevin-warsh-s-hawkish-remarks",
-    "https://cryptoslate.com/fed-chair-kevin-warsh-triggers-a-488-million-crypto-liquidation-cascade-as-rate-hike-expectations-rise/",
-    "https://ambcrypto.com/bitcoin-drops-after-warsh-speech-as-hike-odds-hit-57-can-btc-reclaim-80k/",
-    "https://www.coindesk.com/coindesk-indices/2026/08/27/crypto-for-advisors-how-staking-on-ethereum-is-changing-in-2026",
-    "https://ground.news/article/ethereums-post-quantum-plan-starts-with-a-new-validator-gateway"
+    "https://en.cryptonomist.ch/2026/08/24/ethereum-price-today-analysis-10/",
+    "https://altindex.com/ticker/eth/technical-analysis",
+    "https://cryptonews.net/news/ethereum/33339373/",
+    "https://coindcx.com/blog/price-predictions/ethereum-price-prediction/",
+    "https://coinstats.app/ai/a/latest-news-for-ethereum",
+    "https://in.tradingview.com/chart/ETHUSDT/VkP6jG99-Ethereum-s-Key-Support-and-Resistance-Levels"
   ],
   "disclaimer": "No es asesoramiento financiero. Ningun sistema (ni IA ni humano) es 100% fiable con mercados, y contrastar mas fuentes reduce puntos ciegos pero no elimina el riesgo. Producto apalancado de alto riesgo. Ejecucion manual bajo tu propia responsabilidad. Un evento macro sorpresa puede invalidar este analisis en minutos -- el stop es tu proteccion real, no la confianza del analisis."
 }
