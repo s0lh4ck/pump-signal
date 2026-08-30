@@ -29,22 +29,37 @@ que tú ejecutas manualmente en eToro.
 sí se puede controlar es no forzar una respuesta cuando la información es débil
 o contradictoria:
 
-- Cada ciclo consulta **al menos 3 fuentes independientes** para precio,
-  niveles técnicos y noticias.
+- Cada ciclo consulta **varias fuentes independientes (10+)** repartidas en
+  **6 categorías**, no solo precio técnico:
+  1. Técnico/precio (RSI, MACD, medias móviles, Bollinger Bands, soporte/resistencia)
+  2. Sentimiento (Fear & Greed Index)
+  3. Derivados (funding rate, open interest)
+  4. On-chain (flujos a/desde exchanges, actividad de ballenas)
+  5. Correlación con BTC (ETH suele seguir a BTC de cerca — una señal de ETH
+     que ignora lo que hace BTC es una señal incompleta)
+  6. Calendario macro (eventos como CPI/FOMC que pueden invalidar el
+     análisis técnico en minutos)
 - **Siempre se da una dirección clara (long o short)**, la que pese más
   según la evidencia — como haría un analista real. `neutral` se reserva
   solo para un empate genuino (evidencia repartida ~50/50), no como refugio
   cómodo ante cualquier duda.
 - Si las fuentes **coinciden** en lo importante, la señal tiene confianza
-  alta. Si **discrepan** en un factor decisivo (p. ej. una dice RSI en
-  sobrecompra extrema y otra dice RSI neutral), la confianza baja a
+  alta. Si **discrepan** en un factor decisivo, la confianza baja a
   media/baja — pero la dirección se decide igual por el peso de la mayoría
   de evidencia. La discrepancia se deja anotada en `data_quality` y en
   `reasoning`, nunca oculta: **la incertidumbre se refleja en la confianza,
-  no en la falta de señal.**
-- Cada ciclo revisa qué pasó con el escenario (long/short) del ciclo
-  anterior — si tocó el objetivo, el stop, o sigue pendiente — y lo registra
-  en `previous_signal_outcome`. Así hay un histórico verificable de aciertos
+  no en la falta de señal.** Si una fuente tiene datos claramente obsoletos
+  o inconsistentes (p. ej. un precio que no cuadra con el resto), se
+  descarta y se anota por qué.
+- **Todo trade lleva una relación riesgo/recompensa calculada explícitamente**
+  (`trade.risk_reward` en el JSON) — entrada, stop, objetivo, pérdida máxima
+  en $, ganancia potencial en $, y el ratio. Si con los niveles técnicos el
+  ratio sale malo (arriesgar más de lo que se puede ganar), se ajusta el
+  stop/objetivo antes de publicar la señal en vez de operar con una relación
+  desfavorable solo porque "los niveles técnicos dan eso".
+- Cada ciclo revisa qué pasó con el trade del ciclo anterior — si tocó el
+  objetivo, el stop, o sigue pendiente — y lo registra en
+  `previous_signal_outcome`. Así hay un histórico verificable de aciertos
   reales, no solo la palabra de la IA.
 
 ## Limitaciones importantes
