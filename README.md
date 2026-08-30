@@ -69,6 +69,13 @@ o contradictoria:
   ratio sale malo (arriesgar más de lo que se puede ganar), se ajusta el
   stop/objetivo antes de publicar la señal en vez de operar con una relación
   desfavorable solo porque "los niveles técnicos dan eso".
+- **El ratio se calcula NETO de costes, no solo con los niveles técnicos en
+  bruto.** eToro cobra un coste de apertura (~0.62% de la exposición,
+  confirmado por el usuario en la app) que hay que restar de la ganancia y
+  sumar a la pérdida antes de validar que el ratio sigue siendo ≥1:1.5. No
+  está confirmado si también hay coste al cerrar — por prudencia se
+  comprueba que el ratio aguanta incluso asumiendo un coste doble
+  (apertura + cierre).
 - Cada ciclo revisa qué pasó con el trade del ciclo anterior — si tocó el
   objetivo, el stop, o sigue pendiente — y lo registra en
   `previous_signal_outcome`. Así hay un histórico verificable de aciertos
