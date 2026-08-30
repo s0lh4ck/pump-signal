@@ -39,6 +39,18 @@ o contradictoria:
      que ignora lo que hace BTC es una señal incompleta)
   6. Calendario macro (eventos como CPI/FOMC que pueden invalidar el
      análisis técnico en minutos)
+  7. Ballenas individuales y figuras públicas — **peso bajo, explícito**.
+     Transferencias de whale-alert (dirección casi siempre ambigua: una
+     transferencia entre wallets desconocidas no dice si es venta, custodia
+     o un movimiento OTC) y declaraciones de figuras conocidas del sector
+     (funds, CEOs, cuentas influyentes). Esta categoría **nunca decide la
+     dirección por sí sola** — solo matiza la confianza cuando coincide o
+     contradice a las demás. Motivo: es la categoría con más ruido y más
+     riesgo de manipulación (shilling pagado, pump-and-dumps, declaraciones
+     que no coinciden con las acciones reales de quien las hace — hay un
+     caso real documentado en `signals/history.jsonl` de alguien pidiendo
+     públicamente "nunca vendas" el mismo día que su empresa declaraba una
+     venta ante el regulador).
 - **Siempre se da una dirección clara (long o short)**, la que pese más
   según la evidencia — como haría un analista real. `neutral` se reserva
   solo para un empate genuino (evidencia repartida ~50/50), no como refugio

@@ -1,17 +1,17 @@
 {
   "asset": "ETH/USD",
   "etoro_instrument": "ETH.SEP26 (Micro Ether Future)",
-  "generated_at": "2026-08-30T17:45:00Z",
+  "generated_at": "2026-08-30T18:15:00Z",
   "price_usd": 2455,
   "change_24h_pct": 0.6,
   "change_7d_pct": 29.9,
   "bias": "short",
   "confidence": "media",
   "data_quality": {
-    "sources_checked": 11,
-    "categories_checked": ["tecnico_precio", "sentimiento_fear_greed", "derivados_funding_oi", "on_chain_flows", "correlacion_btc", "calendario_macro"],
+    "sources_checked": 14,
+    "categories_checked": ["tecnico_precio", "sentimiento_fear_greed", "derivados_funding_oi", "on_chain_flows", "correlacion_btc", "calendario_macro", "ballenas_individuales_y_figuras_publicas"],
     "agreement": "media",
-    "note": "Soporte/resistencia coinciden en varias fuentes (~2.440-2.490 / ~2.500-2.530). El RSI diario esta mayoritariamente en sobrecompra (75-86 en la mayoria de fuentes, 1 fuente aislada dice 51). El MACD tiene lectura contradictoria: una fuente decia histograma horario adelgazando, la fuente mas detallada y reciente dice histograma DIARIO ampliandose sin agotamiento -- se prioriza la mas detallada pero se deja constancia del conflicto. On-chain tambien mixto: ballenas retirando ETH de exchanges (alcista) pero el flujo neto hacia exchanges sube esta semana (bajista) y hay reportes de ballenas abriendo shorts. No se encontro un catalizador macro claro (CPI/FOMC) en las proximas 48h, pero esto no esta garantizado -- verificar un calendario economico aparte antes de operar."
+    "note": "Soporte/resistencia coinciden en varias fuentes (~2.440-2.490 / ~2.500-2.530). El RSI diario esta mayoritariamente en sobrecompra (75-86 en la mayoria de fuentes, 1 fuente aislada dice 51). El MACD tiene lectura contradictoria: una fuente decia histograma horario adelgazando, la fuente mas detallada y reciente dice histograma DIARIO ampliandose sin agotamiento -- se prioriza la mas detallada pero se deja constancia del conflicto. On-chain tambien mixto: ballenas retirando ETH de exchanges (alcista) pero el flujo neto hacia exchanges sube esta semana (bajista) y hay reportes de ballenas abriendo shorts. Ballenas individuales y figuras publicas se contrastan ahora tambien, pero con PESO BAJO explicito: son datos de intencion ambigua (una transferencia entre wallets desconocidas no dice si es venta) o de fiabilidad baja (declaraciones publicas que no siempre coinciden con las acciones reales de quien las dice) -- nunca deciden la direccion por si solas, solo matizan la confianza. No se encontro un catalizador macro claro (CPI/FOMC) en las proximas 48h, pero esto no esta garantizado -- verificar un calendario economico aparte antes de operar."
   },
   "thesis": "El RSI sobrecomprado, el Fear&Greed en codicia, y senales de advertencia similares en BTC (que ETH suele seguir) pesan hacia un pullback tactico de corto plazo. Pero la estructura de fondo (EMAs alcistas, entradas de ETF, acumulacion de ballenas, funding no extremo) sigue siendo alcista -- por eso el trade se construye con stop ajustado y objetivo lejano, no como apuesta a que la tendencia se revierte.",
   "reasoning": [
@@ -21,7 +21,9 @@
     "Flujo neto hacia exchanges de ETH al alza esta semana -- historicamente asociado a presion vendedora potencial.",
     "Reportes de ballenas abriendo posiciones cortas pese a la narrativa de acumulacion institucional -- no todo el dinero grande esta del mismo lado.",
     "EN CONTRA de esta señal (no se ignora): precio por encima de EMA20/50/200 diarias, ETF de ETH con el mejor mes de entradas desde 2025 (~1.420M en 9-10 sesiones), ballenas retirando ETH de exchanges en volumen (reduce oferta liquida), funding rate positivo pero NO extremo (~8% anualizado, lejos de niveles de apalancamiento peligroso), y Bollinger Bands diarias sin tocar la banda superior todavia (hay recorrido tecnico antes de estar totalmente extendido). Por eso esta señal es tactica de corto plazo, no una apuesta contra la tendencia de fondo.",
-    "Correccion sobre el ciclo anterior: la fuente mas detallada dice que el histograma del MACD diario se esta AMPLIANDO (impulso alcista reforzandose), no adelgazando como se penso antes con una fuente menos detallada -- se deja esto anotado para que no se pierda el matiz."
+    "Correccion sobre el ciclo anterior: la fuente mas detallada dice que el histograma del MACD diario se esta AMPLIANDO (impulso alcista reforzandose), no adelgazando como se penso antes con una fuente menos detallada -- se deja esto anotado para que no se pierda el matiz.",
+    "Ballenas individuales (peso bajo, informativo): transferencias grandes detectadas (49.000 ETH el 25 ago, 100.000 ETH ~$250M entre wallets no identificadas) -- direccion ambigua, una transferencia entre wallets desconocidas no dice si es venta, custodia o un movimiento OTC. No se usa como señal por si sola.",
+    "Figuras publicas (peso bajo, informativo, tratar con escepticismo): Cathie Wood reportada recortando exposicion a ETH -- coincide direccionalmente con la cautela de esta señal, dato aislado de baja fiabilidad. Ejemplo de por que esta categoria pesa poco: Michael Saylor publico 'nunca vendas tu Bitcoin' el mismo dia en que su empresa declaraba ante la SEC la venta de 1.638 BTC -- las declaraciones publicas y las acciones reales no siempre coinciden, por eso nunca se tratan como señal principal."
   ],
   "levels": {
     "resistance_near": 2486.8,
@@ -53,7 +55,7 @@
   ],
   "previous_signal_outcome": {
     "status": "sin_historial_previo",
-    "note": "Esta señal revisa la version anterior del mismo ciclo (ampliando fuentes: sentimiento, derivados, on-chain, correlacion BTC, macro) y corrige el riesgo/recompensa del trade. El seguimiento de aciertos empieza con el proximo ciclo horario."
+    "note": "Esta señal revisa la version anterior del mismo ciclo, ahora sumando ballenas individuales y figuras publicas (peso bajo) a las 6 categorias ya cubiertas. La direccion (short) y el trade no cambian -- la informacion nueva es mixta/de baja fiabilidad y no supera el peso de la evidencia ya existente. El seguimiento de aciertos empieza con el proximo ciclo horario."
   },
   "sources": [
     "https://en.cryptonomist.ch/2026/08/24/ethereum-price-today-analysis-10/",
@@ -66,7 +68,10 @@
     "https://feargreedmeter.com/crypto-fear-and-greed-index",
     "https://my.tradingview.com/chart/ETHUSDT.P/kKWhGQWa-ETH-USD-Weekly-Technical-Analysis-Rebound-Key-Levels-Breakout",
     "https://blog.kraken.com/economic-brief/august-12-2026",
-    "https://www.coinreporter.io/2026/08/ether-whales-are-pulling-eth-off-exchanges-heres-why/"
+    "https://www.coinreporter.io/2026/08/ether-whales-are-pulling-eth-off-exchanges-heres-why/",
+    "https://en.cryptonomist.ch/2026/08/25/49000-eth-transfer-stable-price/",
+    "https://whale-alert.io/news.html",
+    "https://finance.yahoo.com/markets/crypto/articles/trump-saylor-said-never-sell-204036953.html"
   ],
   "disclaimer": "No es asesoramiento financiero. Ningun sistema (ni IA ni humano) es 100% fiable con mercados, y contrastar mas fuentes reduce puntos ciegos pero no elimina el riesgo. Producto apalancado de alto riesgo. Ejecucion manual bajo tu propia responsabilidad. Un evento macro sorpresa (ej. declaracion de la Fed, CPI, noticia regulatoria) puede invalidar este analisis en minutos -- el stop es tu proteccion real, no la confianza del analisis."
 }
