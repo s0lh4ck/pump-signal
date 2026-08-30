@@ -97,12 +97,16 @@ usuario lo decide explícitamente, no se sube solo.
   técnicas citadas por las fuentes consultadas, por eso se contrastan varias
   antes de confiar en ellas.
 - **El precio del dashboard es un spot agregado, no la cotización exacta de
-  `ETH.SEP26` en CME.** Pueden diferir unos pocos dólares, y el futuro sigue
-  el horario de CME (no es 24/7 como el spot de cripto — puede aparecer
-  "mercado cerrado" en fines de semana o ventanas de mantenimiento).
-  **Verifica siempre el precio y si el mercado está abierto en la app de
-  eToro antes de ejecutar** — el dashboard es una referencia para decidir la
-  dirección, no la fuente de verdad del precio de entrada exacto.
+  `ETH.SEP26` en CME.** Pueden diferir unos pocos dólares. **Verifica siempre
+  el precio y si el mercado está abierto en la app de eToro antes de
+  ejecutar** — el dashboard es una referencia para decidir la dirección, no
+  la fuente de verdad del precio de entrada exacto.
+- **Corregido:** CME ofrece trading 24/7 en futuros/opciones de cripto desde
+  mayo de 2026 — la afirmación anterior de que este futuro "seguía horario
+  limitado tipo bolsa tradicional" era imprecisa. Un "mercado cerrado" que
+  aparezca en la app es más probablemente una ventana de mantenimiento
+  puntual o una restricción propia de eToro, no un cierre de fin de semana
+  de CME en general. Aun así, comprueba siempre el estado real en la app.
 - Esto **no es asesoramiento financiero**. Los futuros/CFDs son productos
   apalancados de alto riesgo. La decisión y ejecución final es siempre tuya.
 

@@ -1,10 +1,10 @@
 {
   "asset": "ETH/USD",
   "etoro_instrument": "ETH.SEP26 (Micro Ether Future)",
-  "generated_at": "2026-08-30T19:49:00Z",
+  "generated_at": "2026-08-30T20:49:00Z",
   "price_usd": 2446.50,
-  "price_source": "Ultimo precio confirmado por el usuario en la app de eToro (ETH.SEP26, CME) sigue siendo la referencia mas fiable -- no ha llegado una captura nueva este ciclo, asi que se mantiene ese valor en vez del spot agregado ($2.455) que sigue apareciendo en las busquedas.",
-  "market_status": "No confirmado si CME ha reabierto desde el ultimo ciclo (era fin de semana). Verifica en la app si el mercado esta abierto antes de operar -- si sigue cerrado, el precio no se movera hasta que reabra.",
+  "price_source": "Ultimo precio confirmado por el usuario en la app de eToro (ETH.SEP26, CME) sigue siendo la referencia mas fiable -- no ha llegado una captura nueva este ciclo. Fuentes spot agregadas hoy muestran un rango ~$2.446-2.478, consistente con esa zona.",
+  "market_status": "CORRECCION IMPORTANTE: CME lanzo trading 24/7 para futuros y opciones de cripto desde el 29 de mayo de 2026 -- contradice lo que se dijo en ciclos anteriores (que ETH.SEP26 seguia horario limitado tipo bolsa tradicional). El 'Mercado cerrado' que viste en tu captura probablemente fue una ventana de mantenimiento puntual (comun incluso en productos '24/7'), o una restriccion especifica de eToro sobre ese contrato, no un cierre de fin de semana de CME en general. Verifica en tu app el estado actual antes de operar -- esta info se corrige de nuevo si aparece evidencia distinta.",
   "change_24h_pct": -2.55,
   "change_7d_pct": 3.65,
   "bias": "short",
@@ -13,16 +13,17 @@
     "sources_checked": 12,
     "categories_checked": ["tecnico_precio", "sentimiento_fear_greed", "derivados_funding_oi", "on_chain_flows", "correlacion_btc", "calendario_macro", "ballenas_individuales_y_figuras_publicas"],
     "agreement": "media",
-    "note": "Este ciclo trae poca informacion nueva: RSI (76.5-78.7, enfriado desde 84.8), MACD (+63.4) y Open Interest (~$32.6B) salen identicos al ciclo anterior -- probablemente las mismas fuentes/cache, se anota en vez de presentarlo como confirmacion fresca. Fear&Greed sigue disperso entre fuentes (53-73), se prioriza la mayoria en zona de codicia. Dato nuevo relevante en on-chain: el cohorte de ballenas medianas (10k-100k ETH) acumulo +182.000 ETH mientras el retail (100-1k ETH) vendio -207.000 ETH -- divergencia clara entre dinero grande (comprando) y minorista (vendiendo). Tambien nuevo: una fuente senala que el precio reclamo la 'base de coste on-chain' en 2.300 -- el mismo nivel que ya se usaba como objetivo de esta señal, lo que le da respaldo adicional como zona tecnica relevante, no arbitraria. Funding rate reportado mas bajo esta vez (0.0035%/8h vs 0.0076%/8h del ciclo anterior) -- posible apalancamiento largo relajandose un poco, coherente con menor riesgo de squeeze inmediato. Ningun catalizador macro en 48h."
+    "note": "CORRECCION relevante encontrada este ciclo: CME ofrece trading 24/7 de futuros/opciones de cripto desde mayo 2026 -- lo dicho en ciclos anteriores sobre 'horario limitado tipo bolsa tradicional' era impreciso, se corrige en market_status. RSI de ETH confirmado de nuevo en zona de sobrecompra (79) por una fuente fresca independiente. Nuevo dato relevante: BTC tuvo una caida brusca el 29 de agosto (de un maximo de 3 meses ~$81.455 a ~$78.100, -4%) -- es decir, parte del riesgo de sobrecompra de BTC que se venia señalando ya se materializo parcialmente, no es un riesgo puramente hipotetico. Una fuente tecnica (EMA de 20 periodos) marca una zona de liquidez mas profunda cerca de $2.000-2.007 con $3.28B en liquidaciones largas acumuladas cerca de $1.800 -- zona de extension mas alla del objetivo actual, no cambia el trade pero da contexto de cuanto podria extenderse un movimiento fuerte. Fear&Greed sigue muy disperso entre fuentes (44 a 73) segun metodologia y momento. ETFs de ETH siguen con entradas fuertes (~$697M la semana pasada, la mayor de 2026) y ballenas con actividad mixta (BitMine compro +32.447 ETH; otra ballena vendio 15.765 ETH tomando beneficio)."
   },
-  "thesis": "Ciclo tranquilo: la mayoria de indicadores tecnicos no se han movido desde la ultima revision. Lo unico genuinamente nuevo es on-chain -- las ballenas medianas siguen acumulando mientras el retail vende, y una fuente confirma que 2.300 es la base de coste on-chain (refuerza el objetivo ya fijado). Se mantiene la misma operacion tactica de corto plazo.",
+  "thesis": "Correccion importante sobre horario de mercado (ver market_status) -- no cambia la señal, pero corrige informacion previa. En cuanto a la lectura de mercado: RSI de ETH confirmado en sobrecompra (79) por fuente fresca, y BTC ya sufrio parte de la caida que se temia (-4% desde su maximo de 3 meses). Se mantiene la misma operacion tactica de corto plazo, con el objetivo de 2.300 reforzado por el nivel de coste on-chain identificado en el ciclo anterior.",
   "reasoning": [
-    "RSI, MACD y Open Interest salen iguales al ciclo anterior -- se anota como posible repeticion de fuentes, no como confirmacion fresca e independiente.",
-    "Nuevo en on-chain: el cohorte de ballenas medianas (10k-100k ETH) acumulo +182.000 ETH esta ultima semana, mientras el retail (100-1k ETH) vendio -207.000 ETH -- el dinero grande sigue comprando mientras el pequeño capitula, algo a favor de la tesis de fondo alcista pero sin cambiar la cautela tactica de corto plazo.",
-    "Nuevo: una fuente confirma que el precio reclamo la base de coste on-chain en 2.300 -- el mismo nivel que ya usabamos como objetivo, lo que le da respaldo tecnico adicional, no es un numero arbitrario.",
-    "Funding rate reportado mas bajo que el ciclo anterior (0.0035%/8h vs 0.0076%/8h) -- el apalancamiento largo parece relajarse un poco, ligero alivio del riesgo de squeeze inmediato que se señalaba antes.",
-    "Fear & Greed sigue disperso entre fuentes (53-73) segun metodologia -- se prioriza la lectura mayoritaria en codicia.",
-    "EN CONTRA de esta señal (no se ignora): estructura de medias moviles totalmente alcista, MACD reforzandose, ETFs de ETH con 5 semanas seguidas de entradas netas (+$245M la ultima semana) -- el contexto de fondo sigue siendo constructivo, por eso el trade mantiene stop ajustado y no es una apuesta de tendencia.",
+    "CORRECCION: CME ofrece trading 24/7 en cripto desde mayo 2026 -- lo dicho antes sobre 'horario limitado tipo bolsa tradicional' era impreciso. El cierre que viste en tu captura fue probablemente una ventana de mantenimiento puntual o una restriccion de eToro, no un cierre de fin de semana generalizado de CME.",
+    "RSI de ETH confirmado de nuevo en sobrecompra (79) por una fuente independiente fresca -- coherente con el resto de lecturas de los ciclos anteriores.",
+    "Nuevo: BTC tuvo una caida del -4% el 29 de agosto (de ~$81.455 a ~$78.100) -- parte del riesgo de sobrecompra de BTC que se venia señalando ya se materializo, no es puramente hipotetico. Esto es coherente con la cautela tactica de la señal de ETH, aunque tambien podria significar que parte del ajuste ya paso.",
+    "Contexto adicional (no cambia el trade): una fuente marca una zona de liquidez mas profunda cerca de $2.000-2.007, con $3.28B en liquidaciones largas acumuladas cerca de $1.800 -- si el movimiento se extiende mas alla del objetivo actual, esa seria la siguiente zona relevante.",
+    "ETFs de ETH con la mayor semana de entradas de 2026 (~$697M) y ballenas con actividad mixta (BitMine compro +32.447 ETH; otra ballena vendio 15.765 ETH tomando beneficio) -- coherente con el patron de fondo alcista pero sin unanimidad entre grandes tenedores.",
+    "Fear & Greed sigue muy disperso entre fuentes (44 a 73) -- se prioriza la lectura mayoritaria en zona de codicia, con menos confianza dado el rango tan amplio.",
+    "EN CONTRA de esta señal (no se ignora): estructura de medias moviles totalmente alcista, ETFs con la mayor entrada semanal del año -- el contexto de fondo sigue siendo constructivo, por eso el trade mantiene stop ajustado y no es una apuesta de tendencia.",
     "El coste de apertura de eToro (~0.62% de la exposicion, ~$1.52) sigue descontado en las cifras de riesgo/recompensa, sin cambios respecto al ciclo anterior."
   ],
   "levels": {
@@ -60,26 +61,27 @@
     "El tamano de posicion ya esta al minimo posible en este instrumento (1 contrato). No promediar ni anadir contratos para 'recuperar' una perdida.",
     "El stop solo protege si se respeta. Configuralo en la plataforma, no lo lleves 'de memoria'.",
     "El Open Interest cerca de maximos de 30 dias es un aviso: si el mercado esta muy apalancado en largo, un giro de sentimiento puede acelerar el movimiento en ambas direcciones. No es motivo de panico, pero si de mantener el stop firme.",
-    "El precio de referencia de este dashboard viene de fuentes spot agregadas via busqueda web, no de la cotizacion CME exacta de ETH.SEP26 -- puede haber una pequena diferencia (unos pocos dolares) con lo que ves en tu app. Verifica siempre el precio y si el mercado esta abierto en eToro antes de ejecutar; el futuro sigue horario de CME, no es 24/7 como el spot de cripto.",
+    "El precio de referencia de este dashboard viene de fuentes spot agregadas via busqueda web, no de la cotizacion CME exacta de ETH.SEP26 -- puede haber una pequena diferencia (unos pocos dolares) con lo que ves en tu app. Verifica siempre el precio antes de ejecutar.",
+    "CORRECCION: CME ofrece trading 24/7 en cripto desde mayo 2026 -- lo dicho en ciclos anteriores sobre que este futuro seguia horario limitado de bolsa tradicional era impreciso. El 'mercado cerrado' que viste pudo ser una ventana de mantenimiento puntual o una restriccion propia de eToro. Aun asi, verifica siempre el estado del mercado en tu app antes de ejecutar -- por si acaso.",
     "El coste de apertura (~0.62% de la exposicion, ~$1.52 con 1 contrato) ya esta descontado en las cifras de riesgo/recompensa de esta señal. Comprueba en la app si tambien hay un coste al cerrar la operacion -- si lo hay, el margen neto es un poco menor de lo calculado, aunque el ratio sigue siendo favorable incluso en ese escenario."
   ],
   "previous_signal_outcome": {
     "status": "pendiente",
-    "note": "El precio de referencia sigue en la misma zona ($2.446,50), sin tocar el stop (2.490) ni el objetivo (2.300) del ciclo anterior. Se mantiene la misma operacion sin cambios."
+    "note": "El precio de referencia sigue en la misma zona ($2.446,50-2.478), sin tocar el stop (2.490) ni el objetivo (2.300) del ciclo anterior. Se mantiene la misma operacion sin cambios."
   },
   "sources": [
-    "https://www.tipranks.com/cryptocurrency/eth-usd/technical-analysis",
-    "https://altindex.com/ticker/eth/technical-analysis",
-    "https://www.coingecko.com/en/coins/bitcoin",
-    "https://feargreedmeter.com/crypto-fear-and-greed-index",
-    "https://altindex.com/fear-and-greed-index-crypto",
-    "https://pluang.com/en/news-feed/data-rata-pendanaan-8-jam-eth-positif-ringan-dan-risiko-likuidasi",
-    "https://coinalyze.net/ethereum/open-interest/",
-    "https://www.fxstreet.com/cryptocurrencies/news/ethereum-price-forecast-eth-rally-calms-after-reclaiming-2-300-on-chain-cost-basis-202608252354",
-    "https://ambcrypto.com/ethereum-whale-sells-55m-in-eth-can-bulls-absorb-pressure/",
-    "https://cryptoquant.com/asset/eth/chart/exchange-flows/exchange-netflow-total",
-    "https://en.cryptonomist.ch/2026/08/25/49000-eth-transfer-stable-price/",
-    "https://www.coingabbar.com/en/crypto-currency-news/ethereum-news-today-eth-etf-inflows-ico-whale-hacker-transfer"
+    "https://www.coindesk.com/price/ethereum",
+    "https://cryptoticker.io/en/ethereum-price-prediction-eth-targets-2750-after-august-rally/",
+    "https://www.coindesk.com/price/bitcoin",
+    "https://www.coinglass.com/pro/i/FearGreedIndex",
+    "https://cfgi.io/crypto-fear-greed-index/",
+    "https://www.fxempire.com/forecasts/article/ethereum-price-risks-2k-retest-as-short-liquidation-fuel-dries-up-1618640",
+    "https://crypto.news/ethereum-price-breakout-risks-pullback-with-rsi-at-86/",
+    "https://whale-alert.io/stories/a56aef823c28/Spot-Ethereum-ETFs-Receive-17764M-Inflow-Biggest-Day-in-Six-Weeks-Outpacing-Bitcoin-ETH-Rises-69-to-3329",
+    "https://beincrypto.com/ethereum-whale-accumulation-etf-inflows-breakout/",
+    "https://www.kucoin.com/news/flash/ethereum-whale-sells-15-765-eth-for-9-5m-as-etfs-attract-184m-inflows",
+    "https://www.cmegroup.com/media-room/press-releases/2026/6/01/cme_group_announceslaunchof247cryptocurrencyfuturesandoptionstra.html",
+    "https://www.cmegroup.com/markets/cryptocurrencies/24-7-crypto-trading.html"
   ],
   "disclaimer": "No es asesoramiento financiero. Ningun sistema (ni IA ni humano) es 100% fiable con mercados, y contrastar mas fuentes reduce puntos ciegos pero no elimina el riesgo. Producto apalancado de alto riesgo. Ejecucion manual bajo tu propia responsabilidad. Un evento macro sorpresa puede invalidar este analisis en minutos -- el stop es tu proteccion real, no la confianza del analisis."
 }
