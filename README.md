@@ -17,8 +17,11 @@ que tú ejecutas manualmente en eToro.
 3. El resultado se guarda en `signals/latest.json` y se anexa a
    `signals/history.jsonl`, y se publica como un dashboard web (Artifact) que
    puedes abrir en cualquier momento.
-4. Una tarea programada despierta la sesión cada pocas horas para repetir el
-   ciclo y republicar el dashboard con datos frescos.
+4. Una tarea programada despierta la sesión **cada hora** para repetir el
+   ciclo y republicar el dashboard con datos frescos. No es tiempo real: cada
+   punto del gráfico es un ciclo de análisis (uno por hora), no un tick de
+   mercado — el dashboard no puede conectarse a APIs en vivo (ver
+   limitaciones).
 
 ## Reglas de fiabilidad
 
