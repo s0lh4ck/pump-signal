@@ -81,6 +81,15 @@ o contradictoria:
   `previous_signal_outcome`. Así hay un histórico verificable de aciertos
   reales, no solo la palabra de la IA.
 
+## Criterio de crecimiento (tamaño de posición)
+
+La herramienta **no infla objetivos ni sube el tamaño de posición para que
+una operación individual "gane más"** — eso solo cambia la varianza, no la
+ventaja real. El tamaño se mantiene en el mínimo (1 contrato) por defecto.
+Solo tiene sentido subirlo cuando el histórico de `previous_signal_outcome`
+muestre suficientes señales con más aciertos que fallos — y en ese caso el
+usuario lo decide explícitamente, no se sube solo.
+
 ## Limitaciones importantes
 
 - Los datos vienen de resúmenes de búsqueda web, no de series de velas exactas.
