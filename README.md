@@ -20,15 +20,38 @@ que tú ejecutas manualmente en eToro.
 4. Una tarea programada despierta la sesión cada pocas horas para repetir el
    ciclo y republicar el dashboard con datos frescos.
 
+## Reglas de fiabilidad
+
+**Ningún sistema es 100% fiable con mercados — ni este, ni ningún otro.** Lo que
+sí se puede controlar es no forzar una respuesta cuando la información es débil
+o contradictoria:
+
+- Cada ciclo consulta **al menos 3 fuentes independientes** para precio,
+  niveles técnicos y noticias.
+- Si las fuentes **coinciden** en lo importante (soporte/resistencia,
+  dirección del momentum), la señal puede tener confianza alta.
+- Si las fuentes **discrepan** en un factor decisivo (p. ej. una dice RSI en
+  sobrecompra extrema y otra dice RSI neutral), la señal baja a confianza
+  media/baja y el sesgo se mantiene en `neutral` en vez de forzar long o
+  short. La discrepancia se deja anotada en `data_quality` y en `reasoning`,
+  no se oculta.
+- Cada ciclo revisa qué pasó con el escenario (long/short) del ciclo
+  anterior — si tocó el objetivo, el stop, o sigue pendiente — y lo registra
+  en `previous_signal_outcome`. Así hay un histórico verificable de aciertos
+  reales, no solo la palabra de la IA.
+
 ## Limitaciones importantes
 
 - Los datos vienen de resúmenes de búsqueda web, no de series de velas exactas.
-  No hay RSI/MACD calculado con precisión matemática — son lecturas técnicas
-  citadas por las fuentes consultadas.
+  No hay RSI/MACD calculado con precisión matemática propia — son lecturas
+  técnicas citadas por las fuentes consultadas, por eso se contrastan varias
+  antes de confiar en ellas.
 - Esto **no es asesoramiento financiero**. Los futuros/CFDs son productos
   apalancados de alto riesgo. La decisión y ejecución final es siempre tuya.
 
 ## Estructura
 
-- `signals/latest.json` — última señal generada.
+- `signals/latest.json` — última señal generada, incluye `data_quality`
+  (fuentes consultadas y nivel de acuerdo) y `previous_signal_outcome`
+  (seguimiento del escenario anterior).
 - `signals/history.jsonl` — histórico de señales (una por línea).
