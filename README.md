@@ -80,6 +80,13 @@ o contradictoria:
   No hay RSI/MACD calculado con precisión matemática propia — son lecturas
   técnicas citadas por las fuentes consultadas, por eso se contrastan varias
   antes de confiar en ellas.
+- **El precio del dashboard es un spot agregado, no la cotización exacta de
+  `ETH.SEP26` en CME.** Pueden diferir unos pocos dólares, y el futuro sigue
+  el horario de CME (no es 24/7 como el spot de cripto — puede aparecer
+  "mercado cerrado" en fines de semana o ventanas de mantenimiento).
+  **Verifica siempre el precio y si el mercado está abierto en la app de
+  eToro antes de ejecutar** — el dashboard es una referencia para decidir la
+  dirección, no la fuente de verdad del precio de entrada exacto.
 - Esto **no es asesoramiento financiero**. Los futuros/CFDs son productos
   apalancados de alto riesgo. La decisión y ejecución final es siempre tuya.
 

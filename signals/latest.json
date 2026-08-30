@@ -1,10 +1,12 @@
 {
   "asset": "ETH/USD",
   "etoro_instrument": "ETH.SEP26 (Micro Ether Future)",
-  "generated_at": "2026-08-30T18:49:00Z",
-  "price_usd": 2455,
-  "change_24h_pct": 0.6,
-  "change_7d_pct": 29.9,
+  "generated_at": "2026-08-30T19:10:00Z",
+  "price_usd": 2446.50,
+  "price_source": "eToro ETH.SEP26 (CME), confirmado por el usuario en la app -- antes se usaba un precio spot agregado ($2.455) que no coincide exactamente con la cotizacion CME del futuro. Se prioriza el precio real del instrumento que se opera.",
+  "market_status": "CME cerrado en el momento de esta captura (el futuro sigue el horario de CME, no es 24/7 como el spot de cripto) -- verifica en la app si el mercado esta abierto antes de operar.",
+  "change_24h_pct": -2.55,
+  "change_7d_pct": 3.65,
   "bias": "short",
   "confidence": "media",
   "data_quality": {
@@ -33,24 +35,25 @@
   },
   "trade": {
     "direction": "short",
-    "entry": 2455,
+    "entry": 2446.50,
     "stop": 2490,
     "target": 2350,
-    "breakeven_note": "Al tocar 2.437 (primer soporte), mover el stop a precio de entrada (2.455) para no arriesgar nada mas alla de ese punto.",
+    "breakeven_note": "Al tocar 2.437 (primer soporte), mover el stop a precio de entrada (2.446,50) para no arriesgar nada mas alla de ese punto.",
     "invalidation": "Si ETH rompe y CIERRA por encima de 2.490, el sesgo pasa a alcista -- no mantener el short.",
     "risk_reward": {
       "point_value_usd": 0.10,
-      "max_loss_usd": 3.50,
-      "max_loss_pct_of_margin": "~3% del margen de $115 en 1 contrato",
-      "potential_gain_usd": 10.50,
-      "ratio": "~1:3 (arriesgas $3.50 para optar a $10.50)"
+      "max_loss_usd": 4.35,
+      "max_loss_pct_of_margin": "~4% del margen de $115 en 1 contrato",
+      "potential_gain_usd": 9.65,
+      "ratio": "~1:2.2 (arriesgas $4.35 para optar a $9.65)"
     }
   },
   "risk_notes": [
     "Con 1 contrato micro (valor de punto $0.10) las cifras en dolares son pequenas -- esto es una cuenta de aprendizaje/practica con capital real, no una forma de hacerse rico rapido.",
     "El tamano de posicion ya esta al minimo posible en este instrumento (1 contrato). No promediar ni anadir contratos para 'recuperar' una perdida.",
     "El stop solo protege si se respeta. Configuralo en la plataforma, no lo lleves 'de memoria'.",
-    "El Open Interest cerca de maximos de 30 dias es un aviso: si el mercado esta muy apalancado en largo, un giro de sentimiento puede acelerar el movimiento en ambas direcciones. No es motivo de panico, pero si de mantener el stop firme."
+    "El Open Interest cerca de maximos de 30 dias es un aviso: si el mercado esta muy apalancado en largo, un giro de sentimiento puede acelerar el movimiento en ambas direcciones. No es motivo de panico, pero si de mantener el stop firme.",
+    "El precio de referencia de este dashboard viene de fuentes spot agregadas via busqueda web, no de la cotizacion CME exacta de ETH.SEP26 -- puede haber una pequena diferencia (unos pocos dolares) con lo que ves en tu app. Verifica siempre el precio y si el mercado esta abierto en eToro antes de ejecutar; el futuro sigue horario de CME, no es 24/7 como el spot de cripto."
   ],
   "previous_signal_outcome": {
     "status": "pendiente",
