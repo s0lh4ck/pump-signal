@@ -1,35 +1,35 @@
 {
   "asset": "ETH/USD",
   "etoro_instrument": "ETH.SEP26 (Micro Ether Future)",
-  "generated_at": "2026-08-31T05:49:00Z",
-  "price_usd": 2450,
-  "price_source": "No ha llegado una captura nueva de la app de eToro -- se usa el ultimo precio confirmado (2.446,50) como referencia de entrada. Fuentes spot agregadas de este ciclo convergen en un rango $2.440-2.460, consistente con esa zona (no es la cotizacion exacta de CME).",
+  "generated_at": "2026-08-31T06:49:00Z",
+  "price_usd": 2488,
+  "price_source": "No ha llegado una captura nueva de la app de eToro. Fuentes spot agregadas de este ciclo convergen en $2.485-2.495 (CoinDesk, Sunday Guardian Live) -- una subida notable desde los $2.440-2.460 de ciclos anteriores. Este precio ya esta MUY CERCA del stop de la operacion (2.490). No es la cotizacion exacta de CME -- verifica en tu app.",
   "market_status": "CME ofrece trading 24/7 para futuros/opciones de cripto desde mayo de 2026. Verifica en tu app el estado actual antes de operar.",
-  "change_24h_pct": -2.55,
-  "change_7d_pct": 3.65,
+  "change_24h_pct": 1.8,
+  "change_7d_pct": 5.5,
   "bias": "short",
   "confidence": "alta",
   "data_quality": {
-    "sources_checked": 14,
+    "sources_checked": 13,
     "categories_checked": ["tecnico_precio", "sentimiento_fear_greed", "derivados_funding_oi", "on_chain_flows", "correlacion_btc", "calendario_macro", "ballenas_individuales_y_figuras_publicas"],
     "agreement": "alta",
-    "note": "Ciclo con investigacion amplia (14 fuentes, incluida la transcripcion oficial de la Fed). CORRECCION: ciclos anteriores describian el Fear&Greed como 'codicia extrema' -- las fuentes de este ciclo (61-73, todas etiquetadas simplemente 'Greed', ninguna 'Extreme Greed') indican que fue una sobreestimacion; se corrige a 'codicia alta, no extrema'. Tambien se detecto una discrepancia sin resolver en Open Interest ($32.6B vs $24.45B segun la fuente) -- se trata como dato direccional (elevado), no como cifra exacta. El hallazgo mas solido y con mas peso: el discurso hawkish del presidente de la Fed, Kevin Warsh, en Jackson Hole (28 ago, transcripcion oficial en federalreserve.gov, corroborado por CNBC/Washington Post/CoinDesk) elevo la probabilidad de subida de tipos en septiembre al 55-57% y ya provoco una caida real de BTC y ETH (~2.5-3%) el mismo dia. Se descarto un articulo de prediccion de precio a largo plazo (CoinDCX, tipico contenido SEO sin metodologia) y una cifra de liquidaciones en 24h por debajo de $5M por ser inconsistente con la escala del resto de la semana (probable ventana parcial, no total de mercado)."
+    "note": "Precio subio de forma notable este ciclo (de ~$2.450 a ~$2.488), acercandose mucho al stop (2.490) -- es el momento critico de la operacion: o rechaza en la resistencia $2.500-2.550 (a favor del short) o cierra por encima de 2.490 (invalidacion). Se reconcilia la discrepancia de Open Interest de ciclos anteriores a favor de $32.6B (CoinGlass, cifra directa). NUEVO dato relevante: el funding rate de ETH marco maximo de 1 año (~26 ago, fuente con acceso parcial -- se trata como direccional, no exacto) -- indica posiciones largas muy masificadas ('crowded longs'), un argumento adicional a favor del short independiente del RSI. Se descarto una cifra de liquidaciones de $140-293M que en realidad correspondia al flash-crash del 22 de agosto (noticia vieja resurgiendo en la busqueda, no un evento nuevo) y una afirmacion de un agregador de baja calidad sobre '90% de probabilidad de bajada de tipos' que contradice directamente las fuentes primarias (CME FedWatch, CNBC) que mantienen ~57% de probabilidad de SUBIDA."
   },
-  "thesis": "Se mantiene SHORT. El contrapeso alcista se refuerza este ciclo (ETH/BTC rompio su canal descendente y cotiza en maximos desde enero, ETFs de ETH con racha de 10 dias de entradas, BitMine compro otras 32.447 ETH), pero el thesis tactico bajista sigue intacto: RSI en sobrecompra (mid-70s a 86 segun fuente), resistencia repetida en 2.500-2.520, y sobre todo el riesgo macro de la Fed -- ahora confirmado con fuente primaria (transcripcion oficial) -- que ya provoco una caida real y deja la probabilidad de subida de tipos en septiembre en 55-57%. Precio sigue sin movimiento decisivo hacia el stop ni el objetivo. Confianza alta.",
+  "thesis": "SHORT se mantiene, pero este ciclo es el momento mas critico de la operacion hasta ahora: el precio subio con fuerza desde ~$2.450 hasta ~$2.488, quedando muy cerca del stop (2.490) y justo bajo la resistencia clave $2.500-2.550. A favor del short: RSI sigue en sobrecompra, el funding rate de ETH toco maximo de 1 año (largos masificados, riesgo de squeeze a la baja), y el riesgo macro de la Fed sigue vigente. En contra: el rally de ETH/BTC, los ETFs y BitMine continuan. Si el precio rechaza aqui, confirma el thesis; si cierra por encima de 2.490, el sesgo pasa a alcista automaticamente segun la regla de invalidacion. Confianza alta, pero vigilancia maxima este ciclo.",
   "reasoning": [
-    "Hallazgo con mas peso este ciclo: transcripcion oficial (federalreserve.gov) del discurso hawkish de Kevin Warsh en Jackson Hole (28 ago), corroborada por CNBC/Washington Post/CoinDesk -- probabilidad de subida de tipos en septiembre en 55-57%, ya provoco una caida real de ~2.5-3% en BTC y ETH ese dia.",
-    "RSI en sobrecompra (reportado entre mid-70s y 86 segun la fuente) y resistencia repetida en la zona $2.500-2.520.",
-    "CORREGIDO: el Fear&Greed no esta en 'codicia extrema' como se dijo en ciclos anteriores -- las fuentes de este ciclo lo situan en 61-73, etiquetado 'Greed' (alto pero no extremo).",
-    "EN CONTRA de esta señal, y con mas peso que en ciclos anteriores: ETH/BTC rompio su canal descendente de un año y cotiza en maximos desde enero (fuerza relativa de ETH frente a BTC); ETFs de ETH acumulan 10 dias seguidos de entradas netas; BitMine (Tom Lee) compro otras 32.447 ETH. El contexto de fondo sigue siendo constructivo -- esto es una señal tactica de corto plazo, no una vision estructural bajista.",
-    "Figuras publicas descartadas explicitamente como ruido, no señal: el objetivo de $6.000 para ETH de Tom Lee (interes directo en el precio via BitMine) y el rifirrafe publico Saylor/Lee -- ambos son declaraciones autointeresadas, patron de riesgo de shilling ya documentado.",
-    "Open Interest elevado pero con cifra sin reconciliar entre fuentes ($32.6B vs $24.45B) -- se usa como dato direccional, no exacto.",
-    "Precio sin movimiento decisivo hacia el stop (2.490) ni el objetivo (2.300)."
+    "IMPORTANTE este ciclo: el precio subio con fuerza (~$2.450 a ~$2.488, +1.8% en 24h) y esta ahora muy cerca del stop (2.490) y de la resistencia clave $2.500-2.550 -- es el punto de decision real de la operacion.",
+    "NUEVO: el funding rate de ETH toco maximo de 1 año (~26 ago) -- señal de posiciones largas muy masificadas ('crowded longs'), un argumento de derivados adicional a favor del short, independiente del RSI.",
+    "RSI sigue en sobrecompra de forma persistente (75-86 segun la fuente y fecha) -- 'caliente y sostenido', sin señal de giro todavia pero tampoco de nueva fuerza.",
+    "Open Interest reconciliado en $32.6B (cifra directa de CoinGlass) -- resuelve la discrepancia de ciclos anteriores.",
+    "Contexto BTC establecido: ~$78.000-79.000, cerca de maximos de 3 meses, subiendo junto con ETH (correlacion intacta, sin divergencia).",
+    "Proximo catalizador macro: Nonfarm Payrolls el 5 de septiembre (antes del FOMC del 16-17 sep, fecha corregida por un dia respecto al ciclo anterior) -- dato de empleo de julio sorprendio a la baja (-23K vs +80K esperado), por lo que es una variable macro real a vigilar.",
+    "EN CONTRA de esta señal, sigue activo: ETH/BTC en maximos desde enero, ETFs de ETH con mas de $4.000M en entradas netas en agosto, BitMine sigue acumulando. Tom Lee y su retorica de 'supercycle' se descartan de nuevo como ruido autointeresado."
   ],
   "levels": {
-    "resistance_near": 2486.8,
-    "resistance_major": 2530,
-    "support_near": 2437.4,
-    "support_major": 2350,
+    "resistance_near": 2500,
+    "resistance_major": 2550,
+    "support_near": 2470,
+    "support_major": 2410,
     "upside_target": [2600, 2700],
     "downside_target": [2300, 2200]
   },
@@ -38,8 +38,8 @@
     "entry": 2446.50,
     "stop": 2490,
     "target": 2300,
-    "breakeven_note": "Al tocar 2.437 (primer soporte), mover el stop a precio de entrada (2.446,50) para no arriesgar nada mas alla de ese punto.",
-    "invalidation": "Si ETH rompe y CIERRA por encima de 2.490, el sesgo pasa a alcista -- no mantener el short.",
+    "breakeven_note": "El precio ya esta muy cerca del stop (2.490) sin haberlo tocado todavia -- la regla de mover el stop a breakeven en el primer soporte (originalmente pensada para un movimiento a favor) no aplica en este escenario: aqui el precio se mueve EN CONTRA de la operacion. Respeta el stop tal cual esta.",
+    "invalidation": "Si ETH rompe y CIERRA por encima de 2.490, el sesgo pasa a alcista -- no mantener el short. El precio actual (~2.488) esta a menos de $2 de ese nivel: este es el ciclo en el que se decide.",
     "costs": {
       "opening_cost_pct": 0.62,
       "opening_cost_usd": 1.52,
@@ -52,29 +52,29 @@
       "net_max_loss_usd": 5.87,
       "net_potential_gain_usd": 13.13,
       "max_loss_pct_of_margin": "~5% del margen de $115 en 1 contrato (neto de costes)",
-      "ratio": "~1:2.2 neto (arriesgas $5.87 con costes incluidos para optar a $13.13). Objetivo movido de 2.350 a 2.300 en un ciclo anterior porque con el objetivo anterior el ratio neto de costes bajaba a 1:1.4, por debajo del minimo aceptable."
+      "ratio": "~1:2.2 neto (arriesgas $5.87 con costes incluidos para optar a $13.13). Sin cambios en los niveles, pero el precio actual esta mucho mas cerca del stop que en ciclos anteriores."
     }
   },
   "risk_notes": [
     "Con 1 contrato micro (valor de punto $0.10) las cifras en dolares son pequenas -- esto es una cuenta de aprendizaje/practica con capital real, no una forma de hacerse rico rapido. El tamano ya esta al minimo posible: no promediar ni anadir contratos para 'recuperar' una perdida.",
-    "El stop solo protege si se respeta. Configuralo en la plataforma, no lo lleves 'de memoria'.",
-    "Precio y costes: el precio de referencia es spot agregado (puede diferir un poco del que veas en tu app) y ya incluye descontado el coste de apertura de eToro (~0.62% de la exposicion, ~$1.52). CME ofrece trading 24/7 en cripto desde mayo 2026 (un 'mercado cerrado' puntual suele ser mantenimiento, no cierre de fin de semana). Verifica siempre precio y estado del mercado en tu app antes de ejecutar.",
-    "Riesgo de squeeze acumulado (motivo extra para respetar el stop sin excepcion): el 60% de liquidaciones recientes de ETH fueron de cortos, el Open Interest sigue elevado y con sesgo largo, y BTC ya tuvo su propio short squeeze de $3.000M en agosto -- el patron es sistemico en el mercado, no aislado.",
-    "Riesgo macro (reforzado este ciclo con fuente primaria): el discurso hawkish del presidente de la Fed, Kevin Warsh, en Jackson Hole (28 ago) ya provoco una caida real de BTC/ETH y elevo la probabilidad de subida de tipos en septiembre al 55-57%. No hay CPI ni FOMC en las proximas 24-48h (CPI: 11 sep: FOMC: 15-16 sep), pero cualquier declaracion adicional de la Fed puede mover el mercado mientras la operacion este abierta."
+    "El stop solo protege si se respeta. Configuralo en la plataforma, no lo lleves 'de memoria' -- este ciclo el precio esta a menos de $2 del stop (2.490), es el momento de mas riesgo real desde que se abrio la señal.",
+    "Precio y costes: el precio de referencia es spot agregado (puede diferir un poco del que veas en tu app) y ya incluye descontado el coste de apertura de eToro (~0.62% de la exposicion, ~$1.52). CME ofrece trading 24/7 en cripto desde mayo 2026. Verifica siempre precio y estado del mercado en tu app antes de ejecutar.",
+    "Riesgo de squeeze acumulado (motivo extra para respetar el stop sin excepcion): el funding rate de ETH toco maximo de 1 año (largos muy masificados), el Open Interest sigue elevado, y BTC ya tuvo su propio short squeeze de $3.000M en agosto -- el patron es sistemico en el mercado.",
+    "Riesgo macro: el discurso hawkish de Kevin Warsh (28 ago) mantiene la probabilidad de subida de tipos en septiembre en ~57%. El proximo catalizador es el informe de empleo (Nonfarm Payrolls) del 5 de septiembre, antes del FOMC del 16-17 de septiembre."
   ],
   "previous_signal_outcome": {
     "status": "pendiente",
-    "note": "El precio de referencia sigue en la misma zona ($2.440-2.460), sin tocar el stop (2.490) ni el objetivo (2.300). Se mantiene la misma operacion sin cambios."
+    "note": "El precio subio con fuerza desde ~$2.446-2.460 hasta ~$2.485-2.495, quedando muy cerca del stop (2.490) sin haberlo tocado ni cerrado por encima todavia. Ni el objetivo (2.300) ni el stop se han activado formalmente. Este es el ciclo mas critico desde que se abrio la señal -- vigilancia maxima en el proximo ciclo."
   },
   "sources": [
-    "https://www.federalreserve.gov/newsevents/speech/warsh20260828a.htm",
+    "https://www.coindesk.com/price/ethereum",
+    "https://sundayguardianlive.com/business/ethereum-price-today-31-august-eth-near-2500-after-powerful-august-rally-etf-demand-supports-gains-check-latest-eth-prices-in-usd-inr-gbp-euro-jpy-273588/",
+    "https://www.coinglass.com/currencies/ETH/futures",
+    "https://www.coinglass.com/liquidations/ETH",
+    "https://www.benzinga.com/crypto/cryptocurrency/26/08/61430929/bitcoin-stuck-below-80000-as-ethereum-funding-rates-hit-1-year-high",
+    "https://www.fxstreet.com/cryptocurrencies/news/ethereum-price-forecast-etf-inflows-blow-past-4-billion-as-whales-accumulate-144-million-eth-in-august-202508290025",
+    "https://news.bitcoin.com/finance/fedwatch-turns-hawkish-with-57-odds-of-september-rate-increase/",
     "https://www.cnbc.com/2026/08/28/-september-fed-decision-now-a-coin-flip-as-rate-hike-odds-increase.html",
-    "https://www.coindesk.com/business/2026/08/28/live-updates-bitcoin-options-worth-usd6-4-billion-just-expired-as-prices-hover-near-usd80-000",
-    "https://www.kucoin.com/news/flash/crypto-market-sees-2-99b-liquidations-on-august-19-8th-largest-in-history",
-    "https://beincrypto.com/altcoin-season-2026-eth-btc-dominance/",
-    "https://www.theblock.co/news/business/2026-08-24-upside-move-eth-was-overdue-tom-lee-says-bitmine-buys-more-ether-412589",
-    "https://www.kucoin.com/news/flash/ethereum-spot-etfs-see-102m-net-inflow-on-august-28-marking-10th-consecutive-day-of-inflows",
-    "https://crypto.news/ethereum-price-eyes-2500-dollar-as-rsi-flashes-warning/",
     "https://feargreedmeter.com/crypto-fear-and-greed-index"
   ],
   "disclaimer": "No es asesoramiento financiero. Ningun sistema (ni IA ni humano) es 100% fiable con mercados, y contrastar mas fuentes reduce puntos ciegos pero no elimina el riesgo. Producto apalancado de alto riesgo. Ejecucion manual bajo tu propia responsabilidad. Un evento macro sorpresa puede invalidar este analisis en minutos -- el stop es tu proteccion real, no la confianza del analisis."
