@@ -1,29 +1,27 @@
 {
   "asset": "ETH/USD",
   "etoro_instrument": "ETH.SEP26 (Micro Ether Future)",
-  "generated_at": "2026-08-31T01:49:00Z",
+  "generated_at": "2026-08-31T02:49:00Z",
   "price_usd": 2446.50,
   "price_source": "Ultimo precio confirmado por el usuario en la app de eToro (ETH.SEP26, CME) sigue siendo la referencia mas fiable -- no ha llegado una captura nueva. Fuentes spot agregadas hoy muestran ~$2.459, consistente con esa zona.",
   "market_status": "CME ofrece trading 24/7 para futuros/opciones de cripto desde mayo de 2026 (corregido en el ciclo anterior). Verifica en tu app el estado actual antes de operar.",
   "change_24h_pct": -2.55,
   "change_7d_pct": 3.65,
   "bias": "short",
-  "confidence": "media-alta",
+  "confidence": "alta",
   "data_quality": {
     "sources_checked": 5,
     "categories_checked": ["tecnico_precio", "sentimiento_fear_greed", "derivados_funding_oi", "on_chain_flows", "correlacion_btc", "calendario_macro", "ballenas_individuales_y_figuras_publicas"],
-    "agreement": "media-alta",
-    "note": "Ciclo mayormente confirmatorio, sin sorpresas grandes. Precio estable ($2.455-2.489). ETF de ETH siguen fuertes (~$697M semanales, mejor semana de 2026). BitMine repite compra de +32.447 ETH (mismo dato que ciclos previos, probablemente la misma noticia recirculando). Dato nuevo leve: funding rate se mantiene BAJO pese al Open Interest elevado -- es decir, el sesgo largo (70.7% señalado el ciclo anterior) no se esta pagando caro en funding todavia, lo cual no contradice el riesgo de squeeze pero indica que no ha llegado a niveles de euforia extrema en el coste de financiacion. ~73.872 ETH salieron de Binance en 4 dias -- outflow moderado, consistente con el patron de acumulacion ya señalado. Ballenas mixtas: hay reportes de grandes traders abriendo cortos 'into strength' pese a la narrativa de acumulacion institucional."
+    "agreement": "alta",
+    "note": "Dato nuevo y relevante: el Fear & Greed Index del mercado cripto en general llego a 81 (CODICIA EXTREMA), el nivel mas alto desde finales de 2024 -- una escalada real desde el 69 (codicia normal) que se venia registrando. Codicia extrema es una señal contrarian clasica, mas fuerte que la codicia simple. Ademas, BTC subio 3% impulsado en parte por un short squeeze de $3.000M -- confirma que el patron de squeezes de cortos (ya señalado para ETH) es sistemico en todo el mercado, no aislado. BTC entro en fase de consolidacion tras su rally, coherente con el enfriamiento de impulso ya señalado. Con este dato se acumulan 5 señales independientes apuntando en la misma direccion (RSI sobrecomprado, MACD aplanandose, OI 70% largo, riesgo macro ya materializado, y ahora codicia extrema) -- sube la confianza a alta."
   },
-  "thesis": "Ciclo tranquilo, mayormente confirmatorio. El funding rate se mantiene bajo pese al Open Interest elevado (70.7% largo señalado antes) -- el sesgo no se esta pagando caro todavia, ni contradice ni refuerza fuertemente la señal. ETFs y acumulacion institucional siguen firmes. Se mantiene SHORT sin cambios en los niveles, con la misma conviccion tecnica del ciclo anterior.",
+  "thesis": "El Fear & Greed Index del mercado llego a Codicia Extrema (81), el nivel mas alto desde finales de 2024 -- escalada real desde la codicia simple que se venia viendo. Junto con el resto de señales acumuladas (RSI sobrecomprado, MACD aplanandose, OI 70% largo, riesgo macro ya materializado), la confianza sube a alta. Se mantiene SHORT sin cambios en los niveles del trade.",
   "reasoning": [
-    "Precio estable en la misma zona ($2.455-2.489), sin movimiento decisivo hacia el stop ni el objetivo.",
-    "Funding rate se mantiene bajo pese al Open Interest elevado -- el sesgo largo (70.7%) no se esta pagando caro en financiacion todavia. No contradice el riesgo de squeeze ya señalado, pero indica que aun no hay euforia extrema en el coste de mantener posiciones largas.",
-    "~73.872 ETH salieron de Binance en 4 dias -- salida moderada de exchanges, consistente con el patron de acumulacion ya señalado en ciclos anteriores.",
-    "ETFs de ETH siguen fuertes (~$697M semanales, mejor semana de 2026) -- mismo dato que ciclos previos, contexto de fondo constructivo sin cambios.",
-    "Ballenas con actividad mixta: reportes de grandes traders abriendo cortos 'hacia la fuerza' pese a la narrativa de acumulacion institucional -- no todo el dinero grande apuesta igual.",
-    "EN CONTRA de esta señal (no se ignora): estructura de medias moviles totalmente alcista, ETFs con entradas sostenidas -- el contexto de fondo sigue siendo constructivo.",
-    "El coste de apertura de eToro (~0.62% de la exposicion, ~$1.52) sigue descontado en las cifras de riesgo/recompensa, sin cambios respecto al ciclo anterior."
+    "NUEVO Y RELEVANTE: Fear & Greed del mercado cripto en 81 (Codicia Extrema), el nivel mas alto desde finales de 2024 -- escalada real desde la codicia simple (69) que se registraba antes. Señal contrarian clasica y mas fuerte que la anterior.",
+    "BTC subio 3% impulsado en parte por un short squeeze de $3.000M -- confirma que el patron de squeezes de cortos (ya señalado para ETH) es sistemico en el mercado, refuerza la vigilancia sobre ese riesgo especifico, no lo descarta.",
+    "BTC entro en fase de consolidacion tras su rally -- coherente con el enfriamiento de impulso ya señalado en ciclos anteriores.",
+    "Se acumulan ahora 5 señales independientes en la misma direccion: RSI sobrecomprado, MACD aplanandose, Open Interest 70% largo, riesgo macro de la Fed ya materializado, y codicia extrema -- de ahi la subida de confianza a alta.",
+    "EN CONTRA de esta señal (no se ignora, sigue siendo el contrapeso real): estructura de medias moviles totalmente alcista, ETFs de ETH con entradas sostenidas (~$697M semanales) y acumulacion institucional (BitMine, ballenas medianas) -- el contexto de fondo sigue siendo constructivo, esto es una señal tactica de corto plazo, no una apuesta a que la tendencia se revierte."
   ],
   "levels": {
     "resistance_near": 2486.8,
@@ -56,27 +54,22 @@
     }
   },
   "risk_notes": [
-    "Con 1 contrato micro (valor de punto $0.10) las cifras en dolares son pequenas -- esto es una cuenta de aprendizaje/practica con capital real, no una forma de hacerse rico rapido.",
-    "El tamano de posicion ya esta al minimo posible en este instrumento (1 contrato). No promediar ni anadir contratos para 'recuperar' una perdida.",
+    "Con 1 contrato micro (valor de punto $0.10) las cifras en dolares son pequenas -- esto es una cuenta de aprendizaje/practica con capital real, no una forma de hacerse rico rapido. El tamano ya esta al minimo posible: no promediar ni anadir contratos para 'recuperar' una perdida.",
     "El stop solo protege si se respeta. Configuralo en la plataforma, no lo lleves 'de memoria'.",
-    "El Open Interest cerca de maximos de 30 dias es un aviso: si el mercado esta muy apalancado en largo, un giro de sentimiento puede acelerar el movimiento en ambas direcciones. No es motivo de panico, pero si de mantener el stop firme.",
-    "El precio de referencia de este dashboard viene de fuentes spot agregadas via busqueda web, no de la cotizacion CME exacta de ETH.SEP26 -- puede haber una pequena diferencia (unos pocos dolares) con lo que ves en tu app. Verifica siempre el precio antes de ejecutar.",
-    "CORRECCION: CME ofrece trading 24/7 en cripto desde mayo 2026 -- lo dicho en ciclos anteriores sobre que este futuro seguia horario limitado de bolsa tradicional era impreciso. El 'mercado cerrado' que viste pudo ser una ventana de mantenimiento puntual o una restriccion propia de eToro. Aun asi, verifica siempre el estado del mercado en tu app antes de ejecutar -- por si acaso.",
-    "El coste de apertura (~0.62% de la exposicion, ~$1.52 con 1 contrato) ya esta descontado en las cifras de riesgo/recompensa de esta señal. Comprueba en la app si tambien hay un coste al cerrar la operacion -- si lo hay, el margen neto es un poco menor de lo calculado, aunque el ratio sigue siendo favorable incluso en ese escenario.",
-    "NUEVO: el 60% de las liquidaciones recientes de ETH fueron de posiciones cortas -- si vuelve a pasar un short squeeze mientras esta operacion esta abierta, el precio puede subir de golpe hacia tu stop. Es exactamente para eso que existe el stop: respetalo sin excepcion.",
-    "CORRECCION: el riesgo macro es mas alto de lo que se dijo en un ciclo anterior. El discurso hawkish del presidente de la Fed (Warsh, 26 ago) ya provoco una caida real de BTC con $481M en liquidaciones, y la probabilidad de subida de tipos subio a 55-57%. Mantente atento a mas declaraciones de la Fed mientras la operacion este abierta.",
-    "NUEVO: el 70.7% del Open Interest de ETH esta en posiciones largas -- un sesgo muy extremo. No es garantia de nada, pero historicamente estas concentraciones extremas preceden movimientos bruscos (en cualquier direccion). Es otro motivo mas para respetar el stop sin excepcion."
+    "Precio y costes: el precio de referencia es spot agregado (puede diferir un poco del que veas en tu app) y ya incluye descontado el coste de apertura de eToro (~0.62% de la exposicion, ~$1.52). CME ofrece trading 24/7 en cripto desde mayo 2026 (un 'mercado cerrado' puntual suele ser mantenimiento, no cierre de fin de semana). Verifica siempre precio y estado del mercado en tu app antes de ejecutar.",
+    "Riesgo de squeeze acumulado (motivo extra para respetar el stop sin excepcion): el 60% de liquidaciones recientes de ETH fueron de cortos, el Open Interest esta 70.7% concentrado en largos, y BTC ya tuvo su propio short squeeze de $3.000M -- el patron es sistemico en el mercado, no aislado.",
+    "Riesgo macro: el discurso hawkish del presidente de la Fed (26 ago) ya provoco una caida real de BTC con $481M en liquidaciones y elevo la probabilidad de subida de tipos al 55-57%. Mantente atento a mas declaraciones de la Fed mientras la operacion este abierta."
   ],
   "previous_signal_outcome": {
     "status": "pendiente",
-    "note": "El precio de referencia sigue en la misma zona (~$2.446,50-2.489), sin tocar el stop (2.490) ni el objetivo (2.300) del ciclo anterior. Se mantiene la misma operacion sin cambios."
+    "note": "El precio de referencia sigue en la misma zona (~$2.446,50-2.472), sin tocar el stop (2.490) ni el objetivo (2.300) del ciclo anterior. Se mantiene la misma operacion sin cambios."
   },
   "sources": [
-    "https://www.coinglass.com/currencies/ETH",
-    "https://www.coinglass.com/etf/ethereum",
-    "https://finance.biggo.com/news/22519fe4-9dd2-4baf-b55b-9177b44321d8",
-    "https://www.coingabbar.com/en/crypto-currency-news/ethereum-news-today-crypto-etf-inflows-eth-roadmap-whale-moves",
-    "https://coinstats.app/ai/a/latest-news-for-ethereum"
+    "https://coinmarketcap.com/top-stories/",
+    "https://www.theblock.co/",
+    "https://crypto.news/",
+    "https://www.coindesk.com/",
+    "https://investingnews.com/cryptocurrency-market-recap/"
   ],
   "disclaimer": "No es asesoramiento financiero. Ningun sistema (ni IA ni humano) es 100% fiable con mercados, y contrastar mas fuentes reduce puntos ciegos pero no elimina el riesgo. Producto apalancado de alto riesgo. Ejecucion manual bajo tu propia responsabilidad. Un evento macro sorpresa puede invalidar este analisis en minutos -- el stop es tu proteccion real, no la confianza del analisis."
 }
