@@ -1,36 +1,36 @@
 {
   "asset": "ETH/USD",
   "etoro_instrument": "ETH.SEP26 (Micro Ether Future)",
-  "generated_at": "2026-08-31T17:49:00Z",
-  "price_usd": 2453,
-  "price_source": "No ha llegado una captura nueva de la app de eToro. Se reconfirma el precio en ~$2.450-2.455 (CoinDesk, Fortune, crypto.news, Yahoo Finance $2.453,78), comodamente por debajo del stop. No es la cotizacion exacta de CME -- verifica en tu app.",
+  "generated_at": "2026-08-31T18:49:00Z",
+  "price_usd": 2452,
+  "price_source": "No ha llegado una captura nueva de la app de eToro. Se reconfirma el precio en ~$2.450-2.455 (crypto.news, Fortune, Investing.com), comodamente por debajo del stop. Se descarto un articulo de sundayguardianlive ('ETH cerca de $2.500') por contradecir las fuentes primarias -- lee como contenido plantilla de baja calidad. No es la cotizacion exacta de CME -- verifica en tu app.",
   "market_status": "CME ofrece trading 24/7 para futuros/opciones de cripto desde mayo de 2026. Verifica en tu app el estado actual antes de operar.",
-  "change_24h_pct": 0.5,
-  "change_7d_pct": 1.7,
+  "change_24h_pct": 0.3,
+  "change_7d_pct": 1.5,
   "bias": "short",
   "confidence": "media-alta",
   "data_quality": {
-    "sources_checked": 15,
+    "sources_checked": 13,
     "categories_checked": ["tecnico_precio", "sentimiento_fear_greed", "derivados_funding_oi", "on_chain_flows", "correlacion_btc", "calendario_macro", "ballenas_individuales_y_figuras_publicas"],
     "agreement": "alta",
-    "note": "Ciclo mayormente de reconfirmacion, con UN hallazgo relevante: la probabilidad de subida de tipos en septiembre subio con fuerza a ~60.4% (desde ~35% hace solo 3 dias), y esta vez multiples fuentes independientes (CNBC, FXStreet, TechTimes, Invezz, Yahoo) coinciden en que el movimiento es real, no 'exagerado' como se decia en ciclos anteriores -- lo impulsan dos factores que se refuerzan entre si: el discurso hawkish de Kevin Warsh en Jackson Hole y el shock del petroleo por Iran (que alimenta el miedo a mas inflacion). Esto fortalece el argumento macro del short. Se identifico tambien un nuevo catalizador: CPI el ~10 de septiembre (antes del FOMC del 16-17), no mencionado en ciclos anteriores. Liquidaciones: evento nuevo pero pequeño (~$140M en 24h, 54.5% largos) -- matiz menor a favor del short. RSI sigue enfriandose, Fear&Greed neutral (51) reconfirmado por la fuente primaria (alternative.me). ETFs de ETH extienden su racha a 10 dias (~$1.42B desde el 17 de agosto)."
+    "note": "Ciclo mayormente de reconfirmacion. Matiz: la probabilidad de subida de tipos en septiembre se enfrio ligeramente a ~56-57% (desde ~60.4% del ciclo anterior), pero sigue muy por encima del ~35% previo al discurso de Warsh -- el catalizador macro sigue vigente, solo con menos intensidad. Nuevo: rebrote de actividad Iran-EEUU (ataque a Isla Larak, represalia de Iran con misiles a bases en Jordania -- 8 interceptados -- y un supuesto ataque con drone a EAU que Emiratos niega) pero con el mismo patron de ciclos anteriores: retorica agresiva, interceptaciones, sin daño mayor confirmado -- no es una escalada real en resultados. Se reconfirma tambien que la afirmacion de Trump sobre Kharg es la MISMA desinformacion de ciclos anteriores (un segundo video de IA, desmentido de nuevo por la petrolera irani y Reuters). NUEVO dato on-chain de baja confianza: depositos de ballenas de ETH en varios exchanges (bajista tipico) frente a la primera compra de BTC de Strategy/MicroStrategy desde junio (alcista para BTC) -- se compensan, tratados como ruido de peso bajo."
   },
-  "thesis": "SHORT se mantiene, confianza en media-alta. La probabilidad de subida de tipos en septiembre subio con fuerza (~35% a ~60.4% en 3 dias) y esta vez esta mejor corroborada por multiples fuentes independientes que en ciclos anteriores, cuando se consideraba 'exagerada' -- refuerza el argumento macro del short. El resto del cuadro (precio por debajo del stop, RSI enfriandose, Fear&Greed neutral, BTC estable) se reconfirma sin cambios. Los ETFs de ETH siguen siendo el contrapeso alcista mas solido.",
+  "thesis": "SHORT se mantiene, confianza en media-alta. Ciclo mayormente de reconfirmacion. La probabilidad de subida de tipos se enfrio ligeramente (60.4% a 56-57%) pero sigue muy por encima del nivel previo al discurso de Warsh -- el catalizador macro sigue activo. Hubo un rebrote de actividad Iran-EEUU pero con el mismo patron ya visto (retorica, interceptaciones, sin daño mayor) -- no cambia la evaluacion de riesgo geopolitico. Precio, RSI, Fear&Greed y correlacion con BTC se mantienen sin cambios materiales.",
   "reasoning": [
     "Precio reconfirmado en ~$2.450-2.455 por varias fuentes primarias, comodamente por debajo del stop.",
-    "IMPORTANTE: la probabilidad de subida de tipos en septiembre subio con fuerza a ~60.4% (desde ~35% hace 3 dias) -- a diferencia de ciclos anteriores, esta vez multiples fuentes independientes coinciden en que es un movimiento real, no 'exagerado'. Lo impulsan el discurso hawkish de Warsh y el shock de petroleo por Iran, que se refuerzan entre si.",
-    "Nuevo catalizador identificado: CPI hacia el 10 de septiembre, antes del FOMC del 16-17 -- no estaba en el calendario de ciclos anteriores.",
-    "Nuevo evento de liquidaciones, pequeño (~$140M en 24h, 54.5% largos) -- matiz menor a favor del short, distinto del evento mayor del 28 de agosto.",
-    "RSI sigue enfriandose (~63.9) -- misma tendencia que ciclos anteriores.",
-    "Fear&Greed neutral (51) reconfirmado por la fuente primaria (alternative.me) -- otras cifras (62-73) son de metodologias distintas, no la version canonica.",
-    "BTC estable en ~$78.000, en camino a su mejor mes desde 2024 pese al ruido geopolitico -- correlacion con ETH intacta.",
-    "EN CONTRA de esta señal, sigue reforzandose: los ETFs de ETH extienden su racha a 10 dias consecutivos (~$1.42B desde el 17 de agosto) -- la demanda institucional sigue siendo el contrapeso mas solido."
+    "La probabilidad de subida de tipos en septiembre se enfrio ligeramente a ~56-57% (desde ~60.4% del ciclo anterior) -- sigue muy por encima del ~35% previo al discurso de Warsh, el catalizador macro sigue vigente aunque con menos intensidad.",
+    "Rebrote de actividad Iran-EEUU (Isla Larak, represalia con misiles a Jordania -- 8 interceptados -- y un supuesto drone contra EAU que Emiratos niega) pero con el mismo patron de ciclos anteriores: retorica agresiva sin daño mayor confirmado.",
+    "Se reconfirma que la afirmacion de Trump sobre un ataque a Kharg es la MISMA desinformacion ya vista -- un segundo video de IA, desmentido de nuevo por la petrolera irani y por Reuters.",
+    "RSI sigue en la banda de enfriamiento (~63.9) -- sin cambios.",
+    "Fear&Greed neutral (51) reconfirmado por la fuente primaria.",
+    "Dato on-chain nuevo de baja confianza: depositos de ballenas de ETH en varios exchanges (bajista tipico) frente a la primera compra de BTC de Strategy desde junio (alcista para BTC) -- se compensan, tratados como ruido.",
+    "EN CONTRA de esta señal, sigue activo: los ETFs de ETH mantienen su racha de 10 dias (~$1.42B) -- la demanda institucional sigue siendo el contrapeso mas solido."
   ],
   "levels": {
     "resistance_near": 2490,
     "resistance_major": 2564,
     "support_near": 2400,
-    "support_major": 2247,
+    "support_major": 2250,
     "upside_target": [2600, 2700],
     "downside_target": [2300, 2200]
   },
@@ -59,25 +59,23 @@
   "risk_notes": [
     "Con 1 contrato micro (valor de punto $0.10) las cifras en dolares son pequenas -- esto es una cuenta de aprendizaje/practica con capital real, no una forma de hacerse rico rapido. El tamano ya esta al minimo posible: no promediar ni anadir contratos para 'recuperar' una perdida.",
     "El stop solo protege si se respeta. Configuralo en la plataforma, no lo lleves 'de memoria'.",
-    "Precio y costes: el precio de referencia sigue estable (~$2.453). Verifica siempre en tu app antes de ejecutar. CME ofrece trading 24/7 en cripto desde mayo 2026.",
-    "Riesgo macro (reforzado este ciclo): la probabilidad de subida de tipos en septiembre subio a ~60.4%, ahora con mejor respaldo de fuentes que en ciclos anteriores. Nuevo catalizador antes del FOMC: CPI hacia el 10 de septiembre.",
-    "Riesgo geopolitico: la situacion Iran-EEUU sigue abierta (IRGC prometio 'represalias mas duras'). El petroleo por encima de $90 alimenta el argumento de mas inflacion, que a su vez alimenta la probabilidad de subida de tipos -- los dos riesgos estan conectados."
+    "Precio y costes: el precio de referencia sigue estable (~$2.452). Verifica siempre en tu app antes de ejecutar. CME ofrece trading 24/7 en cripto desde mayo 2026.",
+    "Riesgo macro: la probabilidad de subida de tipos en septiembre se enfrio ligeramente a ~56-57% pero sigue elevada frente al nivel previo al discurso de Warsh. Proximo catalizador: CPI hacia el 10 de septiembre, antes del FOMC del 16-17.",
+    "Riesgo geopolitico: la situacion Iran-EEUU sigue abierta con actividad reciente (Isla Larak, Jordania, supuesto drone contra EAU), pero el patron hasta ahora es de retorica e interceptaciones, no de daño real confirmado. La afirmacion de Trump sobre Kharg vuelve a ser desinformacion -- no la tomes como una señal real."
   ],
   "previous_signal_outcome": {
     "status": "pendiente",
-    "note": "El ciclo anterior confirmo el precio comodamente por debajo del stop. Este ciclo lo reconfirma y añade un hallazgo macro relevante (probabilidad de subida de tipos mejor corroborada). Ni el objetivo (2.300) ni el stop se han activado."
+    "note": "El ciclo anterior confirmo el precio por debajo del stop con la probabilidad de subida de tipos en ~60.4%. Este ciclo la reconfirma, ligeramente mas baja (~56-57%) pero igual de relevante. Ni el objetivo (2.300) ni el stop se han activado."
   },
   "sources": [
-    "https://www.coindesk.com/price/ethereum",
+    "https://crypto.news/ethereum-price-could-retest-2250-if-support-fails/",
     "https://fortune.com/article/price-of-ethereum-08-31-2026/",
-    "https://crypto.news/ethereum-price-rally-overheats-below-2550-resistance/",
     "https://www.investing.com/crypto/ethereum/technical",
     "https://milkroad.com/fear-greed/",
-    "https://www.coinglass.com/liquidations/ETH",
-    "https://www.coindesk.com/markets/2026/08/31/bitcoin-barely-blinks-as-u-s-hits-iran-sending-oil-higher-and-stocks-lower",
-    "https://www.cnbc.com/2026/08/28/kevin-warsh-jackson-hole-fed-inflation-rate-hike.html",
-    "https://www.techtimes.com/articles/326010/20260831/larak-island-strike-ends-markets-de-escalation-bet-warsh-hike-odds-surge.htm",
-    "https://cryptodaily.co.uk/2026/08/ethereum-etf-inflows-10-days-bitcoin-etf-outflows"
+    "https://www.coindesk.com/markets/2026/08/31/u-s-strikes-on-iran-fail-to-stir-bitcoin-on-track-for-best-month-since-november-2024",
+    "https://www.theweek.in/news/middle-east/2026/08/31/us-strikes-iran-missile-launchers.html",
+    "https://www.usnews.com/news/world/articles/2026-08-31/trump-posts-ai-video-of-irans-kharg-in-smithereens-no-evidence-of-attack",
+    "https://www.cnbc.com/2026/08/28/-september-fed-decision-now-a-coin-flip-as-rate-hike-odds-increase.html"
   ],
   "disclaimer": "No es asesoramiento financiero. Ningun sistema (ni IA ni humano) es 100% fiable con mercados, y contrastar mas fuentes reduce puntos ciegos pero no elimina el riesgo. Producto apalancado de alto riesgo. Ejecucion manual bajo tu propia responsabilidad. Un evento macro sorpresa puede invalidar este analisis en minutos -- el stop es tu proteccion real, no la confianza del analisis."
 }
