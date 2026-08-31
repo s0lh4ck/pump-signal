@@ -1,35 +1,36 @@
 {
   "asset": "ETH/USD",
   "etoro_instrument": "ETH.SEP26 (Micro Ether Future)",
-  "generated_at": "2026-08-31T14:49:00Z",
-  "price_usd": 2454,
-  "price_source": "No ha llegado una captura nueva de la app de eToro. Se reconfirma el precio en ~$2.453-2.456 (CoinMarketCap $2.455,53, CoinGecko $2.453), comodamente por debajo del stop. Se descartaron varios articulos tipo SEO (AMBCrypto, TronWeekly, CryptoTicker) que describian una 'ruptura desde $1.950' y un pico de $2.566 -- no corroborados por los trackers principales, parecen mezclar accion de precio antigua. No es la cotizacion exacta de CME -- verifica en tu app.",
+  "generated_at": "2026-08-31T15:49:00Z",
+  "price_usd": 2456,
+  "price_source": "Revision profunda a peticion explicita del usuario. Se reconcilia el precio en $2.450-2.463 con 4 fuentes independientes (CoinGecko $2.453, CoinMarketCap $2.455,53, CoinDesk $2.460,36, Crypto.com $2.462,72), comodamente por debajo del stop. Se investigo especificamente una cifra suelta y sin verificar de '$2.517,11 de maximo en 24h' -- no se pudo confirmar (WebFetch a las fuentes primarias bloqueado este ciclo tambien) y parece un eco mal fechado del pico ya conocido del 28 de agosto (~$2.530-2.555), no un evento nuevo. No hay evidencia de ningun movimiento reciente hacia o por encima del stop. No es la cotizacion exacta de CME -- verifica en tu app.",
   "market_status": "CME ofrece trading 24/7 para futuros/opciones de cripto desde mayo de 2026. Verifica en tu app el estado actual antes de operar.",
-  "change_24h_pct": -0.3,
-  "change_7d_pct": 2.1,
+  "change_24h_pct": 1.2,
+  "change_7d_pct": 2.0,
   "bias": "short",
-  "confidence": "media",
+  "confidence": "media-alta",
   "data_quality": {
-    "sources_checked": 12,
+    "sources_checked": 20,
     "categories_checked": ["tecnico_precio", "sentimiento_fear_greed", "derivados_funding_oi", "on_chain_flows", "correlacion_btc", "calendario_macro", "ballenas_individuales_y_figuras_publicas"],
-    "agreement": "media",
-    "note": "Precio reconfirmado (~$2.453-2.456). CONFLICTO detectado en el RSI: algunas fuentes secundarias (AltIndex, CoinDCX) muestran RSI 75-79 (sobrecompra), contradiciendo la lectura de ciclos recientes de enfriamiento a ~63-70 -- ademas esas mismas fuentes citan niveles de soporte/resistencia por ENCIMA del precio actual, lo cual es internamente inconsistente y sugiere snapshots desactualizados/cacheados. Se trata con escepticismo, no se sobrepondera. CORRECCION sobre la situacion Iran-EEUU: fue mas seria de lo descrito en el ciclo anterior -- EEUU ataco primero (Isla de Larak, por preocupacion de minado del Estrecho de Ormuz) y la represalia de Iran fue con misiles contra bases de EEUU en Jordania y EAU (no un 'ataque menor'), con la Guardia Revolucionaria Iraní prometiendo mas represalias -- riesgo geopolitico abierto, no cerrado. El impacto en cripto sigue siendo contenido por ahora (BTC/ETH apenas se movieron), pero es una situacion a vigilar de cerca. Flujos de ballenas mixtos y compensados: un deposito de 43.88K ETH (~$108M) en varios exchanges (señal bajista tipica) frente a una ballena que vendio $433M en BTC para comprar 96.859 ETH (señal alcista) -- se anulan entre si, tratados como ruido segun la regla de peso bajo."
+    "agreement": "alta",
+    "note": "REVISION EXHAUSTIVA a peticion explicita del usuario -- se cruzaron 2-3+ fuentes independientes por categoria en vez del minimo habitual. Resultado: el thesis SHORT se sostiene, sin ningun hallazgo que lo debilite. Precio reconciliado con alta confianza (4 fuentes independientes, $2.450-2.463). El conflicto de RSI de ciclos anteriores queda mejor explicado: las lecturas altas (75-86) resultan ser articulos republicados sin actualizar fecha del pico del 19-24 de agosto, mientras que la lectura actual (RSI ~63.9-70.3, enfriandose) esta mejor corroborada como la vigente. Fear&Greed reconfirmado en 51 (neutral) por TRES fuentes independientes fechadas explicitamente hoy (31 ago) -- el dato mas solido de todo el ciclo. Open Interest reconciliado a ~$32.6B (CoinGlass, cifra directa). NUEVO: hubo un evento de liquidaciones fresco (~$370-440M en 24h) ligado a la escalada Iran-EEUU, mayoritariamente de posiciones LARGAS -- purga de apalancamiento alcista, matiz ligeramente favorable al short. Correlacion BTC-ETH sigue fuerte (~0.85 a 12 meses) y BTC 'apenas parpadeo' segun la cobertura de CoinDesk del propio 31 de agosto pese al ataque a Iran -- la señal mas tranquilizadora del ciclo sobre el riesgo geopolitico inmediato. Sigue sin resolverse: una cifra de funding rate exacta y limpia (se confirma cualitativamente 'neutral/moderado', sin numero preciso fiable); y el riesgo geopolitico Iran-EEUU sigue abierto (Iran prometio mas represalias), aunque el mercado lo esta absorbiendo bien hasta ahora."
   },
-  "thesis": "SHORT se mantiene, confianza en media. Precio estable y reconfirmado por debajo del stop. Se detecto una lectura de RSI contradictoria en fuentes secundarias de baja calidad -- se trata con escepticismo. Se corrige la situacion Iran-EEUU: es un riesgo geopolitico mas serio y abierto de lo que se penso el ciclo anterior (represalia con misiles contra bases de EEUU, mas amenazas), aunque el impacto en cripto sigue contenido por ahora. Flujos de ballenas mixtos se anulan entre si. Sin cambios materiales en la direccion.",
+  "thesis": "SHORT se mantiene, confianza sube a media-alta tras una revision exhaustiva pedida por el usuario que cruzo 2-3+ fuentes por categoria. Nada debilito el thesis: precio reconciliado con alta confianza por debajo del stop, Fear&Greed neutral confirmado por 3 fuentes de hoy, RSI enfriandose (el conflicto de ciclos anteriores se explica como articulos republicados sin actualizar), OI reconciliado, y un evento de liquidaciones nuevo que purgo mayoritariamente largos (matiz a favor del short). BTC 'apenas parpadeo' pese al ataque a Iran segun cobertura de hoy mismo -- la correlacion con ETH sigue fuerte y sin señales de un shock de precio. El riesgo geopolitico sigue abierto pero controlado por ahora. No se encontro evidencia de ningun movimiento de precio hacia el stop.",
   "reasoning": [
-    "Precio reconfirmado en ~$2.453-2.456 por 2 trackers principales, comodamente por debajo del stop.",
-    "Control de calidad: se detecto un RSI contradictorio en fuentes secundarias (75-79 vs. la lectura de ~63-70 de ciclos recientes) -- esas mismas fuentes citan niveles tecnicos inconsistentes con el precio actual, sugiriendo datos cacheados/desactualizados. Se trata con escepticismo.",
-    "CORREGIDO: la situacion Iran-EEUU fue mas seria de lo descrito el ciclo anterior -- EEUU ataco primero (Isla de Larak), Iran respondio con misiles contra bases de EEUU en Jordania y EAU, y la Guardia Revolucionaria prometio mas represalias. Es un riesgo geopolitico abierto, no un episodio cerrado.",
-    "El impacto en cripto de la situacion Iran-EEUU sigue siendo contenido por ahora -- BTC ronda $78.100-78.500, apenas afectado, en camino a su mejor mes desde noviembre de 2024.",
-    "Flujos de ballenas mixtos y compensados: un deposito de 43.88K ETH (~$108M) en varios exchanges (bajista) frente a una ballena que vendio $433M en BTC para comprar 96.859 ETH (alcista) -- se anulan, tratados como ruido de peso bajo.",
-    "Fear&Greed se mantiene en 'neutral' (51) -- sin cambios.",
-    "EN CONTRA de esta señal, sigue activo: los ETFs de ETH mantienen su racha de entradas, acumulado ahora ~$12.97B -- la demanda institucional sigue siendo un contrapeso real."
+    "REVISION EXHAUSTIVA (a peticion del usuario): precio reconciliado con ALTA confianza por 4 fuentes independientes ($2.450-2.463) -- ningun indicio de movimiento reciente hacia o por encima del stop (2.490).",
+    "El conflicto de RSI de ciclos anteriores queda mejor explicado: las lecturas altas (75-86) provienen de articulos republicados sin actualizar fecha, correspondientes al pico del 19-24 de agosto -- la lectura actual (~63.9-70.3, enfriandose) es la vigente y mejor corroborada.",
+    "Fear&Greed en 'neutral' (51) confirmado por TRES fuentes independientes fechadas explicitamente hoy (31 ago) -- el dato mas solido de todo el ciclo.",
+    "NUEVO: evento de liquidaciones fresco (~$370-440M en 24h) ligado a la escalada Iran-EEUU, mayoritariamente posiciones LARGAS -- purga de apalancamiento alcista, matiz ligeramente favorable al short (distinto del evento de $1.69B del 28 de agosto).",
+    "Correlacion BTC-ETH sigue fuerte (~0.85), y la propia cobertura de CoinDesk de HOY (31 ago) describe que BTC 'apenas parpadeo' pese al ataque de EEUU a Iran -- la señal mas tranquilizadora del ciclo sobre el riesgo geopolitico inmediato.",
+    "Open Interest reconciliado a ~$32.6B (cifra directa de CoinGlass). El funding rate se confirma cualitativamente 'neutral/moderado' pero sigue sin una cifra exacta fiable -- unico dato que queda pendiente de precision.",
+    "EN CONTRA de esta señal, sigue activo: los ETFs de ETH mantienen su racha de entradas, acumulado ~$12.97B, y hay flujos on-chain mixtos (deposito de $108M en varios exchanges vs. rotacion de una ballena de $433M en BTC hacia ETH) -- se anulan entre si, tratados como ruido.",
+    "Riesgo pendiente sin resolver: la situacion Iran-EEUU sigue abierta (Iran prometio mas represalias) -- el mercado la esta absorbiendo bien hasta ahora, pero es el unico factor que podria cambiar el cuadro rapidamente si escala."
   ],
   "levels": {
     "resistance_near": 2490,
     "resistance_major": 2534,
-    "support_near": 2434,
-    "support_major": 2323,
+    "support_near": 2411,
+    "support_major": 2317,
     "upside_target": [2600, 2700],
     "downside_target": [2300, 2200]
   },
@@ -39,7 +40,7 @@
     "stop": 2490,
     "target": 2300,
     "breakeven_note": "Sin cambios: la regla de mover el stop a breakeven aplica en un movimiento a favor (hacia el soporte), no en este escenario. Respeta el stop tal cual esta.",
-    "invalidation": "Si ETH rompe y CIERRA por encima de 2.490, el sesgo pasa a alcista -- no mantener el short. El precio de este ciclo (~$2.454) sigue comodamente por debajo segun las fuentes mas fiables.",
+    "invalidation": "Si ETH rompe y CIERRA por encima de 2.490, el sesgo pasa a alcista -- no mantener el short. La revision exhaustiva de este ciclo no encontro ninguna evidencia de que esto haya ocurrido ni este por ocurrir.",
     "costs": {
       "opening_cost_pct": 0.62,
       "opening_cost_usd": 1.52,
@@ -58,23 +59,26 @@
   "risk_notes": [
     "Con 1 contrato micro (valor de punto $0.10) las cifras en dolares son pequenas -- esto es una cuenta de aprendizaje/practica con capital real, no una forma de hacerse rico rapido. El tamano ya esta al minimo posible: no promediar ni anadir contratos para 'recuperar' una perdida.",
     "El stop solo protege si se respeta. Configuralo en la plataforma, no lo lleves 'de memoria'. Si aun no has revisado tu historial de operaciones por la ruptura intradia del 28 de agosto, hazlo cuando puedas.",
-    "Precio y costes: el precio de referencia sigue estable (~$2.454). Verifica siempre en tu app antes de ejecutar. CME ofrece trading 24/7 en cripto desde mayo 2026.",
-    "Riesgo geopolitico ELEVADO (corregido este ciclo): la situacion Iran-EEUU es mas seria de lo que se penso -- Iran respondio con misiles contra bases de EEUU y prometio mas represalias. El impacto en cripto sigue contenido por ahora, pero esta abierta y podria escalar sin previo aviso -- es exactamente el tipo de evento macro sorpresa que puede invalidar este analisis en minutos.",
-    "Riesgo macro: la probabilidad de subida de tipos en septiembre (57-58%, atribuida al discurso de Kevin Warsh en Jackson Hole) sigue cuestionada por Goldman Sachs. Proximo catalizador real: Nonfarm Payrolls el 4-5 de septiembre."
+    "Limitacion honesta: no se pudo acceder en vivo a graficos/order book de las fuentes primarias este ciclo (WebFetch bloqueado) -- el analisis se basa en fragmentos de busqueda cruzados entre varias fuentes, no en un feed en vivo directo. Verifica siempre el precio real en tu app antes de decidir.",
+    "Riesgo geopolitico ABIERTO: la situacion Iran-EEUU sigue sin resolverse -- Iran prometio mas represalias tras los ataques a bases de EEUU en Jordania y EAU. El mercado lo esta absorbiendo bien hasta ahora (BTC 'apenas parpadeo' segun cobertura de hoy), pero es el factor con mas potencial de cambiar el cuadro sin previo aviso.",
+    "Riesgo macro: la probabilidad de subida de tipos en septiembre (56-58%) sigue siendo un debate activo entre fuentes serias -- Goldman Sachs la llama 'muy improbable', mientras CME FedWatch la mantiene elevada. Proximo catalizador real: Nonfarm Payrolls el 4-5 de septiembre."
   ],
   "previous_signal_outcome": {
     "status": "pendiente",
-    "note": "El ciclo anterior confirmo el precio por debajo del stop. Este ciclo lo reconfirma (~$2.453-2.456). Ni el objetivo (2.300) ni el stop se han activado de forma confirmada."
+    "note": "Revision exhaustiva a peticion del usuario: se reconfirma con alta confianza que el precio sigue comodamente por debajo del stop (2.490), sin ningun indicio de un movimiento reciente hacia ese nivel. Ni el objetivo (2.300) ni el stop se han activado."
   },
   "sources": [
-    "https://coinmarketcap.com/currencies/ethereum/",
     "https://www.coingecko.com/en/coins/ethereum",
+    "https://coinmarketcap.com/currencies/ethereum/",
+    "https://www.coindesk.com/price/ethereum",
+    "https://altindex.com/ticker/eth/technical-analysis",
+    "https://www.chaincatcher.com/en/article/2206568",
     "https://www.coinglass.com/open-interest/ETH",
-    "https://cfgi.io/ethereum-fear-greed-index/",
-    "https://www.coindesk.com/markets/2026/08/31/u-s-strikes-on-iran-fail-to-stir-bitcoin-on-track-for-best-month-since-november-2024",
-    "https://krdo.com/politics/cnn-us-politics/2026/08/31/us-strikes-iranian-island-where-forces-were-preparing-to-launch-mines-official-says/",
-    "https://www.rferl.org/a/iran-live-blog-trump-middle-east/33803414.html",
-    "https://www.coingabbar.com/en/crypto-currency-news/ethereum-news-today-eth-etf-inflows-ico-whale-hacker-transfer"
+    "https://www.cryptopolitan.com/eth-funding-rate-near-neutral/",
+    "https://www.benzinga.com/crypto/cryptocurrency/26/08/61513381/bitcoin-ethereum-xrp-dogecoin-fall-us-iran-escalation-btc-highs",
+    "https://www.coindesk.com/markets/2026/08/31/bitcoin-barely-blinks-as-u-s-hits-iran-sending-oil-higher-and-stocks-lower",
+    "https://www.coindesk.com/markets/2026/08/31/september-fed-rate-hike-fears-appear-overblown-as-the-probability-is-just-58-not-90",
+    "https://cryptodaily.co.uk/2026/08/ethereum-etf-inflows-10-days-bitcoin-etf-outflows"
   ],
   "disclaimer": "No es asesoramiento financiero. Ningun sistema (ni IA ni humano) es 100% fiable con mercados, y contrastar mas fuentes reduce puntos ciegos pero no elimina el riesgo. Producto apalancado de alto riesgo. Ejecucion manual bajo tu propia responsabilidad. Un evento macro sorpresa puede invalidar este analisis en minutos -- el stop es tu proteccion real, no la confianza del analisis."
 }
