@@ -1,30 +1,30 @@
 {
   "asset": "ETH/USD",
   "etoro_instrument": "ETH.SEP26 (Micro Ether Future)",
-  "generated_at": "2026-08-31T21:49:00Z",
-  "price_usd": 2459,
-  "price_source": "Convergencia entre 3 fuentes independientes: CoinGecko $2.453 (+1,2% 24h), CoinDesk $2.468,98, y una recuperacion a ~$2.459 tras un mini-dip matutino a $2.417,98 ligado al ruido geopolitico (Fortune/Yahoo Finance). Rango efectivo $2.450-2.470, esencialmente sin cambio respecto al ciclo anterior ($2.455). Comodamente por debajo del stop ($2.490). No es la cotizacion exacta de CME -- verifica en tu app.",
+  "generated_at": "2026-08-31T22:49:00Z",
+  "price_usd": 2457,
+  "price_source": "Rango consistente $2.415-2.470 entre multiples fuentes fechadas hoy: CoinDesk $2.468,98, MetaMask $2.450,02, Yahoo Finance (apertura $2.417,98, luego $2.453,78). Esencialmente sin cambio respecto al ciclo anterior ($2.459). Comodamente por debajo del stop ($2.490). No es la cotizacion exacta de CME -- verifica en tu app.",
   "market_status": "CME ofrece trading 24/7 para futuros/opciones de cripto desde mayo de 2026. Verifica en tu app el estado actual antes de operar.",
-  "change_24h_pct": -0.2,
-  "change_7d_pct": 1.1,
+  "change_24h_pct": -0.1,
+  "change_7d_pct": 1.0,
   "bias": "short",
-  "confidence": "media-alta",
+  "confidence": "media",
   "data_quality": {
-    "sources_checked": 13,
+    "sources_checked": 12,
     "categories_checked": ["tecnico_precio", "sentimiento_fear_greed", "derivados_funding_oi", "on_chain_flows", "correlacion_btc", "calendario_macro", "ballenas_individuales_y_figuras_publicas"],
-    "agreement": "media-alta",
-    "note": "CAMBIO RELEVANTE (refuerza el short): la probabilidad de subida de tipos de la Fed en septiembre subio de ~56% a 61-66% (CME FedWatch + Kalshi, dos metodologias independientes coinciden en la direccion), impulsada por comentarios hawkish de Warsh en Jackson Hole y datos de PCE mas calientes de lo esperado (3,7%/4,1% interanual). Es el desarrollo mas solido de este ciclo y apoya seguir corto. Sentimiento gira a Greed (62, bajando desde 69 el dia previo) -- confirmado por 2 fuentes, matiz leve en contra del short pero de magnitud baja y ya enfriandose, no invalida la tesis. Indicadores tecnicos (RSI/MACD/medias moviles) DESCARTADOS esta ronda: dos fuentes (AltIndex, Investing.com) citaban medias moviles muy por debajo del precio spot real, señal clara de plantillas cacheadas/no recalculadas -- se mantiene como referencia no confirmada el RSI ~68-70 del ciclo previo. Derivados (funding/OI) y el dato on-chain de Exchange Netflow vs. retiros de ballenas quedan SIN DATOS FRESCOS fiables este ciclo -- gap de informacion, no se fuerza lectura en ninguna direccion. Precio confirmado por 3 fuentes en $2.450-2.470, sigue comodamente por debajo de 2.490 -- sin disparador de invalidacion. BTC confirma el mismo regimen (consolidacion, misma presion macro), sin divergencia. Situacion Iran-EEUU y desinformacion de Trump sobre Kharg sin escalada nueva, ya descontadas. BitMine/Tom Lee re-confirmo su compra semanal (ya conocida) -- sin informacion nueva."
+    "agreement": "media",
+    "note": "CONFIRMACION: la probabilidad de subida de tipos de la Fed en septiembre se confirma en el extremo alto del rango, 66% (Forbes, 31 ago, CME FedWatch) -- la fuente mas fresca corrobora el 61-66% del ciclo anterior, sin retroceder. Sigue siendo el principal apoyo macro del short. NUEVO dato relevante que MODERA la confianza (sin cambiar la direccion): racha de ETF de ETH de 10 dias consecutivos de entradas netas (~$1,42-1,52B, dia mas fuerte $234,5M el 27 ago), bien corroborada por 6 fuentes independientes -- es un contrapeso alcista fundamental genuino de demanda institucional, no solo ruido. Combinado con gaps persistentes de datos en derivados (funding/OI) y on-chain (Exchange Netflow vs. retiros de ballenas, sin datos frescos verificables esta ronda tampoco), la confianza baja de media-alta a media: la tesis bajista sigue siendo la de mayor peso, pero la evidencia de venta estructural fresca es mas debil que el apoyo macro. RSI reportado en sobrecompra (76.5, AltIndex) con una fuente descartada (RSI 86, cryptonews.net, inconsistente con el precio spot) -- se toma como referencia de baja-media confianza, sugiere riesgo de pullback mas que ruptura alcista inminente. Sentimiento con alta dispersion entre proveedores (51-75 segun fuente); la lectura mas consistente con la trayectoria conocida (69->62) sigue siendo Greed, sin confirmacion precisa. Precio sin cambios, comodamente por debajo de 2.490 -- sin disparador de invalidacion. BTC resiliente sobre $78k pese a los shocks, sin divergencia con ETH. Situacion Iran-EEUU y desinformacion de Trump sobre Kharg sin escalada nueva. BitMine/Tom Lee: mismo dato semanal ya conocido, sin compra nueva reportada."
   },
-  "thesis": "SHORT se mantiene sin cambios, confianza media-alta. El desarrollo mas relevante de este ciclo es que la probabilidad de subida de tipos de la Fed en septiembre subio notablemente (~56% a 61-66%, dos metodologias independientes), lo cual refuerza el sesgo bajista de fondo. El precio sigue esencialmente estable y comodamente por debajo del nivel de invalidacion ($2.490) -- ningun disparador de cambio de sesgo se ha producido. El sentimiento giro levemente a Greed (62, bajando de 69) pero es un matiz menor que no compensa el refuerzo macro. Indicadores tecnicos puntuales se descartaron esta ronda por datos claramente obsoletos en las fuentes consultadas; derivados y flujos on-chain quedan sin datos frescos, sin peso en la lectura de este ciclo.",
+  "thesis": "SHORT se mantiene, pero la confianza baja de media-alta a media. La probabilidad de subida de tipos de la Fed en septiembre se confirma en el extremo alto (66%, fuente mas fresca de hoy) -- sigue siendo el principal apoyo del short y el precio permanece comodamente por debajo del nivel de invalidacion ($2.490). Sin embargo, este ciclo aporta un dato nuevo que pesa en contra: una racha de ETF de ETH de 10 dias con entradas netas fuertes (~$1,5B), bien corroborada, que indica demanda institucional genuina no descontada del todo. Combinado con la falta persistente de datos frescos de derivados y flujos on-chain (no se puede confirmar presion de venta estructural), la evidencia bajista es mas debil de lo que sugiere solo el factor macro -- de ahi la moderacion de confianza sin cambiar la direccion.",
   "reasoning": [
-    "CAMBIO RELEVANTE: la probabilidad de subida de tipos de la Fed en septiembre subio de ~56% a 61-66% (CME FedWatch + Kalshi, dos metodologias coinciden en la direccion), impulsada por comentarios hawkish de Warsh en Jackson Hole y datos de PCE mas calientes de lo esperado. Refuerza el sesgo bajista de fondo -- es el desarrollo mas solido de este ciclo.",
-    "Precio esencialmente estable ($2.450-2.470 vs $2.455 del ciclo anterior), confirmado por 3 fuentes independientes. Sigue comodamente por debajo del stop ($2.490), sin disparador de invalidacion.",
-    "Sentimiento gira a Greed (62, bajando desde 69 el dia previo) -- matiz leve en contra del short, pero de magnitud baja y ya enfriandose, no compensa el refuerzo macro de la Fed.",
-    "Indicadores tecnicos puntuales (RSI/MACD/medias moviles) DESCARTADOS esta ronda: las fuentes consultadas mostraban medias moviles muy por debajo del precio spot real, señal clara de datos cacheados/no recalculados. Se mantiene como referencia no confirmada el RSI ~68-70 del ciclo previo.",
-    "Derivados (funding rate, open interest) y el dato on-chain de Exchange Netflow vs. retiros de ballenas quedan SIN DATOS FRESCOS fiables este ciclo -- gap de informacion, no se fuerza lectura en ninguna direccion.",
-    "Situacion Iran-EEUU y la desinformacion recurrente de Trump sobre Kharg sin escalada nueva -- ya estaban descontadas del ciclo anterior.",
-    "BTC confirma el mismo regimen de consolidacion/presion macro que ETH, sin divergencia entre ambos activos.",
-    "EN CONTRA de esta señal, sigue activo el mismo contrapeso ya conocido: BitMine/Tom Lee re-confirmo su compra semanal de 53.501 ETH (65a semana consecutiva) -- sin informacion nueva, ya estaba descontado."
+    "CONFIRMACION: la probabilidad de subida de tipos de la Fed en septiembre se confirma en el extremo alto del rango, 66% (Forbes, 31 ago, la fuente mas fresca) -- sigue siendo el principal apoyo macro del short, sin retroceder respecto al ciclo anterior.",
+    "NUEVO dato que modera la confianza (sin cambiar la direccion): racha de ETF de ETH de 10 dias consecutivos de entradas netas (~$1,42-1,52B), bien corroborada por 6 fuentes independientes -- contrapeso alcista fundamental de demanda institucional que no estaba explicito antes.",
+    "Precio esencialmente estable ($2.415-2.470 vs $2.459 del ciclo anterior). Sigue comodamente por debajo del stop ($2.490), sin disparador de invalidacion.",
+    "RSI reportado en sobrecompra (76.5, AltIndex, confianza baja-media) -- se descarto una fuente con RSI 86 por inconsistente con el precio spot. Sugiere riesgo de pullback mas que ruptura alcista inminente.",
+    "Derivados (funding rate, open interest) y el dato on-chain de Exchange Netflow vs. retiros de ballenas quedan SIN DATOS FRESCOS verificables por segundo ciclo consecutivo -- la evidencia bajista estructural es mas debil que el apoyo macro.",
+    "Sentimiento con alta dispersion entre proveedores (51-75 segun fuente) -- la lectura mas consistente con la trayectoria conocida sigue siendo Greed, sin confirmacion precisa.",
+    "Situacion Iran-EEUU y la desinformacion recurrente de Trump sobre Kharg sin escalada nueva. BTC resiliente sobre $78k pese a los shocks, sin divergencia con ETH.",
+    "EN CONTRA de esta señal, sigue activo el mismo contrapeso ya conocido: BitMine/Tom Lee, sin compra nueva reportada esta semana."
   ],
   "levels": {
     "resistance_near": 2490,
@@ -57,26 +57,29 @@
     }
   },
   "risk_notes": [
+    "Confianza bajo a MEDIA este ciclo (desde media-alta): el apoyo macro (Fed) sigue solido, pero un contrapeso alcista nuevo (racha ETF de ETH) y gaps persistentes de datos en derivados/on-chain debilitan la evidencia bajista estructural. Por regla del proyecto, en confianza media/baja sostenida se recomienda esperar mejor confirmacion antes de abrir posiciones nuevas -- gestionar la posicion ya abierta con normalidad, pero no es el ciclo ideal para entrar de cero.",
     "Con 1 contrato micro (valor de punto $0.10) las cifras en dolares son pequenas -- esto es una cuenta de aprendizaje/practica con capital real, no una forma de hacerse rico rapido. El tamano ya esta al minimo posible: no promediar ni anadir contratos para 'recuperar' una perdida.",
     "El stop solo protege si se respeta. Configuralo en la plataforma, no lo lleves 'de memoria'.",
-    "Precio y costes: el precio de referencia retrocedio ligeramente hoy (~$2.448). Verifica siempre en tu app antes de ejecutar. CME ofrece trading 24/7 en cripto desde mayo 2026.",
-    "Riesgo macro REFORZADO: la probabilidad de subida de tipos en septiembre subio a 61-66% (desde ~56%), el principal motor bajista de fondo en todo el mercado cripto. Vigilar NFP (4-5 sep), CPI (~10 sep) y FOMC (16-17 sep) como catalizadores binarios.",
+    "Precio y costes: el precio de referencia esta esencialmente estable (~$2.457). Verifica siempre en tu app antes de ejecutar. CME ofrece trading 24/7 en cripto desde mayo 2026.",
+    "Riesgo macro: la probabilidad de subida de tipos en septiembre se confirma en el extremo alto (66%), el principal motor bajista de fondo en todo el mercado cripto. Vigilar NFP (4-5 sep), CPI (~10 sep) y FOMC (16-17 sep) como catalizadores binarios.",
     "Riesgo geopolitico: la desinformacion de Trump sobre Kharg sigue repitiendose, sin evidencia. Lo real -- Isla Larak y la respuesta de Iran en Jordania -- sigue con impacto limitado en cripto por ahora, pero es un riesgo de cola real.",
-    "Gap de datos: derivados (funding/OI) y el dato on-chain de flujos a exchanges vs. retiros de ballenas quedaron sin informacion fresca fiable este ciclo -- no se fuerza una lectura, se vigila el proximo ciclo."
+    "Gap de datos: derivados (funding/OI) y el dato on-chain de flujos a exchanges vs. retiros de ballenas quedaron sin informacion fresca fiable por segundo ciclo consecutivo -- no se fuerza una lectura, se vigila el proximo ciclo."
   ],
   "previous_signal_outcome": {
     "status": "pendiente",
-    "note": "El ciclo anterior confirmo el precio estable y sin novedad que invalidara la tesis. Este ciclo confirma lo mismo, con el añadido de una subida notable en la probabilidad de hike de la Fed que refuerza el short. Ni el objetivo (2.300) ni el stop (2.490) se han activado."
+    "note": "El ciclo anterior confirmo el precio estable con refuerzo macro de la Fed. Este ciclo confirma la Fed en el extremo alto (66%) pero suma un contrapeso alcista (racha ETF) que baja la confianza a media. Ni el objetivo (2.300) ni el stop (2.490) se han activado."
   },
   "sources": [
-    "https://www.coingecko.com/en/coins/ethereum",
     "https://www.coindesk.com/price/ethereum",
-    "https://fortune.com/article/price-of-bitcoin-08-31-2026/",
+    "https://metamask.io/price/ethereum",
+    "https://www.fxstreet.com/cryptocurrencies/news/top-3-price-prediction-bitcoin-ethereum-ripple-btc-pauses-eth-faces-2-500-resistance-xrp-holds-200-day-ema-key-support-202608310306",
     "https://feargreedmeter.com/crypto-fear-and-greed-index",
-    "https://www.fxstreet.com/cryptocurrencies/ethereum",
-    "https://www.coindesk.com/business/2026/08/31/bitmine-buys-53501-eth",
-    "https://www.forbes.com/sites/digital-assets/2026/08/31/fed-rate-hike-odds-september/",
-    "https://www.aljazeera.com/news/2026/8/31/iran-missiles-jordan-us-bases",
+    "https://fortune.com/article/price-of-bitcoin-08-31-2026/",
+    "https://www.forbes.com/sites/digital-assets/2026/08/31/cme-fedwatch-provides-a-66-chance-fed-will-hike-rates-in-september/",
+    "https://decrypt.co/376810/ethereum-etfs-take-226m-in-a-day-almost-matching-bitcoins-haul",
+    "https://crypto.news/ethereum-etf-blackrock-1-42-billion-nine-day-streak/",
+    "https://www.coindesk.com/business/2026/08/31/bitmine-makes-largest-ether-purchase-since-june-as-tom-lee-points-to-crypto-s-strong-q3",
+    "https://www.aljazeera.com/news/2026/8/30/us-strikes-irans-lark-island-in-first-attack-in-weeks",
     "https://www.usnews.com/news/world/articles/2026-08-31/trump-posts-ai-video-of-irans-kharg-in-smithereens-no-evidence-of-attack",
     "https://tradingeconomics.com/commodity/crude-oil"
   ],
