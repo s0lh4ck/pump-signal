@@ -1,7 +1,7 @@
 {
   "asset": "ETH/USD",
   "etoro_instrument": "ETH.SEP26 (Micro Ether Future)",
-  "generated_at": "2026-08-31T00:49:00Z",
+  "generated_at": "2026-08-31T01:49:00Z",
   "price_usd": 2446.50,
   "price_source": "Ultimo precio confirmado por el usuario en la app de eToro (ETH.SEP26, CME) sigue siendo la referencia mas fiable -- no ha llegado una captura nueva. Fuentes spot agregadas hoy muestran ~$2.459, consistente con esa zona.",
   "market_status": "CME ofrece trading 24/7 para futuros/opciones de cripto desde mayo de 2026 (corregido en el ciclo anterior). Verifica en tu app el estado actual antes de operar.",
@@ -10,20 +10,19 @@
   "bias": "short",
   "confidence": "media-alta",
   "data_quality": {
-    "sources_checked": 6,
+    "sources_checked": 5,
     "categories_checked": ["tecnico_precio", "sentimiento_fear_greed", "derivados_funding_oi", "on_chain_flows", "correlacion_btc", "calendario_macro", "ballenas_individuales_y_figuras_publicas"],
     "agreement": "media-alta",
-    "note": "Confirmacion relevante: el aplanamiento del MACD que una fuente sugeria de forma aislada hace 2 ciclos ahora se confirma con una fuente nueva e independiente -- ya no es una discrepancia sin resolver, se sube la confianza en esa lectura. Dato concreto nuevo y significativo: el Open Interest tiene un 70.7% de posicionamiento LARGO -- extremadamente sesgado, lo que historicamente se lee como señal de contrarian (posicion masificada = mas vulnerable a una sacudida). Tension entre marcos temporales: RSI diario 78-86 (sobrecompra) vs RSI horario 58.63 (neutral) -- el corto plazo ya se enfrio algo aunque el diario sigue extendido. Nuevo nivel tecnico: soporte en $2.400, un cierre diario por debajo activaria una correccion hacia $2.328 -- muy cerca del objetivo ya fijado en $2.300, refuerzo tecnico adicional del trade."
+    "note": "Ciclo mayormente confirmatorio, sin sorpresas grandes. Precio estable ($2.455-2.489). ETF de ETH siguen fuertes (~$697M semanales, mejor semana de 2026). BitMine repite compra de +32.447 ETH (mismo dato que ciclos previos, probablemente la misma noticia recirculando). Dato nuevo leve: funding rate se mantiene BAJO pese al Open Interest elevado -- es decir, el sesgo largo (70.7% señalado el ciclo anterior) no se esta pagando caro en funding todavia, lo cual no contradice el riesgo de squeeze pero indica que no ha llegado a niveles de euforia extrema en el coste de financiacion. ~73.872 ETH salieron de Binance en 4 dias -- outflow moderado, consistente con el patron de acumulacion ya señalado. Ballenas mixtas: hay reportes de grandes traders abriendo cortos 'into strength' pese a la narrativa de acumulacion institucional."
   },
-  "thesis": "La confianza sube a media-alta: el aplanamiento del MACD que era una lectura aislada hace 2 ciclos ahora se confirma con una fuente independiente, y aparece un dato concreto de riesgo real -- el Open Interest esta 70.7% concentrado en largos, un sesgo extremo que historicamente precede sacudidas. Un nuevo nivel tecnico ($2.400, con extension a $2.328 si se rompe) confirma casi exactamente el objetivo ya fijado en $2.300. Se mantiene SHORT con mas conviccion tecnica, sin ignorar el riesgo de squeeze ya señalado.",
+  "thesis": "Ciclo tranquilo, mayormente confirmatorio. El funding rate se mantiene bajo pese al Open Interest elevado (70.7% largo señalado antes) -- el sesgo no se esta pagando caro todavia, ni contradice ni refuerza fuertemente la señal. ETFs y acumulacion institucional siguen firmes. Se mantiene SHORT sin cambios en los niveles, con la misma conviccion tecnica del ciclo anterior.",
   "reasoning": [
-    "CONFIRMACION: el aplanamiento del MACD que se sugeria de forma aislada hace 2 ciclos ahora aparece en una fuente nueva e independiente -- ya no es una discrepancia sin resolver, sube la confianza en esta lectura.",
-    "DATO CONCRETO NUEVO Y RELEVANTE: el Open Interest de ETH tiene un 70.7% de posicionamiento LARGO -- sesgo extremo que historicamente se lee como señal contrarian (posicion masificada = mas vulnerable a una sacudida en cualquier direccion, pero especialmente arriesgado para quienes estan en el lado saturado).",
-    "Tension entre marcos temporales: RSI diario en 78-86 (sobrecompra) vs RSI horario en 58.63 (neutral) -- el impulso de muy corto plazo ya se enfrio algo, aunque el marco diario sigue extendido.",
-    "Nuevo nivel tecnico: soporte en $2.400 -- un cierre diario por debajo activaria una correccion hacia $2.328, casi exactamente el objetivo ya fijado en $2.300. Refuerzo tecnico adicional del trade, no un numero nuevo inventado.",
-    "El riesgo de short squeeze señalado en ciclos anteriores (60% de liquidaciones recientes fueron cortas) sigue vigente y no se ha resuelto en ninguna direccion.",
-    "Fear & Greed en zona de codicia, consistente con ciclos anteriores.",
-    "EN CONTRA de esta señal (no se ignora): estructura de medias moviles totalmente alcista, ETFs con entradas sostenidas, Goldman Sachs comprando exposicion institucional en cripto -- el contexto de fondo sigue siendo constructivo pese al riesgo tecnico y macro de corto plazo.",
+    "Precio estable en la misma zona ($2.455-2.489), sin movimiento decisivo hacia el stop ni el objetivo.",
+    "Funding rate se mantiene bajo pese al Open Interest elevado -- el sesgo largo (70.7%) no se esta pagando caro en financiacion todavia. No contradice el riesgo de squeeze ya señalado, pero indica que aun no hay euforia extrema en el coste de mantener posiciones largas.",
+    "~73.872 ETH salieron de Binance en 4 dias -- salida moderada de exchanges, consistente con el patron de acumulacion ya señalado en ciclos anteriores.",
+    "ETFs de ETH siguen fuertes (~$697M semanales, mejor semana de 2026) -- mismo dato que ciclos previos, contexto de fondo constructivo sin cambios.",
+    "Ballenas con actividad mixta: reportes de grandes traders abriendo cortos 'hacia la fuerza' pese a la narrativa de acumulacion institucional -- no todo el dinero grande apuesta igual.",
+    "EN CONTRA de esta señal (no se ignora): estructura de medias moviles totalmente alcista, ETFs con entradas sostenidas -- el contexto de fondo sigue siendo constructivo.",
     "El coste de apertura de eToro (~0.62% de la exposicion, ~$1.52) sigue descontado en las cifras de riesgo/recompensa, sin cambios respecto al ciclo anterior."
   ],
   "levels": {
@@ -70,15 +69,14 @@
   ],
   "previous_signal_outcome": {
     "status": "pendiente",
-    "note": "El precio de referencia sigue en la misma zona (~$2.446,50-2.478), sin tocar el stop (2.490) ni el objetivo (2.300) del ciclo anterior. Se mantiene la misma operacion sin cambios."
+    "note": "El precio de referencia sigue en la misma zona (~$2.446,50-2.489), sin tocar el stop (2.490) ni el objetivo (2.300) del ciclo anterior. Se mantiene la misma operacion sin cambios."
   },
   "sources": [
-    "https://en.cryptonomist.ch/2026/08/24/ethereum-price-today-analysis-10/",
-    "https://altindex.com/ticker/eth/technical-analysis",
-    "https://cryptonews.net/news/ethereum/33339373/",
-    "https://coindcx.com/blog/price-predictions/ethereum-price-prediction/",
-    "https://coinstats.app/ai/a/latest-news-for-ethereum",
-    "https://in.tradingview.com/chart/ETHUSDT/VkP6jG99-Ethereum-s-Key-Support-and-Resistance-Levels"
+    "https://www.coinglass.com/currencies/ETH",
+    "https://www.coinglass.com/etf/ethereum",
+    "https://finance.biggo.com/news/22519fe4-9dd2-4baf-b55b-9177b44321d8",
+    "https://www.coingabbar.com/en/crypto-currency-news/ethereum-news-today-crypto-etf-inflows-eth-roadmap-whale-moves",
+    "https://coinstats.app/ai/a/latest-news-for-ethereum"
   ],
   "disclaimer": "No es asesoramiento financiero. Ningun sistema (ni IA ni humano) es 100% fiable con mercados, y contrastar mas fuentes reduce puntos ciegos pero no elimina el riesgo. Producto apalancado de alto riesgo. Ejecucion manual bajo tu propia responsabilidad. Un evento macro sorpresa puede invalidar este analisis en minutos -- el stop es tu proteccion real, no la confianza del analisis."
 }
