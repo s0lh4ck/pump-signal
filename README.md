@@ -80,6 +80,23 @@ o contradictoria:
   objetivo, el stop, o sigue pendiente — y lo registra en
   `previous_signal_outcome`. Así hay un histórico verificable de aciertos
   reales, no solo la palabra de la IA.
+- **Umbral mínimo de verificación (formalizado):** ningún dato técnico
+  puntual (precio, RSI, niveles) se da por bueno con una sola fuente si hay
+  forma de contrastarlo — se buscan 2-3 fuentes independientes antes de
+  confiar en una lectura. Si una fuente cita niveles técnicos inconsistentes
+  con el precio actual (p. ej. una resistencia por debajo del precio), es
+  señal de dato cacheado/desactualizado y se descarta explícitamente, nunca
+  se promedia con las buenas.
+- **La dirección no es lo mismo que "listo para operar":** se da dirección
+  clara todos los ciclos (regla de arriba), pero cuando la confianza es
+  `media` o `baja` de forma sostenida, el dashboard lo señala explícitamente
+  como "esperaría mejor confirmación antes de operar esto" en vez de
+  presentar ese ciclo como igual de accionable que uno de confianza `alta`.
+- **Sin entradas nuevas en la ventana previa a eventos macro binarios**
+  (NFP, FOMC, CPI): en las ~24h antes de una publicación de ese tipo, el
+  riesgo de que el resultado sea puro azar (no análisis) es demasiado alto
+  para abrir una posición nueva — se puede seguir gestionando una posición
+  ya abierta, pero no abrir una nueva justo antes.
 
 ## Criterio de crecimiento (tamaño de posición)
 
@@ -89,6 +106,13 @@ ventaja real. El tamaño se mantiene en el mínimo (1 contrato) por defecto.
 Solo tiene sentido subirlo cuando el histórico de `previous_signal_outcome`
 muestre suficientes señales con más aciertos que fallos — y en ese caso el
 usuario lo decide explícitamente, no se sube solo.
+
+**Decisión explícita del usuario (31 ago 2026):** ante la opción de subir
+el tamaño/objetivo para duplicar la ganancia potencial, el usuario eligió
+**esperar al primer resultado real** de una señal (ganancia o pérdida
+cerrada) antes de cambiar nada del tamaño o los niveles — no hacerlo por
+esperanza, sino por evidencia. Esta sección se actualizará cuando haya
+histórico suficiente para revisar esa decisión.
 
 ## Limitaciones importantes
 
