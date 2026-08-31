@@ -1,29 +1,29 @@
 {
   "asset": "ETH/USD",
   "etoro_instrument": "ETH.SEP26 (Micro Ether Future)",
-  "generated_at": "2026-08-31T19:49:00Z",
-  "price_usd": 2448,
-  "price_source": "No ha llegado una captura nueva de la app de eToro. Precio reconciliado en un rango $2.418-2.470 (MetaMask $2.450, crypto.news $2.455, RioTimes $2.418 tras una caida intradia del 1,62%) -- ligero retroceso desde ciclos anteriores, atribuido a la repreciacion de la Fed (ver calendario macro), no a una ruptura tecnica. Comodamente por debajo del stop. No es la cotizacion exacta de CME -- verifica en tu app.",
+  "generated_at": "2026-08-31T20:49:00Z",
+  "price_usd": 2455,
+  "price_source": "Convergencia alta entre 6 fuentes: CoinMarketCap $2.455,53, CoinGecko $2.453,00, CoinDesk $2.468,98, Crypto.com $2.469,65, MetaMask $2.450,02, Bitcoin.com $2.446,20. Rango efectivo $2.446-2.470, sin cambio material respecto al ciclo anterior ($2.448). Comodamente por debajo del stop ($2.490). No es la cotizacion exacta de CME -- verifica en tu app.",
   "market_status": "CME ofrece trading 24/7 para futuros/opciones de cripto desde mayo de 2026. Verifica en tu app el estado actual antes de operar.",
-  "change_24h_pct": -0.7,
-  "change_7d_pct": 0.9,
+  "change_24h_pct": -0.4,
+  "change_7d_pct": 1.0,
   "bias": "short",
   "confidence": "media-alta",
   "data_quality": {
-    "sources_checked": 12,
+    "sources_checked": 14,
     "categories_checked": ["tecnico_precio", "sentimiento_fear_greed", "derivados_funding_oi", "on_chain_flows", "correlacion_btc", "calendario_macro", "ballenas_individuales_y_figuras_publicas"],
     "agreement": "alta",
-    "note": "Precio con ligero retroceso (rango $2.418-2.470), consistente con una caida generalizada de cripto hoy atribuida a la repreciacion de probabilidad de subida de tipos, no a una ruptura tecnica -- BTC tambien cayo desde sus maximos del fin de semana. IMPORTANTE: se confirma que la escalada Iran-EEUU es REAL (no solo retorica) -- multiples fuentes de referencia (Axios, CNN, Washington Post, ABC, CBS, Al Jazeera, OilPrice.com) confirman el ataque de EEUU a la Isla Larak (30 ago) y la respuesta de Iran con misiles interceptados por Jordania. Esto es distinto y mas solido que las afirmaciones de Trump sobre Kharg (que siguen siendo desinformacion, tercera vez ya desmentida). Aun asi, el impacto directo en cripto sigue siendo limitado -- la caida de hoy se atribuye al factor Fed, no a Iran. NUEVO dato on-chain: una ballena roto ~$433M en BTC para comprar 96.859 ETH en las ultimas 12 horas (monitoreado por Lookonchain, corroborado por 2 fuentes) -- señal alcista puntual de un solo wallet, matiz en contra del short pero no un cambio de tendencia de mercado. RSI, Fear&Greed, OI, ETFs se reconfirman sin cambios."
+    "note": "Ciclo sin novedad que invalide la tesis. Precio practicamente identico al anterior, sigue comodamente por debajo de 2.490. RSI se reconfirma ~68-70 (enfriandose) via multiples fuentes con fecha 31 ago -- se descartan dos fuentes (bitcoinfoundation.org, mexc.com) que citaban RSI 76-79 por parecer articulos cacheados de la fase mas caliente del rally de mediados de agosto, inconsistentes con el consenso fechado hoy. Fear&Greed con lecturas dispersas (44-62 segun proveedor) y un 51 identico al ciclo anterior que huele a no actualizado -- se trata con cautela, sin cambiar la lectura direccional (zona neutral, sin panico ni euforia). NUEVO: Trump volvio a publicar un video generado por IA (31 ago) afirmando un ataque a Kharg -- de nuevo SIN evidencia real, ni Casa Blanca ni Pentagono lo confirman; es la misma desinformacion de siempre, ahora van varias rondas. Lo real sigue siendo el ataque a Isla Larak (30 ago) y la respuesta de Iran con misiles contra 2 bases de EEUU en Jordania (31 ago), casi todos interceptados, sin impactos significativos -- el petroleo WTI subio 3,5% por este episodio real, lo cual añade un matiz hawkish/inflacionario marginal a favor del short. Dato on-chain contradictorio no resuelto: CryptoQuant reporta el Exchange Netflow semanal de ETH en tendencia ascendente (bajista) en agosto, mientras otras fuentes hablan de retiros puntuales de ballenas (alcista) -- se deja anotado como tension sin resolver, no se fuerza una lectura. BitMine/Tom Lee compro otras 53.501 ETH (65a semana consecutiva) y la racha de ETF (10 dias, ~1,42B) se reconfirma sin cambios -- son los mismos contrapesos alcistas ya conocidos del ciclo anterior, no informacion nueva que deba mover la aguja."
   },
-  "thesis": "SHORT se mantiene, confianza en media-alta. El precio retrocedio ligeramente hoy junto con BTC, atribuido a la repreciacion de probabilidad de subida de tipos de la Fed -- refuerza el thesis bajista tactico. Se confirma que la escalada Iran-EEUU es real (ataque a Isla Larak, respuesta de Iran interceptada en Jordania), verificada por multiples medios de referencia, aunque el impacto directo en cripto sigue siendo limitado por ahora. Una ballena roto BTC por ETH (~$433M) -- matiz alcista puntual que no cambia la tendencia. El resto del cuadro se mantiene sin cambios.",
+  "thesis": "SHORT se mantiene sin cambios, confianza media-alta. Este ciclo no aporta novedad que invalide la tesis: precio practicamente identico, RSI reconfirmado enfriandose (~68-70), Fed sin cambios (~56% prob. de subida en septiembre). Trump volvio a publicar un video falso sobre un ataque a Kharg -- sigue siendo desinformacion, ya van varias rondas. Lo real (ataque a Isla Larak y respuesta de Iran con misiles interceptados en Jordania) ya estaba descontado del ciclo anterior; el impacto en cripto sigue limitado, aunque el petroleo subio 3,5% por ese episodio, matiz hawkish marginal a favor del short. Los factores alcistas estructurales (ETF, BitMine, rotacion de ballenas) son los mismos ya conocidos, no un cambio de regimen.",
   "reasoning": [
-    "Precio con ligero retroceso (rango $2.418-2.470), parte de una caida generalizada de cripto hoy atribuida a la repreciacion de la Fed -- BTC tambien cayo desde sus maximos del fin de semana. Sigue comodamente por debajo del stop.",
-    "IMPORTANTE: se confirma que la escalada Iran-EEUU es REAL, no solo retorica -- multiples fuentes de referencia (Axios, CNN, Washington Post, ABC, CBS, Al Jazeera, OilPrice.com) verifican el ataque de EEUU a la Isla Larak (30 ago) y la respuesta de Iran con misiles interceptados por Jordania. Distinto de las afirmaciones de Trump sobre Kharg, que siguen siendo desinformacion (tercera vez desmentida).",
-    "El impacto directo en cripto de la situacion Iran-EEUU sigue siendo limitado -- la caida de precio de hoy se atribuye al factor Fed, no al conflicto.",
-    "NUEVO dato on-chain: una ballena vendio ~$433M en BTC para comprar 96.859 ETH en las ultimas 12 horas (monitoreado por Lookonchain) -- señal alcista puntual de un solo wallet, matiz en contra del short pero no un cambio de tendencia de mercado.",
-    "RSI en la banda de enfriamiento (~68.3) -- sin cambios significativos.",
-    "Fear&Greed neutral (51) reconfirmado por dos fuentes primarias (CFGI, AltIndex).",
-    "EN CONTRA de esta señal, sigue activo: los ETFs de ETH mantienen su racha de 10 dias (~$1.42B, ~$12.9B acumulado en 2026) -- la demanda institucional sigue siendo el contrapeso mas solido."
+    "Precio practicamente identico al ciclo anterior ($2.446-2.470 vs $2.448), convergencia alta entre 6 fuentes. Sigue comodamente por debajo del stop ($2.490), sin tocarlo ni acercarse.",
+    "RSI reconfirmado ~68-70 (enfriandose) por multiples fuentes fechadas hoy -- se descartaron dos fuentes con RSI 76-79 por parecer datos cacheados de la fase mas caliente del rally de mediados de agosto.",
+    "NUEVO: Trump volvio a publicar un video generado por IA (31 ago) afirmando un ataque a Kharg -- otra vez SIN evidencia real ni confirmacion oficial. Es el mismo patron de desinformacion ya detectado, ahora van varias rondas.",
+    "Lo real de la situacion Iran-EEUU (ataque a Isla Larak 30 ago, respuesta de Iran con misiles contra 2 bases de EEUU en Jordania 31 ago, casi todos interceptados) ya estaba descontado del ciclo anterior -- sin escalada nueva relevante para cripto, aunque el petroleo WTI subio 3,5% por este episodio, matiz hawkish/inflacionario marginal a favor del short.",
+    "Fed sin cambios: probabilidad de subida en septiembre ~56% (CME FedWatch), sigue siendo el principal motor macro bajista para todo el mercado cripto.",
+    "Dato on-chain contradictorio sin resolver: CryptoQuant reporta el Exchange Netflow semanal de ETH en tendencia ascendente (bajista) en agosto, mientras se reportan tambien retiros puntuales de ballenas (alcista) -- se deja anotado como tension real, no se fuerza una lectura en ningun sentido.",
+    "EN CONTRA de esta señal, siguen activos los mismos contrapesos ya conocidos: los ETFs de ETH mantienen su racha de 10 dias (~$1.42B) y BitMine/Tom Lee compro otras 53.501 ETH (65a semana consecutiva) -- demanda institucional solida, pero sin cambio respecto al ciclo anterior."
   ],
   "levels": {
     "resistance_near": 2490,
@@ -59,23 +59,27 @@
     "Con 1 contrato micro (valor de punto $0.10) las cifras en dolares son pequenas -- esto es una cuenta de aprendizaje/practica con capital real, no una forma de hacerse rico rapido. El tamano ya esta al minimo posible: no promediar ni anadir contratos para 'recuperar' una perdida.",
     "El stop solo protege si se respeta. Configuralo en la plataforma, no lo lleves 'de memoria'.",
     "Precio y costes: el precio de referencia retrocedio ligeramente hoy (~$2.448). Verifica siempre en tu app antes de ejecutar. CME ofrece trading 24/7 en cripto desde mayo 2026.",
-    "Riesgo geopolitico CONFIRMADO como real (no solo retorica): el ataque de EEUU a la Isla Larak y la respuesta de Iran estan verificados por multiples medios de referencia. El impacto en cripto sigue limitado por ahora, pero es un riesgo de cola real a vigilar de cara a NFP (4-5 sep), CPI (~10 sep) y FOMC (16-17 sep).",
-    "Riesgo macro: la probabilidad de subida de tipos en septiembre (56-57%) sigue siendo el principal motor de la caida de precio de hoy en todo el mercado cripto, no solo en ETH."
+    "Riesgo geopolitico: la desinformacion de Trump sobre Kharg sigue repitiendose (otra vez el 31 ago, sin evidencia). Lo real -- Isla Larak y la respuesta de Iran en Jordania -- sigue con impacto limitado en cripto por ahora, pero es un riesgo de cola real a vigilar de cara a NFP (4-5 sep), CPI (~10 sep) y FOMC (16-17 sep). El petroleo ya reacciono (+3,5%) al episodio real.",
+    "Riesgo macro: la probabilidad de subida de tipos en septiembre (~56%) sigue siendo el principal motor bajista de fondo en todo el mercado cripto, sin cambios este ciclo.",
+    "Dato on-chain sin resolver: señales de flujo a exchanges (bajista) y de retiro de ballenas (alcista) apuntan en direcciones distintas -- no se fuerza una lectura, se vigila el proximo ciclo."
   ],
   "previous_signal_outcome": {
     "status": "pendiente",
-    "note": "El ciclo anterior confirmo el precio estable por debajo del stop. Este ciclo registra un ligero retroceso (rango $2.418-2.470) junto con una caida generalizada de cripto por factores macro. Ni el objetivo (2.300) ni el stop se han activado."
+    "note": "El ciclo anterior registro un ligero retroceso junto con una caida generalizada de cripto. Este ciclo confirma el precio practicamente estable (sin cambio material) y comodamente por debajo del stop. Ni el objetivo (2.300) ni el stop (2.490) se han activado."
   },
   "sources": [
-    "https://crypto.news/ethereum-price-could-retest-2250-if-support-fails/",
-    "https://www.riotimesonline.com/crypto-markets-bitcoin-majors-monday-august-31-2026/",
-    "https://metamask.io/price/ethereum",
-    "https://cfgi.io/",
-    "https://www.theblock.co/post/368784/bitcoin-whale-moves-another-1-1-billion-of-btc-and-resumes-eth-purchases",
-    "https://www.axios.com/2026/08/30/us-iran-strike-hormuz-mines",
-    "https://www.washingtonpost.com/national-security/2026/08/30/us-strikes-iran-missile-sites-larak-island/",
+    "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-monday-august-31-2026-higher-rate-expectations-pressure-crypto-prices-lower-132222145.html",
+    "https://www.coindesk.com/price/ethereum",
+    "https://crypto.news/ethereum-price-rally-overheats-below-2550-resistance/",
+    "https://milkroad.com/fear-greed/",
+    "https://themarketperiodical.com/2026/08/30/ethereum-price-holds-2450-as-funding-rates-cool-crash-risk/",
+    "https://cryptobriefing.com/eth-etf-record-monthly-inflows-august-2026/",
+    "https://www.cryptotimes.io/2026/08/31/bitmine-buys-53501-eth-in-65th-straight-weekly-purchase-treasury-hits-15-6b/",
+    "https://www.coinreporter.io/2026/08/ether-whales-are-pulling-eth-off-exchanges-heres-why/",
+    "https://fortune.com/article/price-of-bitcoin-08-31-2026/",
     "https://www.usnews.com/news/world/articles/2026-08-31/trump-posts-ai-video-of-irans-kharg-in-smithereens-no-evidence-of-attack",
-    "https://ambcrypto.com/bitcoin-drops-after-warsh-speech-as-hike-odds-hit-57-can-btc-reclaim-80k/"
+    "https://www.rferl.org/a/iran-live-blog-trump-middle-east/33803414.html",
+    "https://www.cnbc.com/2026/08/28/-september-fed-decision-now-a-coin-flip-as-rate-hike-odds-increase.html"
   ],
   "disclaimer": "No es asesoramiento financiero. Ningun sistema (ni IA ni humano) es 100% fiable con mercados, y contrastar mas fuentes reduce puntos ciegos pero no elimina el riesgo. Producto apalancado de alto riesgo. Ejecucion manual bajo tu propia responsabilidad. Un evento macro sorpresa puede invalidar este analisis en minutos -- el stop es tu proteccion real, no la confianza del analisis."
 }
