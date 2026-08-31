@@ -1,35 +1,35 @@
 {
   "asset": "ETH/USD",
   "etoro_instrument": "ETH.SEP26 (Micro Ether Future)",
-  "generated_at": "2026-08-31T09:49:00Z",
-  "price_usd": 2493,
-  "price_source": "No ha llegado una captura nueva de la app de eToro. ALERTA: la fuente mas reciente encontrada este ciclo (Sunday Guardian Live, fechada 31 ago) situa el precio en $2.493-2.494 -- POR ENCIMA del stop de la operacion (2.490). Otras fuentes (The Market Periodical, Aug 30) seguian mostrando $2.459-2.460. La discrepancia es real: no hay confirmacion de que $2.493-2.494 sea un CIERRE (la regla de invalidacion exige un cierre por encima de 2.490, no solo un precio puntual/intradia). Fuentes primarias (CoinGecko, CoinGlass, CoinDesk, Coinbase) siguen bloqueadas por cuarto ciclo consecutivo. VERIFICA EL PRECIO REAL EN TU APP DE ETORO AHORA MISMO -- es la unica forma de saber con certeza si el stop se ha activado.",
+  "generated_at": "2026-08-31T10:49:00Z",
+  "price_usd": 2465,
+  "price_source": "SEGUIMIENTO de la alerta del ciclo anterior. Este ciclo, el acceso a fuentes en vivo fue peor todavia (bloqueo total de WebFetch, no solo de algunas webs). Reconstruyendo una cronologia con multiples snapshots de busqueda: el 28 ago ETH SI rompio por encima de $2.490/2.500 intradia (llego a ~$2.555, confirmado indirectamente por una cascada de liquidaciones de cortos de ~$1.69B en 3 dias -- evidencia solida de que fue una ruptura real, no ruido). Pero ese mismo dia, el discurso hawkish de la Fed provoco un rechazo, y los datos fechados el 29-30 ago muestran el precio de vuelta en $2.430-2.480 (CoinDesk: $2.460,36 el 30 ago). La cifra de $2.493 usada en el ciclo anterior probablemente venia de una fuente reciclada/desactualizada, no de un precio fresco de hoy. Mejor estimacion actual: ~$2.465, probablemente por DEBAJO del stop, pero sin una fuente con timestamp de las ultimas 1-2 horas -- sigue verificando tu app.",
   "market_status": "CME ofrece trading 24/7 para futuros/opciones de cripto desde mayo de 2026. Verifica en tu app el estado actual antes de operar.",
-  "change_24h_pct": 1.3,
-  "change_7d_pct": 4.0,
+  "change_24h_pct": -0.6,
+  "change_7d_pct": 3.5,
   "bias": "short",
   "confidence": "media",
   "data_quality": {
-    "sources_checked": 9,
+    "sources_checked": 12,
     "categories_checked": ["tecnico_precio", "sentimiento_fear_greed", "derivados_funding_oi", "on_chain_flows", "correlacion_btc", "calendario_macro", "ballenas_individuales_y_figuras_publicas"],
     "agreement": "media",
-    "note": "ALERTA de precio: la fuente mas reciente de este ciclo situa a ETH en $2.493-2.494, por encima del stop (2.490) -- pero no hay confirmacion de que sea un cierre (la regla de invalidacion exige cierre, no un precio puntual). Otras fuentes seguian en $2.459-2.460 (dato de un dia antes). Confianza bajada a media por la acumulacion de matices que restan al thesis bajista: (1) el funding rate se enfrio aun mas, a 'cercano a cero/neutral' (antes 'moderado', antes maximo de 1 año) -- se retira casi del todo ese argumento de derivados; (2) NUEVO matiz mixto en on-chain: retail vendio ~360.000 ETH en la ultima semana (bajista) mientras ballenas y ETFs siguen comprando (alcista) -- señal dividida, no unanime. A favor del short sigue: el evento de liquidaciones del 28 ago (~$488M, liquidaciones de LARGOS por la caida tras el discurso de Warsh) es consistente con el thesis bajista, no lo contradice. RSI se enfrio ligeramente mas (75.8) pero sigue sobrecomprado."
+    "note": "Ciclo de seguimiento urgente de la alerta anterior. Se reconstruyo una cronologia con multiples fechas: el 28 ago hubo una ruptura REAL por encima de 2.490/2.500 (confirmada por una cascada de liquidaciones de cortos de ~$1.69B en 3 dias -- una cascada de esa magnitud no ocurre sin operaciones reales sostenidas por encima del nivel), pero el mismo dia el discurso hawkish de la Fed provoco un rechazo, y los datos del 29-30 ago muestran el precio de vuelta en $2.430-2.480, por debajo del stop. La cifra de $2.493 del ciclo anterior probablemente era una fuente reciclada, no un precio fresco. CONCLUSION: probablemente el stop NO se activo de forma sostenida (no hay cierre confirmado por encima de 2.490 en los ultimos 2 dias), pero la ruptura intradia del 28 ago fue real, asi que si tu bróker ejecuta el stop en cualquier toque (no solo en cierre), es posible que se haya activado ese dia -- verifica tu historial de operaciones en la app. Acceso a datos en vivo peor que nunca este ciclo (bloqueo total de WebFetch)."
   },
-  "thesis": "SHORT se mantiene, pero la confianza baja a media este ciclo por dos motivos: (1) ALERTA de precio -- la fuente mas reciente muestra a ETH en $2.493-2.494, por encima del stop (2.490), aunque sin confirmar que sea un cierre; y (2) el funding rate se enfrio aun mas (casi neutral) y el panorama on-chain se volvio mixto (retail vendiendo, ballenas comprando). El nucleo tecnico (resistencia repetida en $2.500, RSI sobrecomprado) sigue sosteniendo el thesis, pero el margen de seguridad se ha reducido mucho. Verificacion directa en la app de eToro es imprescindible este ciclo.",
+  "thesis": "SHORT se mantiene. Seguimiento de la alerta del ciclo anterior: la investigacion mas profunda de este ciclo aclara que SI hubo una ruptura real por encima del stop el 28 de agosto (confirmada por una cascada de liquidaciones de $1.69B), pero fue rechazada el mismo dia por el discurso hawkish de la Fed, y el precio volvio a $2.430-2.480 los dos dias siguientes -- probablemente por debajo del stop desde entonces. No hay cierre confirmado por encima de 2.490 sostenido. Si tu operacion sigue abierta segun tu bróker, el thesis tecnico (resistencia, RSI sobrecomprado) sigue siendo valido, aunque el margen de seguridad sigue siendo estrecho.",
   "reasoning": [
-    "ALERTA DE PRECIO: la fuente mas reciente (31 ago) muestra ETH en $2.493-2.494, por encima del stop (2.490). No hay confirmacion de que sea un cierre -- la regla de invalidacion exige un cierre por encima de 2.490, no un precio puntual/intradia. Verifica tu app de eToro directamente.",
-    "El funding rate de ETH se enfrio aun mas este ciclo, a 'cercano a cero/neutral' (antes 'moderado', antes maximo de 1 año) -- se retira casi del todo ese argumento de derivados a favor del short.",
-    "NUEVO matiz on-chain mixto: retail vendio ~360.000 ETH en la ultima semana (bajista, ~3x el volumen de acumulacion de ballenas en el mismo periodo) mientras ballenas y ETFs siguen comprando (alcista) -- señal dividida, no unanime.",
-    "A favor del short sigue: el evento de liquidaciones del 28 de agosto (~$488M, liquidaciones de LARGOS tras el discurso hawkish de Warsh) es consistente con el thesis bajista, no lo contradice -- fue una caida real, no un short squeeze.",
-    "RSI se enfrio ligeramente mas (75.8, desde 77-79) pero sigue en sobrecompra persistente.",
-    "BTC sigue en el mismo rango de consolidacion (~$77.700-78.200), sin divergir de ETH.",
-    "Correccion de calendario: una fuente sitúa el Nonfarm Payrolls el 4 de septiembre (no el 5 como se penso) -- discrepancia sin resolver, FOMC 16-17 sep sin cambios."
+    "Seguimiento de la alerta anterior: se confirma que el 28 de agosto SI hubo una ruptura real por encima de 2.490/2.500 (evidencia: cascada de liquidaciones de cortos de ~$1.69B en 3 dias, que no ocurre sin operaciones reales sostenidas).",
+    "Pero ese mismo dia el discurso hawkish de la Fed provoco un rechazo inmediato, y los datos fechados 29-30 ago muestran el precio de vuelta en $2.430-2.480 (CoinDesk: $2.460,36 el 30 ago) -- probablemente por debajo del stop desde entonces.",
+    "La cifra de $2.493 usada en el ciclo anterior probablemente provenia de una fuente reciclada/desactualizada, no de un precio fresco de ese momento -- leccion aprendida sobre la fiabilidad de esa fuente en concreto.",
+    "IMPORTANTE para el usuario: si tu bróker activa el stop en cualquier toque intradia (no solo en cierre), es posible que se haya activado el 28 de agosto durante la ruptura real -- revisa tu historial de operaciones en la app, este ciclo no puede confirmarlo con certeza total.",
+    "Dato nuevo de precaucion: dos ballenas abrieron largos de 8.000 ETH cada una cerca de $2.490 en Hyperliquid esta semana -- posicionamiento justo en el nivel del stop, matiz de riesgo adicional (peso bajo).",
+    "BTC en consolidacion (~$77.300-78.800) tras rechazo repetido en $80.000-82.000 -- refuerza la lectura de 'retroceso genuino', no ruptura continuada, tambien en ETH.",
+    "RSI se mantiene en sobrecompra (75-79 segun fecha/fuente) pero sin nueva fuerza compradora confirmada."
   ],
   "levels": {
-    "resistance_near": 2493,
+    "resistance_near": 2490,
     "resistance_major": 2500,
-    "support_near": 2470,
-    "support_major": 2344,
+    "support_near": 2440,
+    "support_major": 2391,
     "upside_target": [2600, 2700],
     "downside_target": [2300, 2200]
   },
@@ -39,7 +39,7 @@
     "stop": 2490,
     "target": 2300,
     "breakeven_note": "Sin cambios: la regla de mover el stop a breakeven aplica en un movimiento a favor (hacia el soporte), no en este escenario. Respeta el stop tal cual esta.",
-    "invalidation": "Si ETH rompe y CIERRA por encima de 2.490, el sesgo pasa a alcista -- no mantener el short. Este ciclo la fuente mas reciente muestra un precio (~$2.493-2.494) YA POR ENCIMA de ese nivel, sin confirmar si es cierre. ES CRITICO que verifiques el precio real en tu app de eToro ahora mismo para saber si el stop se activo.",
+    "invalidation": "Si ETH rompe y CIERRA por encima de 2.490, el sesgo pasa a alcista -- no mantener el short. Este ciclo aclara que hubo una ruptura intradia real el 28 de agosto (sin cierre sostenido), y el precio parece haber vuelto por debajo desde entonces. VERIFICA tu historial de operaciones en eToro para confirmar si tu stop se activo ese dia.",
     "costs": {
       "opening_cost_pct": 0.62,
       "opening_cost_usd": 1.52,
@@ -52,27 +52,27 @@
       "net_max_loss_usd": 5.87,
       "net_potential_gain_usd": 13.13,
       "max_loss_pct_of_margin": "~5% del margen de $115 en 1 contrato (neto de costes)",
-      "ratio": "~1:2.2 neto (arriesgas $5.87 con costes incluidos para optar a $13.13). Sin cambios en los niveles, pero el precio esta en su punto mas critico desde que se abrio la señal."
+      "ratio": "~1:2.2 neto (arriesgas $5.87 con costes incluidos para optar a $13.13). Sin cambios en los niveles."
     }
   },
   "risk_notes": [
     "Con 1 contrato micro (valor de punto $0.10) las cifras en dolares son pequenas -- esto es una cuenta de aprendizaje/practica con capital real, no una forma de hacerse rico rapido. El tamano ya esta al minimo posible: no promediar ni anadir contratos para 'recuperar' una perdida.",
-    "URGENTE: verifica el precio real de ETH.SEP26 en tu app de eToro ahora mismo. La fuente mas reciente de este ciclo muestra un precio por encima del stop (2.490) -- si tu posicion sigue abierta, confirma si el stop ya se activo o no.",
+    "IMPORTANTE: revisa tu historial de operaciones en eToro para confirmar si tu stop se activo el 28 de agosto, cuando hubo una ruptura real e intradia por encima de 2.490. Este ciclo no puede confirmarlo con certeza desde fuentes externas.",
     "El stop solo protege si se respeta. Configuralo en la plataforma, no lo lleves 'de memoria'.",
-    "El funding rate de ETH se enfrio a niveles casi neutrales -- el argumento de derivados a favor del short se ha debilitado bastante desde que se abrio la operacion. El thesis ahora descansa mas en lo tecnico (resistencia, RSI) que en los derivados.",
-    "Riesgo macro: la probabilidad de subida de tipos en septiembre se mantiene en ~47-58% segun la fuente. Proximo catalizador: informe de empleo (Nonfarm Payrolls) el 4 o 5 de septiembre segun la fuente, antes del FOMC del 16-17 de septiembre."
+    "Este ciclo el acceso a datos en vivo fue el peor hasta ahora (bloqueo total de fetch directo) -- trata el precio de referencia (~$2.465) con la maxima cautela y prioriza siempre lo que veas en tu app.",
+    "Riesgo macro: la probabilidad de subida de tipos en septiembre se mantiene elevada tras el discurso de Kevin Warsh. Proximo catalizador: informe de empleo (Nonfarm Payrolls) el 4-5 de septiembre, antes del FOMC del 16-17 de septiembre."
   ],
   "previous_signal_outcome": {
     "status": "pendiente",
-    "note": "El ciclo anterior reconfirmo el precio contenido en $2.440-2.490. Este ciclo, la fuente mas reciente muestra un precio (~$2.493-2.494) por encima del stop (2.490), sin confirmar si es un cierre. No se puede confirmar formalmente que el stop se haya activado con los datos disponibles -- se necesita verificacion directa en la app."
+    "note": "El ciclo anterior alerto sobre un posible precio por encima del stop. Este ciclo aclara: SI hubo una ruptura real el 28 de agosto (confirmada por liquidaciones de $1.69B), pero fue rechazada el mismo dia y el precio volvio a $2.430-2.480 desde entonces. No hay cierre sostenido confirmado por encima de 2.490. Si tu bróker ejecuta el stop en cualquier toque, revisa tu historial -- podria haberse activado el 28 de agosto."
   },
   "sources": [
-    "https://sundayguardianlive.com/business/ethereum-price-today-31-august-eth-near-2500-after-powerful-august-rally-etf-demand-supports-gains-check-latest-eth-prices-in-usd-inr-gbp-euro-jpy-273586/",
-    "https://themarketperiodical.com/2026/08/30/ethereum-price-holds-2450-as-funding-rates-cool-crash-risk/",
-    "https://crypto.news/ethereum-price-eyes-2500-dollar-as-rsi-flashes-warning/",
-    "https://dailycoin.com/ethereum-exchange-outflows-whales-accumulate/",
-    "https://www.riotimesonline.com/crypto-markets-bitcoin-majors-saturday-august-29-2026/",
-    "https://www.cryptotimes.io/2026/08/31/crypto-week-ahead-us-jobs-report-mica-deadline-mina-upgrade-binance-delistings/"
+    "https://www.coindesk.com/price/ethereum",
+    "https://en.cryptonomist.ch/2026/08/28/ethereum-price-today-analysis-11/",
+    "https://altindex.com/ticker/eth/technical-analysis",
+    "https://bravenewcoin.com/insights/bitcoin-btc-price-today-whale-buying-strengthens-bullish-case-as-btc-consolidates-near-79k",
+    "https://cointelegraph.com/news/2026-fed-cuts-key-catalyst-retail-return-to-crypto",
+    "https://plainlycrypto.com/weekly-crypto-brief-2026-08-30/"
   ],
   "disclaimer": "No es asesoramiento financiero. Ningun sistema (ni IA ni humano) es 100% fiable con mercados, y contrastar mas fuentes reduce puntos ciegos pero no elimina el riesgo. Producto apalancado de alto riesgo. Ejecucion manual bajo tu propia responsabilidad. Un evento macro sorpresa puede invalidar este analisis en minutos -- el stop es tu proteccion real, no la confianza del analisis."
 }
