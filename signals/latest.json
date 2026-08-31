@@ -1,7 +1,7 @@
 {
   "asset": "ETH/USD",
   "etoro_instrument": "ETH.SEP26 (Micro Ether Future)",
-  "generated_at": "2026-08-31T03:49:00Z",
+  "generated_at": "2026-08-31T04:49:00Z",
   "price_usd": 2446.50,
   "price_source": "Ultimo precio confirmado por el usuario en la app de eToro (ETH.SEP26, CME) sigue siendo la referencia mas fiable -- no ha llegado una captura nueva. Fuentes spot agregadas hoy muestran ~$2.459, consistente con esa zona.",
   "market_status": "CME ofrece trading 24/7 para futuros/opciones de cripto desde mayo de 2026 (corregido en el ciclo anterior). Verifica en tu app el estado actual antes de operar.",
@@ -10,15 +10,17 @@
   "bias": "short",
   "confidence": "alta",
   "data_quality": {
-    "sources_checked": 4,
+    "sources_checked": 2,
     "categories_checked": ["tecnico_precio", "sentimiento_fear_greed", "derivados_funding_oi", "on_chain_flows", "correlacion_btc", "calendario_macro", "ballenas_individuales_y_figuras_publicas"],
     "agreement": "alta",
-    "note": "Ciclo sin novedades sustanciales: el RSI diario (80.39), el RSI horario (61.34) y la zona de correccion $2.000-2.080 salen identicos a busquedas de ciclos anteriores -- se confirma de nuevo que son las mismas fuentes/articulos recirculando, no confirmacion independiente fresca. Se mantiene todo el analisis acumulado de ciclos previos (Fear&Greed en codicia extrema, OI 70% largo, riesgo macro de la Fed materializado) sin cambios."
+    "note": "Se descartaron varias fuentes de 'prediccion de precio' (Coinbase, Changelly, PricePrediction.net, etc.) por baja calidad -- son contenido algoritmico con rangos absurdamente dispersos entre si (desde $1.833 hasta $4.209 para septiembre segun la fuente), tipico de sitios de SEO/afiliados, no analisis real. Se prioriza en su lugar el dato de derivados: Open Interest de ETH en $32.6B, esencialmente sin cambios respecto a ciclos anteriores. Liquidaciones en 24h moderadas (~$6M), sin evento de squeeze nuevo en las ultimas horas. Sin cambios en el resto del analisis acumulado."
   },
-  "thesis": "Ciclo sin novedades sustanciales -- los datos tecnicos que aparecen (RSI 80.39, zona de correccion $2.000-2.080) coinciden exactamente con los de ciclos anteriores, probablemente las mismas fuentes recirculando. Se mantiene todo lo acumulado (codicia extrema, OI 70% largo, riesgo macro materializado) sin cambios, y la señal SHORT sigue igual con confianza alta.",
+  "thesis": "Ciclo de baja calidad de fuentes: las busquedas trajeron sobre todo sitios de 'prediccion de precio' poco fiables (rangos dispersos entre $1.833 y $4.209 para septiembre segun la fuente) -- se descartaron. El unico dato solido nuevo es que el Open Interest sigue esencialmente igual ($32.6B) y las liquidaciones de 24h son moderadas, sin evento de squeeze nuevo. Se mantiene SHORT sin cambios, confianza alta.",
   "reasoning": [
-    "Calidad de datos: RSI diario (80.39), RSI horario (61.34) y zona de correccion tecnica ($2.000-2.080) salen identicos a lo ya visto en ciclos anteriores -- se anota como repeticion de fuentes, no como nueva confirmacion independiente.",
-    "El resto del analisis acumulado (Fear&Greed en codicia extrema, Open Interest 70% largo, riesgo macro de la Fed ya materializado, MACD aplanandose) se mantiene sin cambios ni nueva informacion que lo contradiga o refuerce.",
+    "Se descartaron varias fuentes de 'prediccion de precio' por baja calidad (contenido algoritmico con rangos dispersos entre si, tipico de SEO/afiliados) -- no se usan para la señal.",
+    "Open Interest de ETH en $32.6B, esencialmente sin cambios respecto a ciclos anteriores.",
+    "Liquidaciones en 24h moderadas (~$6M) -- sin evento de squeeze nuevo en las ultimas horas.",
+    "El resto del analisis acumulado (Fear&Greed en codicia extrema, OI 70% largo, riesgo macro de la Fed ya materializado) se mantiene sin cambios.",
     "Precio sin movimiento decisivo hacia el stop ni el objetivo.",
     "EN CONTRA de esta señal (no se ignora, sigue siendo el contrapeso real): estructura de medias moviles totalmente alcista, ETFs de ETH con entradas sostenidas y acumulacion institucional -- el contexto de fondo sigue siendo constructivo, esto es una señal tactica de corto plazo."
   ],
@@ -64,10 +66,8 @@
     "note": "El precio de referencia sigue en la misma zona (~$2.446,50), sin tocar el stop (2.490) ni el objetivo (2.300) del ciclo anterior. Se mantiene la misma operacion sin cambios."
   },
   "sources": [
-    "https://www.fxempire.com/forecasts/article/ethereum-price-risks-2k-retest-as-short-liquidation-fuel-dries-up-1618640",
-    "https://crypto.news/ethereum-price-rally-overheats-below-2550-resistance/",
-    "https://crypto.news/ethereum-price-eyes-2500-dollar-as-rsi-flashes-warning/",
-    "https://coindcx.com/blog/price-predictions/ethereum-price-prediction/"
+    "https://www.coinglass.com/currencies/ETH/futures",
+    "https://www.coinglass.com/open-interest/ETH"
   ],
   "disclaimer": "No es asesoramiento financiero. Ningun sistema (ni IA ni humano) es 100% fiable con mercados, y contrastar mas fuentes reduce puntos ciegos pero no elimina el riesgo. Producto apalancado de alto riesgo. Ejecucion manual bajo tu propia responsabilidad. Un evento macro sorpresa puede invalidar este analisis en minutos -- el stop es tu proteccion real, no la confianza del analisis."
 }
