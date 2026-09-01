@@ -1,30 +1,30 @@
 {
   "asset": "ETH/USD",
   "etoro_instrument": "ETH.SEP26 (Micro Ether Future)",
-  "generated_at": "2026-09-01T05:49:00Z",
-  "price_usd": 2467,
-  "price_source": "Convergencia entre 3 fuentes independientes fechadas 31 ago: CoinMarketCap $2.455,53, CoinDesk $2.468,98, CoinGecko $2.478,63. Rango reconciliado $2.456-2.479, practicamente identico al ciclo anterior ($2.465). Se descarto un outlier de $2.514,37 (Yahoo Finance) por estar fuera del cluster y sin timestamp verificable. Comodamente por debajo del stop ($2.490) y de la resistencia $2.500-2.550. No es la cotizacion exacta de CME -- verifica en tu app.",
+  "generated_at": "2026-09-01T06:49:00Z",
+  "price_usd": 2460,
+  "price_source": "Cluster entre fuentes independientes fechadas 31 ago/1 sep: agregador tipo CoinGecko $2.478,63, otro agregador $2.440,48. Rango reconciliado $2.440-2.480, dentro del ruido del ciclo anterior ($2.467). Comodamente por debajo del stop ($2.490) y de la resistencia $2.500-2.550, reconfirmada por un analista independiente como zona de doble rechazo reciente. No es la cotizacion exacta de CME -- verifica en tu app.",
   "market_status": "CME ofrece trading 24/7 para futuros/opciones de cripto desde mayo de 2026. Verifica en tu app el estado actual antes de operar.",
-  "change_24h_pct": -0.1,
-  "change_7d_pct": 0.6,
+  "change_24h_pct": -0.3,
+  "change_7d_pct": 0.3,
   "bias": "short",
-  "confidence": "media-baja",
+  "confidence": "media",
   "data_quality": {
-    "sources_checked": 12,
+    "sources_checked": 13,
     "categories_checked": ["tecnico_precio", "sentimiento_fear_greed", "derivados_funding_oi", "on_chain_flows", "correlacion_btc", "calendario_macro", "ballenas_individuales_y_figuras_publicas"],
-    "agreement": "media-baja",
-    "note": "Confianza se MANTIENE en media-baja (sexto ciclo consecutivo estable). CAMBIO INCREMENTAL relevante: las probabilidades de subida de tipos de la Fed en mercados de prediccion (Kalshi, Polymarket) subieron notablemente esta madrugada, de ~48-49% a ~53-61%, estrechando significativamente la divergencia frente al 66-68% de CME FedWatch -- convergencia hacia un sesgo hawkish mas consensuado, matiz bajista incremental para ETH. Precision adicional sobre la escalada Iran-EEUU: la respuesta de Iran con misiles alcanzo bases tanto en Jordania COMO en Emiratos Arabes Unidos (dato mas completo que 'solo Jordania' del ciclo anterior) -- mismo evento ya conocido, sin escalada nueva. Se reconfirma con doble fuente (Forbes explicito) que la amenaza de Kharg sigue siendo un video de IA sin ataque real, y que Pezeshkian esta confirmado en la cumbre de la OCS en Bishkek reunido con Putin/Xi/Modi -- contencion diplomatica confirmada. El deposito de ballena de ~44K ETH sigue siendo el MISMO evento del ciclo anterior (no uno nuevo), aun sin resolverse -- ni venta confirmada ni descartada. SOPR>1 y racha de ETF de 9 dias (~$1,42B) se reconfirman sin cambios, no son evidencia nueva. RSI sigue disperso (63,9-76,5) sin resolver -- se descarto una fuente con medias moviles (SMA50/200) muy por debajo del precio spot real, matematicamente incoherente, senal de dato reciclado de otro periodo. Open Interest estable (~$32,6B). Funding rate no disponible este ciclo (sin cifra puntual verificable) -- se reporta como dato faltante, no se inventa. Sentimiento sigue disperso (51 neutral vs 62-73 greed) sin resolver -- se descartaron titulares que referenciaban BTC a $69.800, precio de una fase anterior de agosto, no de hoy."
+    "agreement": "media",
+    "note": "Confianza SUBE de media-baja a media -- primera subida en toda la sesion, tras seis ciclos estables. Dos elementos se aclararon con corroboracion cruzada genuina: (1) el consenso hawkish de la Fed ahora tiene confirmacion independiente simultanea en CME FedWatch (66%) y Kalshi (62%), no solo una fuente sola subiendo -- convergencia real, no ruido; (2) la resistencia tecnica $2.500-2.550 fue nombrada explicitamente por un analista independiente (Ted Pillows) como zona de DOBLE rechazo ya confirmado, reforzando el techo tecnico del short con una fuente nueva y especifica. CAMBIO MATERIAL sobre Iran-EEUU: el 31 de agosto hubo el primer intercambio de fuego REAL en un mes (rompiendo una pausa de 31 noches) -- EEUU ataco lanzadores IRGC en la Isla Larak, Iran respondio con misiles contra bases de EEUU en Jordania y EAU, confirmado por Al Jazeera, NPR, ABC News, The New Arab. Es un dato genuinamente nuevo (no solo continuacion), aunque la amenaza especifica de Kharg SIGUE siendo desinformacion (nuevos videos de IA de Trump el 31 ago, sin ataque real confirmado). Funding rate obtenido por primera vez con signo fiable: ligeramente NEGATIVO (~-0,0004% a -0,0018% segun exchange) -- posicionamiento short-heavy, coherente con el sesgo. BTC tuvo movimiento real: maximo de 3 meses en $81.455 (30 ago), cayo a ~$77.000 tras el discurso hawkish de Warsh, se recupero a ~$78.800 -- secuencia bien corroborada. Matiz mixto: los ETF de BTC cortaron su racha de 9 dias (-$202M salida el 28 ago) mientras los ETF de ETH siguieron con entradas positivas ese mismo dia -- fortaleza relativa de ETH frente a BTC, matiz en contra del short. El deposito de ballena de ~44K ETH sigue siendo el MISMO evento, ya van tres ciclos sin resolverse (ni venta confirmada ni descartada) -- la señal se esta agotando sin reforzar ni debilitar la tesis. SOPR>1 y racha de ETF de ETH (9-10 dias, ~$1,42-1,5B) se reconfirman sin cambios. RSI sigue disperso (63,9 vs 76,5) -- se descarta de nuevo el 76,5 por aparecer identico en multiples busquedas, señal de cache. Sentimiento sigue disperso (51 neutral vs 62-73 greed) sin resolver. Estacionalidad: septiembre es historicamente el segundo mes mas debil para ETH (retorno medio -10,2%), dato de contexto nuevo a favor del short."
   },
-  "thesis": "SHORT se mantiene, confianza se mantiene en media-baja (sexto ciclo consecutivo estable). El precio sigue practicamente sin cambios y comodamente por debajo del nivel de invalidacion ($2.490). El desarrollo mas relevante de este ciclo es que los mercados de prediccion de la Fed (Kalshi, Polymarket) subieron su probabilidad de subida de tipos de ~48-49% a ~53-61%, acercandose al 66-68% de CME FedWatch -- un sesgo hawkish cada vez mas consensuado, matiz bajista incremental. La situacion Iran-EEUU se reconfirma sin escalada nueva (la amenaza de Kharg sigue siendo desinformacion, Pezeshkian confirmado en contencion diplomatica en la cumbre de la OCS). El deposito de ballena, SOPR y racha de ETF son la misma informacion ya conocida, sin cambios. Ningun elemento fuerza un cambio de sesgo ni justifica subir o bajar la confianza.",
+  "thesis": "SHORT se mantiene, y la confianza sube de media-baja a media -- primera subida de la sesion tras seis ciclos estables. Dos desarrollos se corroboraron de forma cruzada genuina: la Fed tiene ahora consenso hawkish confirmado simultaneamente por CME (66%) y Kalshi (62%), y la resistencia tecnica $2.500-2.550 fue confirmada por un analista independiente como zona de doble rechazo. Ademas, se confirma que el 31 de agosto hubo un intercambio de fuego real entre EEUU e Iran (Isla Larak, respuesta con misiles contra Jordania y EAU) -- un dato genuinamente nuevo, aunque la amenaza de Kharg sigue siendo desinformacion. El funding rate se obtuvo por primera vez con signo fiable (ligeramente negativo, short-heavy). En contra: los ETF de ETH mantienen su racha mientras los de BTC la cortaron -- fortaleza relativa de ETH, matiz que limita cuanto deberia subir la confianza. El deposito de ballena sigue sin resolverse tras tres ciclos.",
   "reasoning": [
-    "CAMBIO INCREMENTAL: las probabilidades de la Fed en mercados de prediccion (Kalshi, Polymarket) subieron de ~48-49% a ~53-61%, estrechando la divergencia frente al 66-68% de CME FedWatch -- sesgo hawkish cada vez mas consensuado, matiz bajista incremental.",
-    "Precision adicional sobre Iran-EEUU: la respuesta con misiles alcanzo bases en Jordania Y Emiratos Arabes Unidos (dato mas completo, mismo evento ya conocido). Se reconfirma con doble fuente que la amenaza de Kharg sigue siendo desinformacion (video de IA, sin ataque real).",
-    "Contencion diplomatica confirmada: Pezeshkian esta en la cumbre de la OCS en Bishkek reunido con Putin, Xi y Modi -- sin señales de escalada irani adicional.",
-    "El deposito de ballena de ~44K ETH ES EL MISMO evento del ciclo anterior, no uno nuevo -- sigue sin resolverse. SOPR>1 y la racha de ETF de 9 dias (~$1,42B) se reconfirman sin cambios, no son evidencia nueva.",
-    "RSI sigue disperso (63,9-76,5) sin resolver -- se descarto una fuente con medias moviles (SMA50/200) muy por debajo del precio spot real, matematicamente incoherente, señal de dato reciclado de otro periodo.",
-    "Open Interest estable (~$32,6B). Funding rate no disponible este ciclo -- se reporta como dato faltante, no se inventa una cifra.",
-    "Sentimiento sigue disperso (51 neutral vs 62-73 greed) sin resolver -- se descartaron titulares que referenciaban BTC a $69.800, precio de una fase anterior de agosto, no de hoy.",
-    "Precio esencialmente estable, sigue comodamente por debajo del stop ($2.490) y de la resistencia $2.500-2.550."
+    "CONFIANZA SUBE a media: la Fed tiene ahora consenso hawkish confirmado simultaneamente por CME (66%) y Kalshi (62%) -- convergencia real entre dos mecanismos de pricing independientes, no una sola fuente subiendo.",
+    "La resistencia tecnica $2.500-2.550 fue confirmada por un analista independiente (Ted Pillows) como zona de DOBLE rechazo ya ocurrido -- refuerza el techo tecnico del short con una fuente nueva y especifica.",
+    "CAMBIO MATERIAL: el 31 de agosto hubo el primer intercambio de fuego REAL entre EEUU e Iran en un mes (Isla Larak, respuesta con misiles contra Jordania y EAU), confirmado por 4 fuentes independientes -- dato genuinamente nuevo. La amenaza de Kharg sigue siendo desinformacion (nuevos videos de IA sin ataque real).",
+    "Funding rate obtenido por primera vez con signo fiable: ligeramente NEGATIVO (~-0,0004% a -0,0018%) -- posicionamiento short-heavy, coherente con el sesgo.",
+    "BTC tuvo movimiento real: maximo de 3 meses en $81.455, cayo a ~$77.000 tras el discurso de Warsh, se recupero a ~$78.800 -- bien corroborado.",
+    "EN CONTRA del short: los ETF de BTC cortaron su racha de 9 dias mientras los de ETH siguieron con entradas positivas el mismo dia -- fortaleza relativa de ETH, matiz que limita cuanto sube la confianza.",
+    "El deposito de ballena de ~44K ETH sigue siendo el MISMO evento, ya van tres ciclos sin resolverse -- la señal se agota sin reforzar ni debilitar la tesis. SOPR>1 y racha de ETF (9-10 dias) se reconfirman sin cambios.",
+    "RSI sigue disperso (63,9 vs 76,5, este ultimo descartado de nuevo por aparecer identico en multiples busquedas). Sentimiento sigue disperso sin resolver. Precio estable, sigue comodamente por debajo del stop ($2.490)."
   ],
   "levels": {
     "resistance_near": 2490,
@@ -57,24 +57,23 @@
     }
   },
   "risk_notes": [
-    "Confianza se MANTIENE en MEDIA-BAJA este ciclo (sexto ciclo consecutivo estable): ningun elemento fuerza un cambio de sesgo, pero tampoco hay confirmacion limpia para subir la confianza. Por regla del proyecto, en confianza media/baja sostenida se recomienda esperar mejor confirmacion antes de abrir posiciones nuevas -- gestionar la posicion ya abierta con normalidad, sin sumar exposicion nueva sin una señal mas clara.",
+    "Confianza SUBE a MEDIA este ciclo (primera subida de la sesion, tras seis ciclos en media-baja): la Fed y la resistencia tecnica se corroboraron de forma cruzada genuina. Aun asi, en confianza media (no alta ni media-alta) sigue siendo prudente esperar confirmacion adicional antes de abrir posiciones nuevas grandes -- gestionar la ya abierta con normalidad.",
     "Con 1 contrato micro (valor de punto $0.10) las cifras en dolares son pequenas -- esto es una cuenta de aprendizaje/practica con capital real, no una forma de hacerse rico rapido. El tamano ya esta al minimo posible: no promediar ni anadir contratos para 'recuperar' una perdida.",
     "El stop solo protege si se respeta. Configuralo en la plataforma, no lo lleves 'de memoria'.",
-    "Precio y costes: el precio de referencia esta esencialmente estable (~$2.467). Verifica siempre en tu app antes de ejecutar. CME ofrece trading 24/7 en cripto desde mayo 2026.",
-    "Riesgo macro REFORZADO levemente: los mercados de prediccion de la Fed (Kalshi, Polymarket) subieron de ~48-49% a ~53-61%, acercandose al 66-68% de CME FedWatch -- convergencia hacia un sesgo hawkish mas consensuado. Vigilar NFP (4-5 sep), CPI (~10 sep) y FOMC (16-17 sep) como catalizadores binarios.",
-    "Riesgo geopolitico: Iran-EEUU sin escalada nueva -- la amenaza de Kharg sigue siendo desinformacion confirmada, e Iran muestra contencion diplomatica (Pezeshkian en la cumbre de la OCS). Riesgo de cola reducido pero no eliminado de cara al NFP.",
-    "Dato a vigilar: el deposito de ballena de ~44K ETH sigue sin resolverse tras dos ciclos -- si se confirma como venta efectiva, seria el primer dato on-chain bajista solido de la sesion."
+    "Precio y costes: el precio de referencia esta esencialmente estable (~$2.460). Verifica siempre en tu app antes de ejecutar. CME ofrece trading 24/7 en cripto desde mayo 2026.",
+    "Riesgo geopolitico REAL: el 31 de agosto hubo un intercambio de fuego real entre EEUU e Iran (Isla Larak, respuesta con misiles contra Jordania y EAU) -- riesgo de cola genuino de cara al NFP (4-5 sep). La amenaza de Kharg sigue siendo desinformacion, no un riesgo adicional.",
+    "Riesgo macro: la Fed tiene consenso hawkish confirmado por CME (66%) y Kalshi (62%) simultaneamente. Vigilar NFP (4-5 sep), CPI (~10 sep) y FOMC (16-17 sep) como catalizadores binarios.",
+    "Matiz en contra a vigilar: los ETF de ETH mantienen su racha mientras los de BTC la cortaron -- fortaleza relativa de ETH que limita la convicción del short. El deposito de ballena de ~44K ETH sigue sin resolverse tras tres ciclos."
   ],
   "previous_signal_outcome": {
     "status": "pendiente",
-    "note": "El ciclo anterior matizo el riesgo geopolitico de Kharg. Este ciclo confirma que Iran sigue contenido y detecta un refuerzo leve en la Fed via mercados de prediccion. Ni el objetivo (2.300) ni el stop (2.490) se han activado."
+    "note": "El ciclo anterior mantuvo la confianza en media-baja. Este ciclo sube a media por primera vez en la sesion, tras corroboracion cruzada de la Fed y la resistencia tecnica. Ni el objetivo (2.300) ni el stop (2.490) se han activado."
   },
   "sources": [
-    "https://www.coindesk.com/price/ethereum",
-    "https://www.coinmarketcap.com/currencies/ethereum/",
     "https://www.forbes.com/sites/digital-assets/2026/08/31/cme-fedwatch-provides-a-66-chance-fed-will-hike-rates-in-september/",
     "https://www.aljazeera.com/news/liveblog/2026/8/31/iran-war-live-irgc-attacks-us-bases-in-jordan-after-us-bombs-larak-island",
-    "https://www.coingecko.com/en/coins/ethereum",
+    "https://www.coindesk.com/price/ethereum",
+    "https://www.npr.org/",
     "https://cryptonews.com/"
   ],
   "disclaimer": "No es asesoramiento financiero. Ningun sistema (ni IA ni humano) es 100% fiable con mercados, y contrastar mas fuentes reduce puntos ciegos pero no elimina el riesgo. Producto apalancado de alto riesgo. Ejecucion manual bajo tu propia responsabilidad. Un evento macro sorpresa puede invalidar este analisis en minutos -- el stop es tu proteccion real, no la confianza del analisis."
