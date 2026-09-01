@@ -1,30 +1,29 @@
 {
   "asset": "ETH/USD",
   "etoro_instrument": "ETH.SEP26 (Micro Ether Future)",
-  "generated_at": "2026-09-01T09:49:00Z",
-  "price_usd": 2465,
-  "price_source": "Rango consistente $2.449-2.481 entre 4 fuentes independientes fechadas hoy (OKX $2.450,11, Bybit $2.449,43, CoinGecko $2.478,63, CoinGlass $2.463,82). Se reconfirma que ETH sigue fallando en sostenerse sobre $2.500 -- crypto.news/CryptoPotato describen explicitamente el patron de rechazo. Comodamente por debajo del stop ($2.490). No es la cotizacion exacta de CME -- verifica en tu app.",
+  "generated_at": "2026-09-01T10:49:00Z",
+  "price_usd": 2460,
+  "price_source": "Rango consistente $2.441-2.478 entre 3+ fuentes independientes (Coinbase $2.450,11, Invezz ~$2.450, crypto.news/AMBCrypto ~$2.441). El patron de rechazo en resistencia se mantiene -- crypto.news describe 'dos intentos de breakout rechazados' en $2.550. Comodamente por debajo del stop ($2.490). No es la cotizacion exacta de CME -- verifica en tu app.",
   "market_status": "CME ofrece trading 24/7 para futuros/opciones de cripto desde mayo de 2026. Verifica en tu app el estado actual antes de operar.",
-  "change_24h_pct": 0.2,
-  "change_7d_pct": 0.4,
+  "change_24h_pct": -0.2,
+  "change_7d_pct": 0.5,
   "bias": "short",
   "confidence": "media",
   "data_quality": {
-    "sources_checked": 13,
+    "sources_checked": 12,
     "categories_checked": ["tecnico_precio", "sentimiento_fear_greed", "derivados_funding_oi", "on_chain_flows", "correlacion_btc", "calendario_macro", "ballenas_individuales_y_figuras_publicas"],
     "agreement": "media",
-    "note": "Confianza se MANTIENE en media, no sube pese a reconfirmacion tecnica fresca. El pilar central de la señal -- rechazo repetido en $2.500-2.550 sin cierre sobre $2.490 -- se reconfirma con fuentes frescas e independientes esta manana (CryptoPotato: 'donde encontrara soporte ETH tras el rechazo en $2,5K'). Razones para NO subir a confianza alta: (1) el NFP del 4-5 sep esta a solo 3 dias, es un catalizador binario que puede invalidar el escenario tecnico en cualquier direccion -- prudente no subir mas la confianza hasta pasar ese evento; (2) Fear&Greed sigue sin resolverse (rango 44-72 segun fuente, con un titular de Yahoo descartado por referenciar un precio de ETH de $2.259 que no corresponde a hoy); (3) funding rate y Open Interest siguen sin datos limpios y fiables (se descarto explicitamente un dato de funding fechado 30 de mayo, obsoleto por ~3 meses). El deposito de ballena de ~44K ETH sigue sin resolverse por SEXTO ciclo consecutivo -- se recomienda bajar su peso en la señal de aqui en adelante, ya no aporta señal activa, solo incertidumbre residual de fondo. SOPR>1 reconfirmado. Actividad de red de ETH confirmada rezagada frente al precio (FXStreet: 'profit-taking slows rally as network activity lags') -- refuerza que el rally depende de flujo ETF/institucional, no de uso organico. Fed sin cambios: Kalshi 59% hike/38% hold estable, CME FedWatch 66% reconfirmado con fecha fresca. Situacion Iran-EEUU sin escalada nueva -- cumbre de la OCS en Bishkek con tono diplomatico (Pezeshkian, Modi, Xi, Putin), esfuerzos de desescalacion regional confirmados por Pakistan. BTC en correccion modesta paralela a ETH (~$78.400-78.840), sin divergencia relevante."
+    "note": "Confianza se MANTIENE en media, sin subir ni bajar. El ancla tecnica de la señal (regla de invalidacion $2.490 en cierre) sigue intacta, con precio en $2.441-2.478 y rechazo confirmado por tercera vez en $2.500-2.550. NUEVO Y RELEVANTE: los flujos de ETF de ETH se han vuelto claramente fuertes y en aceleracion -- racha de 9-11 sesiones consecutivas, ~$1,42B acumulados (17-28 ago), con BlackRock (ETHA) capturando ~72% del total, confirmado por 4 fuentes independientes. Esto es exactamente el catalizador institucional que se venia observando de fondo, y ahora esta acelerando pese a que el precio sigue sin romper resistencia -- divergencia relevante entre flujo institucional fuerte y precio estancado, matiz en contra del short a vigilar de cerca. MATIZ SOBRE LA FED (no confirmado con alta certeza): aparecio dispersion en las probabilidades de subida de tipos segun la fecha del snapshot (CME FedWatch 58,6% hold al 25 ago vs 69,4% hold al 17 ago; Kalshi cerca de 50/50) -- sugiere que el mercado podria haberse vuelto ALGO MENOS hawkish que el 59-66% de hike reportado en ciclos anteriores, aunque la inconsistencia entre fuentes impide confirmarlo con seguridad. Comportamiento de ballenas mixto pero con sesgo hacia staking/acumulacion en vez de distribucion a exchanges (Santiment: gran parte de la reduccion de holdings desde mayo fue a contratos de staking, no a venta) -- reduce ligeramente el peso bajista de este factor. SOPR>1 reconfirmado, actividad de red sigue rezagada. Situacion Iran-EEUU sin escalada nueva. NFP a 3 dias sigue siendo el proximo catalizador binario real -- prudente no mover la confianza hasta que se resuelva ese evento."
   },
-  "thesis": "SHORT se mantiene, confianza se mantiene en media. El pilar central de la señal -- rechazo repetido en la resistencia $2.500-2.550 sin cierre sobre $2.490 -- se reconfirma con fuentes frescas e independientes esta manana. No se sube la confianza porque el NFP del 4-5 de septiembre esta a solo 3 dias -- un catalizador binario que puede mover el precio en cualquier direccion, por lo que es prudente esperar a que pase antes de subir la confianza. Ademas, sentimiento, funding rate y Open Interest siguen sin datos limpios y fiables. El deposito de ballena de ~44K ETH lleva ya seis ciclos sin resolverse -- se recomienda bajar su peso en la señal de aqui en adelante. SOPR>1 y actividad de red rezagada siguen apoyando la tesis de un rally fragil dependiente de flujo institucional. La Fed y la situacion Iran-EEUU se mantienen sin cambios significativos.",
+  "thesis": "SHORT se mantiene, confianza se mantiene en media. El ancla tecnica de la señal -- rechazo repetido en la resistencia $2.500-2.550, sin cierre sobre $2.490 -- sigue intacta. Aparece un dato nuevo y relevante que pesa en contra del short: los flujos de ETF de ETH se aceleraron (racha de 9-11 sesiones, ~$1,42B, BlackRock dominante), un catalizador institucional fuerte que contrasta con el precio estancado bajo resistencia -- divergencia a vigilar de cerca. Tambien aparece un indicio (no confirmado con certeza) de que la Fed podria estar ALGO menos hawkish de lo reportado en ciclos anteriores, por dispersion en las fuentes de probabilidad de subida de tipos. El comportamiento de ballenas se inclina mas hacia staking que hacia distribucion, matiz adicional en contra. Pese a estos matices, ningun elemento rompe la estructura tecnica que sostiene el short, y con el NFP a solo 3 dias es prudente mantener la confianza sin cambios hasta que se resuelva ese catalizador.",
   "reasoning": [
-    "El pilar central de la señal se reconfirma con fuentes frescas: ETH sigue fallando en sostenerse sobre $2.500 (CryptoPotato, crypto.news, ambos fechados hoy) -- rechazo repetido en la resistencia $2.500-2.550 sin cierre sobre $2.490, invalidacion no activada.",
-    "Motivo principal para no subir la confianza: el NFP del 4-5 de septiembre esta a solo 3 dias -- catalizador binario que puede invalidar el escenario tecnico en cualquier direccion, prudente esperar a que pase.",
-    "Fear&Greed sigue sin resolverse (rango 44-72 segun fuente) -- se descarto un titular de Yahoo por referenciar un precio de ETH ($2.259) que no corresponde a hoy.",
-    "Funding rate y Open Interest siguen sin datos limpios: se descarto explicitamente un dato de funding fechado 30 de mayo (obsoleto por ~3 meses).",
-    "El deposito de ballena de ~44K ETH sigue sin resolverse por SEXTO ciclo consecutivo -- se recomienda bajar su peso en la señal de aqui en adelante, ya no aporta señal activa.",
-    "SOPR>1 reconfirmado. Actividad de red de ETH confirmada rezagada frente al precio -- refuerza que el rally depende de flujo institucional (ETF), no de uso organico.",
-    "Fed sin cambios: Kalshi 59% hike/38% hold estable, CME FedWatch 66% reconfirmado con fecha fresca.",
-    "Situacion Iran-EEUU sin escalada nueva -- cumbre de la OCS en Bishkek con tono diplomatico, esfuerzos de desescalacion confirmados. BTC en correccion modesta paralela a ETH, sin divergencia."
+    "El ancla tecnica se mantiene: rechazo confirmado por tercera vez en la resistencia $2.500-2.550, sin cierre sobre $2.490 -- crypto.news describe 'dos intentos de breakout rechazados' en $2.550.",
+    "NUEVO Y RELEVANTE: los flujos de ETF de ETH se aceleraron -- racha de 9-11 sesiones consecutivas, ~$1,42B acumulados, con BlackRock capturando ~72% del total (4 fuentes independientes coinciden). Divergencia notable: flujo institucional fuerte pero precio sigue estancado bajo resistencia -- matiz en contra del short a vigilar de cerca.",
+    "Matiz sobre la Fed (no confirmado con alta certeza): aparecio dispersion en las probabilidades de subida de tipos segun la fecha del snapshot -- posible indicio de que el mercado se ha vuelto algo menos hawkish que el 59-66% reportado antes, aunque la inconsistencia entre fuentes impide confirmarlo.",
+    "Comportamiento de ballenas mixto pero con sesgo hacia staking/acumulacion en vez de distribucion a exchanges -- reduce ligeramente el peso bajista de este factor.",
+    "SOPR>1 reconfirmado. Actividad de red de ETH sigue rezagada frente al precio -- el rally sigue dependiendo de flujo institucional, no de uso organico.",
+    "Situacion Iran-EEUU sin escalada nueva -- tono diplomatico en la cumbre de la OCS. BTC en consolidacion paralela a ETH (~$78.700-79.200), sin divergencia relevante.",
+    "El NFP a 3 dias sigue siendo el proximo catalizador binario real -- prudente no mover la confianza hasta que se resuelva ese evento."
   ],
   "levels": {
     "resistance_near": 2490,
@@ -57,24 +56,25 @@
     }
   },
   "risk_notes": [
-    "El rechazo en resistencia se reconfirma con fuentes frescas -- la invalidacion sigue intacta. Aun asi, la confianza se MANTIENE en media (no sube) principalmente porque el NFP (4-5 sep) esta a solo 3 dias, un catalizador binario que puede mover el precio en cualquier direccion. Se sigue recomendando prudencia con posiciones nuevas grandes -- gestionar la ya abierta con normalidad.",
+    "El ancla tecnica sigue intacta, pero aparece un matiz nuevo a vigilar: los flujos de ETF de ETH se aceleraron (racha de 9-11 sesiones, ~$1,42B) mientras el precio sigue estancado bajo resistencia -- divergencia entre demanda institucional fuerte y accion de precio debil. La confianza se MANTIENE en media (no sube ni baja), principalmente por el NFP a 3 dias. Se sigue recomendando prudencia con posiciones nuevas grandes -- gestionar la ya abierta con normalidad.",
     "Con 1 contrato micro (valor de punto $0.10) las cifras en dolares son pequenas -- esto es una cuenta de aprendizaje/practica con capital real, no una forma de hacerse rico rapido. El tamano ya esta al minimo posible: no promediar ni anadir contratos para 'recuperar' una perdida.",
     "El stop solo protege si se respeta. Configuralo en la plataforma, no lo lleves 'de memoria'.",
-    "Precio y costes: el precio de referencia ronda ~$2.465. Verifica siempre en tu app antes de ejecutar. CME ofrece trading 24/7 en cripto desde mayo 2026.",
-    "EVENTO A 3 DIAS: el NFP (viernes 4 sep) es el proximo catalizador binario real -- consenso de mercado ~+55K empleos, pero con rango amplio (-25K a +102K), alta incertidumbre. Podria mover el precio bruscamente en cualquier direccion. Vigilar tambien CPI (~10 sep) y FOMC (16-17 sep).",
-    "Riesgo geopolitico: la situacion Iran-EEUU se mantiene sin escalada adicional -- cumbre de la OCS con tono diplomatico y esfuerzos de desescalacion confirmados.",
-    "Dato a bajar de peso: el deposito de ballena de ~44K ETH lleva SEIS ciclos sin resolverse -- se recomienda tratarlo como ruido de fondo en vez de señal activa de aqui en adelante."
+    "Precio y costes: el precio de referencia ronda ~$2.460. Verifica siempre en tu app antes de ejecutar. CME ofrece trading 24/7 en cripto desde mayo 2026.",
+    "EVENTO A 3 DIAS: el NFP (viernes 4 sep) es el proximo catalizador binario real -- consenso de mercado ~+55K empleos, pero con rango amplio (-25K a +102K), alta incertidumbre. Vigilar tambien CPI (~10 sep) y FOMC (16-17 sep).",
+    "Matiz sobre la Fed a confirmar: posible indicio (no seguro aun) de que el mercado se ha vuelto algo menos hawkish que lo reportado en ciclos anteriores -- vigilar en el proximo ciclo si se confirma o se descarta.",
+    "Dato a vigilar: la racha de ETF de ETH se acelero notablemente (BlackRock dominante) -- si el precio empieza a reaccionar al alza junto con este flujo, podria justificar revisar el sesgo antes incluso del NFP."
   ],
   "previous_signal_outcome": {
     "status": "pendiente",
-    "note": "El ciclo anterior confirmo el tercer rechazo en la resistencia $2.500-2.550. Este ciclo lo reconfirma con fuentes frescas y anade el NFP (4-5 sep, a 3 dias) como proximo catalizador a vigilar. Ni el objetivo (2.300) ni el stop (2.490) se han activado."
+    "note": "El ciclo anterior confirmo el tercer rechazo en la resistencia $2.500-2.550. Este ciclo lo reconfirma y detecta una aceleracion en los flujos de ETF que contrasta con el precio estancado -- divergencia a vigilar. Ni el objetivo (2.300) ni el stop (2.490) se han activado."
   },
   "sources": [
-    "https://cryptopotato.com/where-will-eth-find-support-after-the-2-5k-rejection-ethereum-price-analysis/",
-    "https://www.coingecko.com/en/coins/ethereum",
-    "https://www.fxstreet.com/cryptocurrencies/news/ethereum-weekly-price-forecast-profit-taking-slows-rally-as-network-activity-lags-202608290345",
-    "https://www.forbes.com/sites/digital-assets/2026/08/31/cme-fedwatch-provides-a-66-chance-fed-will-hike-rates-in-september/",
-    "https://www.thenationalnews.com/business/2026/08/31/symbolic-solidarity-xi-putin-and-modi-set-to-meet-irans-pezeshkian/"
+    "https://invezz.com/news/2026/08/31/ethereum-price-holds-near-2450-despite-fed-pressure-is-2500-next/",
+    "https://crypto.news/ethereum-price-rally-overheats-below-2550-resistance/",
+    "https://crypto.news/ethereum-etf-blackrock-1-42-billion-nine-day-streak/",
+    "https://cryptobriefing.com/eth-etf-record-monthly-inflows-august-2026/",
+    "https://defirate.com/prediction-markets/fed-decision-odds/",
+    "https://www.fxstreet.com/cryptocurrencies/news/ethereum-weekly-price-forecast-profit-taking-slows-rally-as-network-activity-lags-202608290345"
   ],
   "disclaimer": "No es asesoramiento financiero. Ningun sistema (ni IA ni humano) es 100% fiable con mercados, y contrastar mas fuentes reduce puntos ciegos pero no elimina el riesgo. Producto apalancado de alto riesgo. Ejecucion manual bajo tu propia responsabilidad. Un evento macro sorpresa puede invalidar este analisis en minutos -- el stop es tu proteccion real, no la confianza del analisis."
 }
