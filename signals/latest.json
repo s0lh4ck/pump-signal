@@ -1,30 +1,30 @@
 {
   "asset": "ETH/USD",
   "etoro_instrument": "ETH.SEP26 (Micro Ether Future)",
-  "generated_at": "2026-08-31T23:49:00Z",
-  "price_usd": 2460,
-  "price_source": "Convergencia entre 3+ fuentes fechadas hoy: CoinDesk $2.468,98, MetaMask $2.450,02, crypto.news ~$2.455 (maximo intradia $2.564,27 el 27 ago, rechazado por vendedores). Esencialmente sin cambio respecto al ciclo anterior ($2.457). Comodamente por debajo del stop ($2.490). No es la cotizacion exacta de CME -- verifica en tu app.",
+  "generated_at": "2026-09-01T00:49:00Z",
+  "price_usd": 2475,
+  "price_source": "Rango consolidado $2.430-2.514 entre fuentes fechadas 31 ago/1 sep. Cryptonomist (mejor fechada): ETH cerca de $2.500 tras una caida intradia del 3,6%. Esencialmente el mismo rango que el ciclo anterior ($2.460), sin ruptura direccional. Comodamente por debajo del stop ($2.490). No es la cotizacion exacta de CME -- verifica en tu app.",
   "market_status": "CME ofrece trading 24/7 para futuros/opciones de cripto desde mayo de 2026. Verifica en tu app el estado actual antes de operar.",
-  "change_24h_pct": -0.1,
-  "change_7d_pct": 0.9,
+  "change_24h_pct": -0.8,
+  "change_7d_pct": 0.7,
   "bias": "short",
   "confidence": "media-baja",
   "data_quality": {
-    "sources_checked": 13,
+    "sources_checked": 12,
     "categories_checked": ["tecnico_precio", "sentimiento_fear_greed", "derivados_funding_oi", "on_chain_flows", "correlacion_btc", "calendario_macro", "ballenas_individuales_y_figuras_publicas"],
     "agreement": "media-baja",
-    "note": "La confianza baja de media a media-baja: el contrapeso alcista se REFORZO significativamente este ciclo, no solo se mantuvo. CORRECCION relevante: BitMine/Tom Lee SI compro de nuevo (53.501 ETH, ~$131M, reportado hoy 31 ago, la mayor compra desde junio) -- contradice el dato del ciclo anterior de 'sin compra nueva', eso fue un error de lectura temporal, no un cambio real de comportamiento. Ademas, una ballena de BTC roto ~$433M hacia ETH y lo puso en staking (convicion de largo plazo), y la racha de ETF de ETH marco su mayor entrada diaria en ~10 meses (~$225,8M). En contra de esto, un dato fresco bajista: una ballena deposito 43,88K ETH (~$108M) en varios exchanges (31 ago, patron tipico pre-venta) -- la tension neta-flujo persiste sin resolverse, pero el lado alcista institucional se reforzo mas este ciclo. Fed CONFIRMADA sin cambios en el extremo alto (66%, misma fuente Forbes re-verificada) -- sigue siendo el principal apoyo del short. Dato relevante: BTC muestra fortaleza relativa clara sobre ETH (BTC +24% en agosto, mejor mes desde nov-2024, resiliente pese al shock Iran-Jordania; ETH -32% YTD vs -11% BTC YTD, divergencia bajista en dominancia ETH/BTC) -- la debilidad relativa de ETH frente a BTC es un matiz a favor del short. El mercado (BTC en particular) absorbio sin drama la escalada Iran-Jordania, lo que resta fuerza al catalizador geopolitico bajista puro. RSI mejor triangulado esta ronda: 68,34 (crypto.news, coherente con precio y fecha) reemplaza como referencia mas fiable al 76,5 del ciclo anterior -- se descarto una lectura de RSI 44,50 (AltIndex) por inconsistente. Derivados con datos algo mas frescos: funding cerca de 0% (equilibrado), OI ~$32,35B, sin apalancamiento extremo en ninguna direccion -- factor neutral. Sentimiento sigue con alta dispersion (44-75 segun fuente), sin resolverse."
+    "note": "La confianza se ESTABILIZA en media-baja este ciclo (no baja por tercera vez): los principales datos alcistas que causaron las dos bajadas anteriores (BitMine, ETF $225,8M, rotacion ballena BTC->ETH) resultaron ser los MISMOS eventos ya conocidos, re-citados por distintas fuentes -- no son evidencia nueva y no deberian restar confianza de nuevo. Lo genuinamente nuevo este ciclo es mixto: (a) la escalada Iran-EEUU se agravo objetivamente -- intercambio de fuego real, EEUU bombardeo Isla Larak, Iran respondio con misiles contra EAU y Jordania, petroleo +3% a ~$86, rendimiento del bono a 10 anos en maximo de 19 meses -- pero el mercado cripto lo absorbio con calma (BTC solo -0,4%), reduciendo el riesgo de cola temido; (b) indicio (cifras aun dispersas, confianza baja) de que ETH recupera algo de fuerza relativa frente a BTC via flujos ETF y ruptura de un canal descendente ETH/BTC de casi un año -- mixto respecto al short; (c) dato on-chain nuevo y genuino: SOPR por encima de 1 la ultima semana (tenedores realizando ganancias) -- matiz bajista leve. RSI sigue sobrecomprado y algo mas alto (76,5-79,12 segun fuente, frente a 68,34 del ciclo anterior) -- se descarto una fuente con 'muerte cruzada' de medias moviles por ser internamente inconsistente con el precio. Fed sin cambios (66%), pero ahora sostenida mas por el riesgo inflacionario del petroleo por la guerra de Iran que por datos laborales -- mismo nivel, driver distinto. Derivados estables: OI ~$32,6B, sin apalancamiento extremo. Sentimiento sigue siendo ruido no utilizable (dispersion 32-62 segun fuente, una lectura con BTC a $69,803 claramente desactualizada y descartada)."
   },
-  "thesis": "SHORT se mantiene, pero la confianza baja de media a media-baja. La Fed sigue confirmada en el extremo alto (66%) sin cambios, y ETH muestra debilidad relativa clara frente a BTC (BTC +24% en agosto vs ETH -32% YTD) -- ambos apoyan el short. Pero el contrapeso institucional alcista se reforzo notablemente este ciclo: BitMine SI volvio a comprar fuerte (53.501 ETH, se corrige el dato erroneo del ciclo anterior), una ballena de BTC roto $433M hacia ETH con staking (convicion de largo plazo), y el ETF marco su mayor entrada diaria en 10 meses. El mercado tambien absorbio sin drama la escalada Iran-Jordania, restando fuerza al catalizador geopolitico. La tesis bajista sigue siendo la de mayor peso por Fed y debilidad relativa, pero la acumulacion institucional alcista es cada vez mas dificil de ignorar -- de ahi la nueva bajada de confianza.",
+  "thesis": "SHORT se mantiene, confianza se estabiliza en media-baja (no baja por tercera vez consecutiva). El precio sigue comodamente por debajo del nivel de invalidacion ($2.490), y el RSI sigue sobrecomprado y algo mas alto que el ciclo anterior. Lo nuevo de este ciclo es mixto: la escalada Iran-EEUU se agravo (intercambio de fuego real, no solo retorica) pero el mercado cripto la absorbio con calma, reduciendo el riesgo de cola; hay un indicio debil de que ETH recupera fuerza relativa frente a BTC; y aparece un dato on-chain nuevo (SOPR>1) con matiz bajista leve. Los datos 'alcistas' que motivaron las dos bajadas de confianza anteriores (BitMine, ETF, rotacion de ballena) resultaron ser los mismos eventos ya conocidos, no evidencia nueva -- de ahi que la confianza no siga bajando este ciclo.",
   "reasoning": [
-    "CORRECCION relevante: BitMine/Tom Lee SI compro de nuevo (53.501 ETH, ~$131M, reportado hoy, la mayor compra desde junio) -- el ciclo anterior registro erroneamente 'sin compra nueva', era un problema de lectura temporal, no un cambio real de comportamiento.",
-    "Fed CONFIRMADA sin cambios en el extremo alto (66%, misma fuente Forbes re-verificada) -- sigue siendo el principal apoyo macro del short.",
-    "ETH muestra debilidad relativa clara frente a BTC: BTC +24% en agosto (mejor mes desde nov-2024), ETH -32% YTD vs -11% BTC YTD, divergencia bajista en dominancia ETH/BTC -- matiz a favor del short.",
-    "Contrapeso institucional REFORZADO este ciclo: ademas de BitMine, una ballena de BTC roto ~$433M hacia ETH y lo puso en staking (convicion de largo plazo), y la racha de ETF de ETH marco su mayor entrada diaria en ~10 meses (~$225,8M).",
-    "En contra de ese contrapeso, un dato fresco bajista: una ballena deposito 43,88K ETH (~$108M) en varios exchanges (patron tipico pre-venta) -- la tension neta-flujo sigue sin resolverse.",
-    "El mercado (BTC en particular) absorbio sin drama la escalada Iran-Jordania -- resta fuerza al catalizador geopolitico bajista puro.",
-    "RSI mejor triangulado esta ronda: 68,34 (coherente con precio y fecha) reemplaza como referencia mas fiable al 76,5 del ciclo anterior. Derivados algo mas frescos: funding cerca de 0%, OI ~$32,35B, sin apalancamiento extremo -- factor neutral.",
-    "Precio esencialmente estable, sigue comodamente por debajo del stop ($2.490), sin disparador de invalidacion. Sentimiento sigue con alta dispersion (44-75), sin resolverse."
+    "IMPORTANTE: los datos alcistas de los dos ciclos anteriores (BitMine, ETF $225,8M, rotacion de ballena BTC->ETH) resultaron ser los MISMOS eventos ya conocidos, re-citados por distintas fuentes -- no son evidencia nueva, por eso la confianza no baja por tercera vez.",
+    "NUEVO: la escalada Iran-EEUU se agravo objetivamente -- intercambio de fuego real, EEUU bombardeo Isla Larak, Iran respondio con misiles contra EAU y Jordania, petroleo +3% a ~$86, rendimiento del bono a 10 anos en maximo de 19 meses. Pero el mercado cripto lo absorbio con calma (BTC solo -0,4%) -- reduce el riesgo de cola temido.",
+    "NUEVO dato on-chain genuino: SOPR por encima de 1 la ultima semana (tenedores realizando ganancias) -- matiz bajista leve.",
+    "Indicio (cifras aun dispersas, confianza baja) de que ETH recupera algo de fuerza relativa frente a BTC via flujos ETF y ruptura de un canal descendente ETH/BTC de casi un año -- matiz mixto respecto al short, contrasta con la debilidad relativa reportada en el ciclo anterior.",
+    "Fed sin cambios (66%), pero ahora sostenida mas por el riesgo inflacionario del petroleo por la guerra de Iran que por datos laborales -- mismo nivel, driver distinto.",
+    "RSI sigue sobrecomprado y algo mas alto (76,5-79,12 segun fuente, frente a 68,34 del ciclo anterior) -- se descarto una fuente con 'muerte cruzada' de medias moviles por inconsistente con el precio real.",
+    "Derivados estables: OI ~$32,6B, sin apalancamiento extremo en ninguna direccion -- factor neutral. Sentimiento sigue siendo ruido no utilizable (dispersion 32-62), una lectura con BTC a $69.803 claramente desactualizada fue descartada.",
+    "Precio esencialmente estable, sigue comodamente por debajo del stop ($2.490), sin disparador de invalidacion."
   ],
   "levels": {
     "resistance_near": 2490,
@@ -57,31 +57,26 @@
     }
   },
   "risk_notes": [
-    "Confianza bajo a MEDIA-BAJA este ciclo (desde media): el contrapeso institucional alcista se reforzo notablemente (BitMine volvio a comprar fuerte, ballena BTC->ETH con staking, ETF con su mayor entrada diaria en 10 meses). Por regla del proyecto, en confianza media/baja sostenida se recomienda esperar mejor confirmacion antes de abrir posiciones nuevas -- gestionar la posicion ya abierta con normalidad, pero cada vez es mas prudente no sumar exposicion nueva sin una señal mas clara.",
+    "Confianza se ESTABILIZA en MEDIA-BAJA este ciclo (no baja por tercera vez): los datos alcistas de los ciclos anteriores resultaron ser eventos ya conocidos, no nueva evidencia. Por regla del proyecto, en confianza media/baja sostenida se recomienda esperar mejor confirmacion antes de abrir posiciones nuevas -- gestionar la posicion ya abierta con normalidad, sin sumar exposicion nueva sin una señal mas clara.",
     "Con 1 contrato micro (valor de punto $0.10) las cifras en dolares son pequenas -- esto es una cuenta de aprendizaje/practica con capital real, no una forma de hacerse rico rapido. El tamano ya esta al minimo posible: no promediar ni anadir contratos para 'recuperar' una perdida.",
     "El stop solo protege si se respeta. Configuralo en la plataforma, no lo lleves 'de memoria'.",
-    "Precio y costes: el precio de referencia esta esencialmente estable (~$2.460). Verifica siempre en tu app antes de ejecutar. CME ofrece trading 24/7 en cripto desde mayo 2026.",
-    "Riesgo macro: la probabilidad de subida de tipos en septiembre se confirma sin cambios en el extremo alto (66%), el principal motor bajista de fondo en todo el mercado cripto. Vigilar NFP (4-5 sep), CPI (~10 sep) y FOMC (16-17 sep) como catalizadores binarios.",
-    "Riesgo geopolitico: la situacion Iran-Jordania sigue activa pero el mercado la absorbio sin drama esta vez -- riesgo de cola real, pero de impacto directo limitado en cripto por ahora.",
-    "Acumulacion institucional a vigilar: BitMine, la racha ETF y la rotacion de ballenas BTC->ETH son señales de demanda de largo plazo que, si se aceleran mas, podrian justificar una revision del sesgo -- de momento no han roto la estructura tecnica ($2.490)."
+    "Precio y costes: el precio de referencia esta esencialmente estable (~$2.475). Verifica siempre en tu app antes de ejecutar. CME ofrece trading 24/7 en cripto desde mayo 2026.",
+    "Riesgo geopolitico AGRAVADO: intercambio de fuego real entre EEUU e Iran (bombardeo a Isla Larak, respuesta de Iran con misiles contra EAU y Jordania), petroleo +3%. El mercado cripto lo absorbio con calma por ahora, pero es un riesgo de cola real a vigilar de cerca, especialmente con el NFP a 3-4 dias vista (4-5 sep).",
+    "Riesgo macro: la probabilidad de subida de tipos en septiembre se confirma sin cambios en el extremo alto (66%), ahora sostenida mas por el riesgo inflacionario del petroleo que por datos laborales. Vigilar NFP (4-5 sep), CPI (~10 sep) y FOMC (16-17 sep) como catalizadores binarios.",
+    "Dato a vigilar: indicio (aun debil) de que ETH recupera fuerza relativa frente a BTC via flujos ETF y ruptura de un canal ETH/BTC de casi un año -- si se confirma con mas datos, podria justificar una revision del sesgo. De momento no ha roto la estructura tecnica ($2.490)."
   ],
   "previous_signal_outcome": {
     "status": "pendiente",
-    "note": "El ciclo anterior confirmo la Fed en el extremo alto con confianza media. Este ciclo corrige un dato erroneo (BitMine si compro) y confirma que el contrapeso institucional alcista se reforzo, bajando la confianza a media-baja. Ni el objetivo (2.300) ni el stop (2.490) se han activado."
+    "note": "El ciclo anterior bajo la confianza a media-baja por un contrapeso institucional que resulto ser el mismo evento ya conocido. Este ciclo la confianza se estabiliza: lo nuevo es mixto (escalada geopolitica agravada pero absorbida con calma, SOPR>1 bajista, indicio debil de fuerza relativa de ETH). Ni el objetivo (2.300) ni el stop (2.490) se han activado."
   },
   "sources": [
     "https://www.coindesk.com/price/ethereum",
-    "https://metamask.io/price/ethereum",
-    "https://crypto.news/ethereum-price-could-retest-2250-if-support-fails/",
-    "https://finance.yahoo.com/markets/crypto/articles/crypto-fear-greed-index-flips-081252407.html",
     "https://www.coindesk.com/markets/2026/08/31/u-s-strikes-on-iran-fail-to-stir-bitcoin-on-track-for-best-month-since-november-2024",
     "https://www.forbes.com/sites/digital-assets/2026/08/31/cme-fedwatch-provides-a-66-chance-fed-will-hike-rates-in-september/",
-    "https://www.kucoin.com/news/flash/u-s-spot-ethereum-etfs-see-225-8m-inflows-biggest-day-in-10-months",
-    "https://finance.yahoo.com/markets/crypto/articles/tom-lees-bitmine-buys-131m-145447603.html",
-    "https://www.coindesk.com/business/2026/08/31/bitmine-makes-largest-ether-purchase-since-june-as-tom-lee-points-to-crypto-s-strong-q3",
     "https://www.aljazeera.com/news/2026/8/30/us-strikes-irans-lark-island-in-first-attack-in-weeks",
     "https://www.investing.com/analysis/bitcoin-vs-ethereum-performance-divergence-and-what-it-signals-for-investors-200671953",
-    "https://themarketperiodical.com/2026/08/30/ethereum-price-holds-2450-as-funding-rates-cool-crash-risk/"
+    "https://crypto.news/",
+    "https://www.coinglass.com/open-interest/ETH"
   ],
   "disclaimer": "No es asesoramiento financiero. Ningun sistema (ni IA ni humano) es 100% fiable con mercados, y contrastar mas fuentes reduce puntos ciegos pero no elimina el riesgo. Producto apalancado de alto riesgo. Ejecucion manual bajo tu propia responsabilidad. Un evento macro sorpresa puede invalidar este analisis en minutos -- el stop es tu proteccion real, no la confianza del analisis."
 }
