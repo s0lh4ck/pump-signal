@@ -1,30 +1,30 @@
 {
   "asset": "ETH/USD",
   "etoro_instrument": "ETH.SEP26 (Micro Ether Future)",
-  "generated_at": "2026-09-01T16:49:00Z",
-  "price_usd": 2445,
-  "price_source": "Consenso $2.430-2.460 entre 4 fuentes (CoinDesk $2.433,17; Bybit $2.449,43; OKX $2.450,11; Yahoo Finance $2.454,23) -- algo mas suave que el ciclo anterior (~$2.460). Sin cierre sobre el stop ($2.490) ni sobre $2.500. Soporte $2.400 sostenido, momentum debilitandose (ADX 18,58 segun crypto.news). No es la cotizacion exacta de CME -- verifica en tu app.",
+  "generated_at": "2026-09-01T17:49:00Z",
+  "price_usd": 2440,
+  "price_source": "Consenso $2.430-2.460 entre 4 fuentes (Yahoo Finance $2.433,17 a las 16:27 UTC; crypto.news ~$2.460; sundayguardianlive $2.432). Rango practicamente identico al ciclo anterior, sin ruptura. Sin cierre sobre el stop ($2.490) ni sobre $2.500. Soporte $2.400 sostenido. No es la cotizacion exacta de CME -- verifica en tu app.",
   "market_status": "CME ofrece trading 24/7 para futuros/opciones de cripto desde mayo de 2026. Verifica en tu app el estado actual antes de operar.",
-  "change_24h_pct": -0.6,
-  "change_7d_pct": -0.2,
+  "change_24h_pct": -0.3,
+  "change_7d_pct": -1.0,
   "bias": "short",
   "confidence": "alta",
   "data_quality": {
     "sources_checked": 11,
     "categories_checked": ["tecnico_precio", "sentimiento_fear_greed", "derivados_funding_oi", "on_chain_flows", "correlacion_btc", "calendario_macro", "ballenas_individuales_y_figuras_publicas"],
     "agreement": "alta",
-    "note": "Confianza se MANTIENE en alta, sin subir mas -- tercer ciclo de reconfirmacion sin corroboracion excepcional. El ancla tecnica se reafirma por tercera vez consecutiva: precio incluso algo mas suave que el ciclo anterior (~$2.430-2.460 vs ~$2.460), sin cierre sobre $2.490 ni $2.500, momentum debilitandose (ADX 18,58 segun crypto.news, dato fresco de hoy). CONTROL DE CALIDAD -- SEGUIMIENTO: el dato de ETF de '$87,6-87,7M, racha de 11 dias' vuelve a aparecer identico al del ciclo anterior (mismas cifras exactas por emisor) -- se confirma que sigue siendo el mismo dato del 31 de agosto recirculando, NO datos genuinos del 1 de sep (martes). Los flujos genuinos de hoy no pueden conocerse aun por el lag normal T+1 de liquidacion -- se esperan mañana (2 sep). La divergencia ETF-precio SIGUE SIN RESOLVERSE, y de hecho el precio se ablando levemente mientras la narrativa de flujos fuertes persiste (con datos ya desactualizados) -- matiz que refuerza levemente la tesis bajista sin ser una resolucion formal. SOPR de ETH (no de BTC como en el ciclo anterior) reconfirmado >1 por FXStreet, aunque fechado 29 de agosto (2 dias de antiguedad, no del todo fresco) -- costo base on-chain ~$2.306, actividad de red declinando pese al precio. Fear&Greed en 61 (BitDegree, fechado hoy) -- SEXTO ciclo consecutivo sin cambio de regimen. Correlacion BTC-ETH intacta, BTC tambien retrocedio desde su apertura por el mismo catalizador de tipos. Macro: probabilidad de subida de tipos en septiembre se mantiene en 66% (CME FedWatch, Forbes) -- sin intensificarse mas alla de lo ya conocido; contexto adicional confirma que el nuevo presidente hawkish de la Fed (Warsh) es el motor del cambio, no informacion nueva. NFP reconfirmado para el 4 sep, a 3 dias, con la misma dispersion de estimaciones (Goldman Sachs ~65K, consenso amplio). Geopolitica: intensidad de la guerra EEUU-Iran SIN CAMBIOS por tercer ciclo -- ningun ataque nuevo confirmado. Se reconfirma FALSO el reclamo de Kharg Island una vez mas, mismo patron. Motivo de mantener alta sin subir: nada de este ciclo excede el umbral de 'corroboracion excepcional' requerido para subir desde el nivel mas alto ya alcanzado -- son reconfirmaciones y matices menores, no resoluciones genuinas."
+    "note": "Confianza se MANTIENE en alta, sin subir mas -- CUARTO ciclo de reconfirmacion consecutivo sin corroboracion excepcional. El ancla tecnica se reafirma por cuarta vez: precio en el mismo rango $2.430-2.460, sin cierre sobre $2.490 ni $2.500, resistencia sostenida por cuarto ciclo seguido. Dato nuevo de matiz tecnico: MACD se aplana (linea 143,58 vs señal 143,46, histograma casi plano) segun crypto.news -- riesgo de cruce bajista construyendose, coherente con el ADX bajo ya reportado. CONTROL DE CALIDAD -- SEGUIMIENTO POR CUARTA VEZ: el dato de ETF de '$87,6-87,7M, racha de 11 dias' sigue apareciendo identico -- confirmado de nuevo que es el mismo dato del 31 de agosto recirculando en titulares que hablan de 'inicio de septiembre' sin cifra real del 1 de sep. Los flujos genuinos siguen sin publicarse (se esperan ~2 sep por el lag T+1). La divergencia ETF-precio SIGUE SIN RESOLVERSE -- ya son 4 ciclos con el mismo dato estancado. SOPR de ETH no se pudo reconfirmar con dato mas fresco que el ya conocido (29 ago). Fear&Greed en 61 (BitDegree, fechado hoy) -- SEPTIMO ciclo consecutivo sin cambio de regimen. OI en CoinGlass ~$32,47B, sin picos anomalos -- coherente con mercado en consolidacion, no con una ruptura apalancada en ninguna direccion. Correlacion BTC-ETH intacta, sin divergencia estructural (una divergencia intradia breve se interpreta como ruido). Macro: probabilidad de subida de tipos en septiembre se mantiene en el mismo rango (Kalshi ~59% hike, CME FedWatch consistente) -- sin intensificarse mas. NFP reconfirmado para el 4 sep, ya a menos de 3 dias. Geopolitica: intensidad de la guerra EEUU-Iran SIN CAMBIOS por cuarto ciclo -- ningun ataque nuevo confirmado, petroleo Brent >$90 refleja estancamiento, no escalada fresca. Se reconfirma FALSO el reclamo de Kharg Island una vez mas con multiples fuentes independientes (Reuters via varios medios). Motivo de mantener alta sin subir: cuatro ciclos seguidos de pura reconfirmacion sin resolucion de la divergencia ETF-precio, que sigue siendo el factor mas capaz de invalidar la tesis si se resuelve al alza."
   },
-  "thesis": "SHORT se mantiene, confianza se MANTIENE en alta -- tercer ciclo de reconfirmacion sin corroboracion excepcional. El ancla tecnica se reafirma de nuevo, con el precio incluso algo mas suave que el ciclo anterior y momentum debilitandose (ADX bajo). Seguimiento del control de calidad del ciclo anterior: el dato de ETF de '$87,6M, racha de 11 dias' vuelve a aparecer identico -- se confirma que es el mismo dato del 31 de agosto recirculando, no datos genuinos del 1 de sep (que aun no pueden conocerse por el lag T+1 normal). La divergencia ETF-precio sigue sin resolverse, y el precio ablandandose mientras la narrativa de flujos persiste (con datos ya desactualizados) es un matiz que refuerza levemente la tesis. SOPR de ETH (no solo BTC) se reconfirma >1, aunque con 2 dias de antiguedad. Correlacion BTC-ETH intacta. Macro y geopolitica sin cambios de intensidad. No se sube mas de alta porque nada de este ciclo excede el umbral de corroboracion excepcional requerido desde el nivel mas alto ya alcanzado.",
+  "thesis": "SHORT se mantiene, confianza se MANTIENE en alta -- CUARTO ciclo de reconfirmacion consecutivo sin corroboracion excepcional. El ancla tecnica se reafirma por cuarta vez: mismo rango de precio $2.430-2.460, sin cierre sobre $2.490 ni $2.500. Nuevo matiz tecnico: el MACD se esta aplanando, coherente con el ADX bajo ya reportado -- riesgo de cruce bajista construyendose. La divergencia ETF-precio sigue sin resolverse -- ya son 4 ciclos con el mismo dato del 31 de agosto recirculando, sin datos genuinos del 1 de sep aun. Correlacion BTC-ETH intacta. Macro y geopolitica sin cambios de intensidad por cuarto ciclo. No se sube mas de alta porque cuatro ciclos seguidos de pura reconfirmacion no constituyen la corroboracion excepcional necesaria, y la divergencia ETF-precio -- el factor que mas podria invalidar la tesis -- sigue sin resolverse formalmente.",
   "reasoning": [
-    "El ancla tecnica se reafirma por tercera vez consecutiva: precio incluso algo mas suave (~$2.430-2.460 vs ~$2.460 del ciclo anterior), sin cierre sobre $2.490 ni $2.500. Momentum debilitandose (ADX 18,58, dato fresco de hoy).",
-    "SEGUIMIENTO DEL CONTROL DE CALIDAD: el dato de ETF de '$87,6M, racha de 11 dias' vuelve a aparecer identico al del ciclo anterior -- se confirma que sigue siendo el mismo dato del 31 de agosto recirculando, no datos genuinos del 1 de sep. Los flujos genuinos de hoy se esperan mañana (2 sep) por el lag T+1 normal.",
-    "La divergencia ETF-precio SIGUE SIN RESOLVERSE, y de hecho el precio se ablando levemente mientras la narrativa de flujos fuertes persiste (con datos desactualizados) -- matiz que refuerza levemente la tesis bajista sin ser resolucion formal.",
-    "SOPR de ETH (no solo de BTC como el ciclo anterior) reconfirmado &gt;1 por FXStreet, aunque fechado hace 2 dias -- costo base on-chain ~$2.306, actividad de red declinando pese al precio.",
-    "Fear&Greed en 61 (BitDegree, fechado hoy) -- SEXTO ciclo consecutivo sin cambio de regimen.",
-    "Correlacion BTC-ETH intacta: BTC tambien retrocedio desde su apertura por el mismo catalizador de expectativas de tipos.",
-    "Macro: probabilidad de subida de tipos en septiembre se mantiene en 66% (CME FedWatch) -- sin intensificarse mas. NFP reconfirmado a 3 dias, misma dispersion de estimaciones.",
-    "Geopolitica: intensidad de la guerra EEUU-Iran SIN CAMBIOS por tercer ciclo -- ningun ataque nuevo confirmado. Se reconfirma FALSO el reclamo de Kharg Island una vez mas."
+    "El ancla tecnica se reafirma por cuarta vez consecutiva: precio en el mismo rango $2.430-2.460, sin cierre sobre $2.490 ni $2.500. Resistencia sostenida por cuarto ciclo seguido.",
+    "Nuevo matiz tecnico: el MACD se esta aplanando (linea y señal casi iguales, histograma casi plano) segun crypto.news -- riesgo de cruce bajista construyendose, coherente con el ADX bajo ya reportado.",
+    "SEGUIMIENTO DEL CONTROL DE CALIDAD POR CUARTA VEZ: el dato de ETF de '$87,6M, racha de 11 dias' sigue apareciendo identico -- confirmado de nuevo que es el mismo dato del 31 de agosto recirculando en titulares sobre 'inicio de septiembre'. Los flujos genuinos siguen sin publicarse.",
+    "La divergencia ETF-precio SIGUE SIN RESOLVERSE -- ya son 4 ciclos con el mismo dato estancado, sin resolucion en ninguna direccion.",
+    "OI en CoinGlass ~$32,47B, sin picos anomalos -- coherente con mercado en consolidacion, no con una ruptura apalancada en ninguna direccion.",
+    "Fear&Greed en 61 (BitDegree, fechado hoy) -- SEPTIMO ciclo consecutivo sin cambio de regimen.",
+    "Correlacion BTC-ETH intacta, sin divergencia estructural (una divergencia intradia breve se interpreta como ruido).",
+    "Macro y geopolitica sin cambios de intensidad por cuarto ciclo. Se reconfirma FALSO el reclamo de Kharg Island una vez mas con multiples fuentes independientes. NFP ya a menos de 3 dias."
   ],
   "levels": {
     "resistance_near": 2490,
@@ -57,25 +57,25 @@
     }
   },
   "risk_notes": [
-    "La confianza se MANTIENE en alta (tercer ciclo sin subir mas): reconfirmacion tecnica, precio incluso algo mas suave. Se confirma que el dato de ETF de ciclos anteriores era el mismo del 31 de agosto recirculando -- los flujos genuinos de hoy aun no se conocen. Se sigue recomendando prudencia con posiciones nuevas grandes, especialmente con el NFP a 3 dias. Gestionar la ya abierta con normalidad, SIN cambios de tamano/objetivo/stop.",
+    "La confianza se MANTIENE en alta (cuarto ciclo sin subir mas): pura reconfirmacion tecnica y de flujos, ningun dato excede el umbral de corroboracion excepcional. Se sigue recomendando prudencia con posiciones nuevas grandes, especialmente con el NFP ya a menos de 3 dias. Gestionar la ya abierta con normalidad, SIN cambios de tamano/objetivo/stop.",
     "Con 1 contrato micro (valor de punto $0.10) las cifras en dolares son pequenas -- esto es una cuenta de aprendizaje/practica con capital real, no una forma de hacerse rico rapido. El tamano ya esta al minimo posible: no promediar ni anadir contratos para 'recuperar' una perdida.",
     "El stop solo protege si se respeta. Configuralo en la plataforma, no lo lleves 'de memoria'.",
-    "Precio y costes: el precio de referencia ronda ~$2.445. Verifica siempre en tu app antes de ejecutar. CME ofrece trading 24/7 en cripto desde mayo 2026.",
-    "EVENTO A 3 DIAS: el NFP (viernes 4 sep) es el proximo catalizador binario real -- consenso amplio (Goldman Sachs ~65K, rango mas amplio de otras fuentes) dado el shock de julio. Vigilar tambien CPI (~10 sep) y FOMC (15-16 sep).",
-    "RIESGO GEOPOLITICO: guerra activa EEUU-Iran en curso desde hace meses, sin cambios de intensidad por tercer ciclo consecutivo. El mercado cripto no ha reaccionado con una ruptura de rango -- descrito como ya 'descontado', pero sigue siendo un riesgo de cola real de doble filo.",
-    "Dato a vigilar: la racha de ETF de ETH se mantiene en 11 dias con datos del 31 de agosto -- los flujos genuinos del 1 de sep se esperan mañana (2 sep) por el lag normal de liquidacion. Este sigue siendo el unico factor que podria justificar revisar el sesgo antes incluso del NFP."
+    "Precio y costes: el precio de referencia ronda ~$2.440. Verifica siempre en tu app antes de ejecutar. CME ofrece trading 24/7 en cripto desde mayo 2026.",
+    "EVENTO A MENOS DE 3 DIAS: el NFP (viernes 4 sep) es el proximo catalizador binario real -- consenso amplio dado el shock de julio. Vigilar tambien CPI (~10 sep) y FOMC (15-16 sep).",
+    "RIESGO GEOPOLITICO: guerra activa EEUU-Iran en curso desde hace meses, sin cambios de intensidad por cuarto ciclo consecutivo. El mercado cripto no ha reaccionado con una ruptura de rango -- descrito como ya 'descontado', pero sigue siendo un riesgo de cola real de doble filo.",
+    "Dato a vigilar: la racha de ETF de ETH lleva 4 ciclos con el mismo dato del 31 de agosto -- los flujos genuinos se esperan ~2 sep por el lag normal de liquidacion. Este sigue siendo el unico factor que podria justificar revisar el sesgo antes incluso del NFP."
   ],
   "previous_signal_outcome": {
     "status": "pendiente",
-    "note": "El ciclo anterior fue de reconfirmacion con un control de calidad sobre un dato de ETF con fecha inconsistente. Este ciclo confirma que ese dato sigue siendo el mismo del 31 de agosto recirculando -- no ha cambiado. Ancla tecnica sin cambios, precio algo mas suave. Ni el objetivo (2.300) ni el stop (2.490) se han activado."
+    "note": "El ciclo anterior fue de reconfirmacion con el mismo dato de ETF del 31 de agosto recirculando. Este ciclo confirma la misma situacion por cuarta vez seguida, con un matiz tecnico nuevo (MACD aplanandose). Ancla tecnica sin cambios. Ni el objetivo (2.300) ni el stop (2.490) se han activado."
   },
   "sources": [
     "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-tuesday-september-1-2026-crypto-prices-falling-as-inflation-concerns-persist-123554224.html",
-    "https://www.coindesk.com/price/ethereum",
     "https://crypto.news/ethereum-price-rally-overheats-below-2550-resistance/",
     "https://www.bitdegree.org/cryptocurrency-prices/fear-and-greed-index",
-    "https://www.fxstreet.com/cryptocurrencies/news/ethereum-weekly-price-forecast-profit-taking-slows-rally-as-network-activity-lags-202608290345",
+    "https://www.fxstreet.com/cryptocurrencies",
     "https://en.bloomingbit.io/feed/news/119487",
+    "https://www.coingabbar.com/en/price-prediction/ethereum-price-prediction-eth-break-2600-resistance-2026",
     "https://moderndiplomacy.eu/2026/08/31/is-irans-kharg-island-under-attack-trump-offers-no-evidence/"
   ],
   "disclaimer": "No es asesoramiento financiero. Ningun sistema (ni IA ni humano) es 100% fiable con mercados, y contrastar mas fuentes reduce puntos ciegos pero no elimina el riesgo. Producto apalancado de alto riesgo. Ejecucion manual bajo tu propia responsabilidad. Un evento macro sorpresa puede invalidar este analisis en minutos -- el stop es tu proteccion real, no la confianza del analisis."
