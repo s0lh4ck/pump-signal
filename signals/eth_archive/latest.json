@@ -1,0 +1,88 @@
+{
+  "asset": "ETH/USD",
+  "etoro_instrument": "ETH.SEP26 (Micro Ether Future)",
+  "generated_at": "2026-09-03T17:49:00Z",
+  "price_usd": 2430,
+  "price_source": "Nucleo de precio $2.400-2.500 segun fuente: CoinDesk $2.495,30/$2.407,72 (lecturas distintas), Investing.com ~$2.412 (MA5 $2.411,02, MA50 $2.316,87). Se usa ~$2.430 como estimacion central. ALERTA PERSISTENTE: la cifra alucinada $3.323 (Binance.com) SIGUE APARECIENDO, contradicha por multiples fuentes independientes -- se reconfirma como artefacto de busqueda, se descarta. Soporte 20-EMA ~$2.307/MA50 ~$2.317; resistencia sesion ~$2.484, minimo sesion ~$2.383. No es la cotizacion exacta de CME -- verifica siempre en tu app antes de operar.",
+  "market_status": "CME ofrece trading 24/7 para futuros/opciones de cripto desde mayo de 2026. Verifica en tu app el estado actual antes de operar.",
+  "change_24h_pct": -1.5,
+  "change_7d_pct": -3.6,
+  "bias": "short",
+  "confidence": "alta",
+  "data_quality": {
+    "sources_checked": 15,
+    "categories_checked": ["tecnico_precio", "sentimiento_fear_greed", "derivados_funding_oi", "on_chain_flows", "correlacion_btc", "calendario_macro", "ballenas_individuales_y_figuras_publicas", "geopolitico"],
+    "agreement": "baja",
+    "note": "Confianza se MANTIENE en alta -- QUINCUAGESIMO SEGUNDO ciclo de reconfirmacion. El acuerdo se MANTIENE en 'baja' por decimonoveno ciclo consecutivo. AUTOCORRECCION IMPORTANTE: el ciclo anterior sugirio (con baja confianza) que la probabilidad de SUBIDA de tasas de CME habia bajado de 66% a ~45%; una investigacion mas profunda este ciclo indica que esa formulacion 'subida' era probablemente un error de sintesis de busqueda -- la lectura mas creible y fechada (fxstreet, 2 sep, citando CME FedWatch) apunta a ~89,7% de probabilidad de un RECORTE de tasas en septiembre, coherente con la narrativa mas amplia de relajacion de la Fed en 2026. Se corrige explicitamente: no hay evidencia fiable de subida de tasas: la senal probable es de recorte, no de subida. GEOPOLITICA -- LA ESCALADA CONTINUA, NO SE ENFRIA: ademas de los ataques del 2 de sep (petroleros y represalia contra Jordania/Bahrein/Kuwait/Erbil), el 3 de sep (hoy) Iran disparo directamente contra Kuwait -- sirenas activadas, defensas kuwaities interceptaron misiles/drones, el Ministerio de Defensa de Kuwait lo califico de 'agresion irani flagrante' (Washington Times, fechado hoy). Petroleo Brent confirmado >$95-96/barril, subiendo ~4,6% en el dia y ~7% en la semana (CNBC, fechado hoy) -- riesgo de mercado real y actual. Camp Titin y el caso CBS/Pentagono siguen sin resolucion (presion politica activa del Senado, sin declaracion nueva fechada hoy). ETF -- CONFIRMACION: la salida neta del 2 de sep se confirma en -$48,07M (fuente directa y fechada, bloomingbit.io), cerrando la racha de 12 dias -- desglose: BlackRock ETHA -$53,35M, Fidelity FETH -$26,17M, Grayscale ETHE -$23,49M, parcialmente compensado por ETHB +$52,91M y TETH +$2,03M. El 3 de sep sigue sin cifra (reporte con un dia de retraso). DERIVADOS -- SIN LECTURA LIMPIA ESTE CICLO: el acceso a CoinGlass/CoinDesk estuvo bloqueado por el proxy de red, y los fragmentos obtenidos eran incoherentes (OI emparejado con precio de ETH obsoleto ~$1.721; funding negativo emparejado con ETH 'reprobando $4.000', claramente desactualizado) -- se descartan, se mantienen las cifras previamente establecidas ($33,44B OI / +0,0035% funding) sin poder confirmarlas ni refutarlas este ciclo. BTC: lecturas mixtas -- manana ~$77.900-77.934 (consistente con el retroceso del ciclo anterior), pero una lectura de la tarde (CoinDesk) muestra ~$80.974, una recuperacion notable -- se trata con cautela dado el margen de ~$3.000 entre lecturas, no se confirma como resuelto. TECNICO: precio $2.400-2.500 segun fuente, RSI/MACD sin cambios (63,89/140,4-143,1/-2,7), cifra alucinada $3.323 persiste. SENTIMIENTO: Fear&amp;Greed sin cambios, misma division de cuatro vias (73/63/55/49). BALLENAS: transferencias previas reconfirmadas, mas una posible cifra nueva ($248,6M, ~102.913 ETH) que podria solapar con el movimiento de $253M ya reportado -- tratar con confianza moderada, no como movimiento adicional confirmado. Motivo de mantener alta sin subir mas: la escalada geopolitica sigue activa y ahora golpea directamente a Kuwait, pero el mercado (BTC con lectura mixta, posible recuperacion) aun no muestra panico claro -- no hay motivo suficiente para cambiar direccion segun la regla establecida."
+  },
+  "thesis": "SHORT se mantiene, confianza se MANTIENE en alta -- QUINCUAGESIMO SEGUNDO ciclo de reconfirmacion. El acuerdo se MANTIENE en 'baja' por decimonoveno ciclo. AUTOCORRECCION: la nota anterior sobre una posible bajada en la probabilidad de SUBIDA de tasas (66%->45%) era probablemente un error de sintesis -- la lectura mas creible (fxstreet/CME FedWatch, 2 sep) apunta a ~89,7% de probabilidad de un RECORTE de tasas, no una subida. GEOPOLITICA: la escalada continua -- hoy (3 sep) Iran disparo directamente contra Kuwait (sirenas, intercepciones, Kuwait lo llama 'agresion flagrante'), ademas de los ataques del 2 de sep a petroleros y la represalia contra 4 paises. Brent confirmado >$95-96/barril, subiendo con fuerza. Camp Titin y CBS/Pentagono siguen sin resolucion. ETF: la salida del 2 de sep se CONFIRMA en -$48,07M (fuente directa fechada), rompiendo la racha de 12 dias; el 3 de sep sigue sin cifra. DERIVADOS: sin lectura limpia este ciclo (acceso bloqueado, fragmentos incoherentes) -- se mantienen las cifras previas ($33,44B OI / +0,0035% funding) sin poder confirmar ni refutar. BTC: lectura mixta, manana ~$77.900-930 pero una lectura de tarde sugiere recuperacion a ~$80.974 -- tratado con cautela por el margen entre fuentes. TECNICO sin cambios relevantes (precio $2.400-2.500, RSI/MACD estancados, artefacto $3.323 persiste). SENTIMIENTO sin cambios (Fear&Greed en 4 vias). BALLENAS: transferencias previas reconfirmadas, posible cifra nueva ($248,6M) que podria solapar con una ya reportada. No se sube mas de alta: la escalada geopolitica sigue activa y golpea Kuwait directamente, pero el mercado aun no muestra panico claro -- no hay motivo suficiente para cambiar direccion segun la regla establecida.",
+  "reasoning": [
+    "AUTOCORRECCION -- FED: la sugerencia del ciclo anterior de que la probabilidad de SUBIDA de tasas de CME habia bajado (66%->45%) parece haber sido un error de sintesis de busqueda. La lectura mas fiable y fechada (fxstreet, 2 sep, citando CME FedWatch) indica ~89,7% de probabilidad de un RECORTE de tasas en septiembre -- coherente con la narrativa mas amplia de relajacion de la Fed. Se corrige explicitamente esta confusion.",
+    "GEOPOLITICA -- LA ESCALADA CONTINUA: hoy (3 sep) Iran disparo directamente contra Kuwait -- sirenas, intercepciones por defensas kuwaities, calificado como 'agresion irani flagrante' por su Ministerio de Defensa (Washington Times, fechado hoy). Se suma a los ataques del 2 de sep (petroleros, represalia contra Jordania/Bahrein/Kuwait/Erbil). Petroleo Brent confirmado >$95-96/barril, subiendo ~4,6% en el dia (CNBC, fechado hoy). Camp Titin y CBS/Pentagono siguen sin resolucion, presion politica del Senado activa pero sin declaracion nueva fechada hoy.",
+    "ETF -- CONFIRMADO: la salida neta del 2 de sep se confirma en -$48,07M (fuente directa y fechada), cerrando la racha de 12 dias de entradas. Desglose: BlackRock ETHA -$53,35M, Fidelity FETH -$26,17M, Grayscale ETHE -$23,49M, parcialmente compensado por ETHB +$52,91M y TETH +$2,03M. El 3 de sep sigue sin cifra (reporte con un dia de retraso).",
+    "DERIVADOS -- SIN LECTURA LIMPIA: acceso a CoinGlass/CoinDesk bloqueado este ciclo, fragmentos obtenidos eran incoherentes (precios/cifras desactualizados) y se descartaron. Se mantienen las cifras previamente establecidas ($33,44B OI / +0,0035% funding) sin poder confirmarlas ni refutarlas.",
+    "BTC -- LECTURA MIXTA: manana ~$77.900-77.934 (consistente con el retroceso previo), pero una lectura de la tarde sugiere una recuperacion notable a ~$80.974 -- tratado con cautela dado el margen de ~$3.000 entre fuentes, no confirmado como resuelto.",
+    "TECNICO/SENTIMIENTO/BALLENAS sin cambios relevantes: precio $2.400-2.500, RSI/MACD estancados (63,89/140,4-143,1/-2,7), artefacto $3.323 persiste, Fear&Greed en division de 4 vias (73/63/55/49), transferencias de ballenas previas reconfirmadas mas una posible cifra nueva ($248,6M, posible solape con $253M ya reportado)."
+  ],
+  "levels": {
+    "resistance_near": 2490,
+    "resistance_major": 2575,
+    "support_near": 2400,
+    "support_major": 2250,
+    "upside_target": [2600, 2700],
+    "downside_target": [2300, 2200]
+  },
+  "trade": {
+    "direction": "short",
+    "entry": 2446.50,
+    "stop": 2490,
+    "target": 2300,
+    "breakeven_note": "Sin cambios: la regla de mover el stop a breakeven aplica en un movimiento a favor (hacia el soporte), no en este escenario. Respeta el stop tal cual esta.",
+    "invalidation": "Si ETH rompe y CIERRA por encima de 2.490, el sesgo pasa a alcista -- no mantener el short. Sin evidencia de que esto haya ocurrido ni este por ocurrir.",
+    "costs": {
+      "opening_cost_pct": 0.62,
+      "opening_cost_usd": 1.52,
+      "note": "eToro cobra ~0.62% de la exposicion ($244.65 con 1 contrato) como coste de apertura -- confirmado por el usuario en la app. No esta confirmado si hay un coste adicional al cerrar (spread de salida); por prudencia se asume que podria haberlo y se comprueba que el ratio aguanta incluso en ese caso."
+    },
+    "risk_reward": {
+      "point_value_usd": 0.10,
+      "gross_max_loss_usd": 4.35,
+      "gross_potential_gain_usd": 14.65,
+      "net_max_loss_usd": 5.87,
+      "net_potential_gain_usd": 13.13,
+      "max_loss_pct_of_margin": "~5% del margen de $115 en 1 contrato (neto de costes)",
+      "ratio": "~1:2.2 neto (arriesgas $5.87 con costes incluidos para optar a $13.13). Sin cambios en los niveles."
+    }
+  },
+  "risk_notes": [
+    "RIESGO GEOPOLITICO -- LA ESCALADA CONTINUA HOY: ademas de los ataques del 2 de sep, hoy (3 sep) Iran disparo directamente contra Kuwait -- sirenas, intercepciones, calificado de 'agresion flagrante' por Kuwait. Brent >$95-96/barril, subiendo con fuerza. Esto es riesgo real de volatilidad subita -- el stop sigue siendo tu proteccion real: mantenlo configurado en la plataforma pase lo que pase, un titular puede mover el precio en minutos.",
+    "AUTOCORRECCION: la nota del ciclo anterior sobre una posible bajada en la probabilidad de SUBIDA de tasas de CME (66%->45%) parece haber sido un error -- la lectura mas fiable apunta a ~89,7% de probabilidad de RECORTE de tasas en septiembre, no de subida. Se corrige para evitar confusion.",
+    "ETF confirmado: salida neta de -$48,07M el 2 de sep (fuente directa), rompiendo la racha de 12 dias de entradas. BTC con lectura mixta hoy (manana ~$77.900, tarde posible recuperacion a ~$80.974) -- tratado con cautela.",
+    "La confianza se MANTIENE en alta (quincuagesimo segundo ciclo). El acuerdo entre fuentes SE MANTIENE en 'baja' por decimonoveno ciclo consecutivo -- derivados (OI/funding) sin lectura limpia este ciclo, Fear&Greed sigue con division de cuatro vias, cifra alucinada $3.323 persiste.",
+    "Con 1 contrato micro (valor de punto $0.10) las cifras en dolares son pequenas -- esto es una cuenta de aprendizaje/practica con capital real, no una forma de hacerse rico rapido. El tamano ya esta al minimo posible: no promediar ni anadir contratos para 'recuperar' una perdida.",
+    "Precio y costes: nucleo $2.400-2.500 segun fuente, se usa ~$2.430 como estimacion central. Soporte 20-EMA ~$2.307/MA50 ~$2.317, resistencia sesion ~$2.484. Verifica siempre en tu app antes de ejecutar. CME ofrece trading 24/7 en cripto desde mayo 2026.",
+    "EVENTO MUY PROXIMO: el NFP (4 sep, 12:30 UTC) sin cambios en el pronostico (+55.000). CPI 11 sep."
+  ],
+  "previous_signal_outcome": {
+    "status": "pendiente",
+    "note": "El precio sigue en la misma zona amplia de consolidacion (~$2.430). El acuerdo entre fuentes sigue en 'baja'. Este ciclo confirma que la escalada geopolitica continua -- Iran disparo directamente contra Kuwait hoy, ademas de los ataques del 2 de sep. El ETF del 2 de sep se confirma en -$48,07M (rompiendo la racha de 12 dias). BTC muestra una lectura mixta (posible recuperacion de tarde). Tambien se corrige una confusion del ciclo anterior sobre la direccion de las tasas de la Fed (recorte probable, no subida). Ni el objetivo (2.300) ni el stop (2.490) se han activado."
+  },
+  "sources": [
+    "https://www.coindesk.com/price/ethereum",
+    "https://www.investing.com/crypto/ethereum/technical",
+    "https://altindex.com/fear-and-greed-index-crypto",
+    "https://cfgi.io/",
+    "https://feargreedmeter.com/crypto-fear-and-greed-index",
+    "https://coinstats.app/fear-and-greed/",
+    "https://en.bloomingbit.io/feed/news/119653",
+    "https://www.kucoin.com/news/flash/ethereum-spot-etfs-record-10-95m-net-inflow-on-sept-1-marking-12th-consecutive-day-of-inflows",
+    "https://fortune.com/article/price-of-bitcoin-09-03-2026/",
+    "https://www.coindesk.com/price/bitcoin",
+    "https://www.fxstreet.com/amp/analysis/usd-forecast-us-dollar-slips-ahead-of-nfp-as-fed-cut-odds-near-90-202509020844",
+    "https://www.washingtontimes.com/news/2026/sep/3/iran-targeting-kuwait-retaliation-us-bombardments-mideast-news/",
+    "https://www.cnbc.com/2026/09/03/oil-price-today-iran-war-strait-hormuz.html",
+    "https://www.aljazeera.com/news/2026/9/2/iran-us-exchange-new-attacks-who-was-hit-in-latest-strikes",
+    "https://www.cbsnews.com/news/tammy-baldwin-pentagon-iranian-attack-kuwait-six-u-s-troops/"
+  ],
+  "disclaimer": "No es asesoramiento financiero. Ningun sistema (ni IA ni humano) es 100% fiable con mercados, y contrastar mas fuentes reduce puntos ciegos pero no elimina el riesgo. Producto apalancado de alto riesgo. Ejecucion manual bajo tu propia responsabilidad. Un evento macro sorpresa puede invalidar este analisis en minutos -- el stop es tu proteccion real, no la confianza del analisis."
+}

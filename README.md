@@ -1,19 +1,21 @@
 # pump-signal
 
-Herramienta de señales **long/short para ETH** pensada para operar el Micro Ether
-Future de eToro (`ETH.SEP26`) con poco capital (margen ~$115 por contrato).
+Herramienta de señales **long/short para SOL** pensada para operar
+perpetuos con apalancamiento en **Phantom**, donde se puede abrir posición
+desde **$5**.
 
-**No ejecuta operaciones.** Genera una lectura razonada (long / short / neutral)
-que tú ejecutas manualmente en eToro.
+**No ejecuta operaciones.** Genera una lectura razonada (long / short /
+neutral) con niveles de entrada, stop loss y take profit orientativos, que
+tú ejecutas manualmente en Phantom.
 
 ## Cómo funciona
 
-1. No hay acceso desde este entorno a APIs de precios (Binance, CoinGecko, etc.)
-   ni a la mayoría de webs — el único canal disponible es búsqueda web.
-2. Cada ciclo, Claude busca precio actual, tendencia (1h/24h/7d), niveles técnicos
-   y noticias relevantes de ETH, y **razona** sobre esa información (no es una
-   fórmula fija) para dar una lectura long/short/neutral con niveles orientativos
-   de entrada, stop loss y take profit.
+1. No hay acceso desde este entorno a APIs de precios (Binance, CoinGecko,
+   etc.) ni a la mayoría de webs — el único canal disponible es búsqueda web.
+2. Cada ciclo, Claude busca precio actual, tendencia (1h/24h/7d), niveles
+   técnicos y noticias relevantes de SOL, y **razona** sobre esa información
+   (no es una fórmula fija) para dar una lectura long/short/neutral con
+   niveles orientativos de entrada, stop loss y take profit.
 3. El resultado se guarda en `signals/latest.json` y se anexa a
    `signals/history.jsonl`, y se publica como un dashboard web (Artifact) que
    puedes abrir en cualquier momento.
@@ -30,27 +32,24 @@ sí se puede controlar es no forzar una respuesta cuando la información es déb
 o contradictoria:
 
 - Cada ciclo consulta **varias fuentes independientes (10+)** repartidas en
-  **6 categorías**, no solo precio técnico:
+  varias categorías, no solo precio técnico:
   1. Técnico/precio (RSI, MACD, medias móviles, Bollinger Bands, soporte/resistencia)
   2. Sentimiento (Fear & Greed Index)
   3. Derivados (funding rate, open interest)
   4. On-chain (flujos a/desde exchanges, actividad de ballenas)
-  5. Correlación con BTC (ETH suele seguir a BTC de cerca — una señal de ETH
-     que ignora lo que hace BTC es una señal incompleta)
-  6. Calendario macro (eventos como CPI/FOMC que pueden invalidar el
+  5. Correlación con BTC/ETH (SOL suele seguir el ánimo general del
+     mercado — una señal que ignora lo que hace BTC es una señal incompleta)
+  6. Calendario macro (eventos como CPI/FOMC/NFP que pueden invalidar el
      análisis técnico en minutos)
   7. Ballenas individuales y figuras públicas — **peso bajo, explícito**.
-     Transferencias de whale-alert (dirección casi siempre ambigua: una
+     Transferencias on-chain (dirección casi siempre ambigua: una
      transferencia entre wallets desconocidas no dice si es venta, custodia
      o un movimiento OTC) y declaraciones de figuras conocidas del sector
      (funds, CEOs, cuentas influyentes). Esta categoría **nunca decide la
      dirección por sí sola** — solo matiza la confianza cuando coincide o
      contradice a las demás. Motivo: es la categoría con más ruido y más
      riesgo de manipulación (shilling pagado, pump-and-dumps, declaraciones
-     que no coinciden con las acciones reales de quien las hace — hay un
-     caso real documentado en `signals/history.jsonl` de alguien pidiendo
-     públicamente "nunca vendas" el mismo día que su empresa declaraba una
-     venta ante el regulador).
+     que no coinciden con las acciones reales de quien las hace).
 - **Siempre se da una dirección clara (long o short)**, la que pese más
   según la evidencia — como haría un analista real. `neutral` se reserva
   solo para un empate genuino (evidencia repartida ~50/50), no como refugio
@@ -63,19 +62,21 @@ o contradictoria:
   no en la falta de señal.** Si una fuente tiene datos claramente obsoletos
   o inconsistentes (p. ej. un precio que no cuadra con el resto), se
   descarta y se anota por qué.
-- **Todo trade lleva una relación riesgo/recompensa calculada explícitamente**
-  (`trade.risk_reward` en el JSON) — entrada, stop, objetivo, pérdida máxima
-  en $, ganancia potencial en $, y el ratio. Si con los niveles técnicos el
-  ratio sale malo (arriesgar más de lo que se puede ganar), se ajusta el
-  stop/objetivo antes de publicar la señal en vez de operar con una relación
-  desfavorable solo porque "los niveles técnicos dan eso".
-- **El ratio se calcula NETO de costes, no solo con los niveles técnicos en
-  bruto.** eToro cobra un coste de apertura (~0.62% de la exposición,
-  confirmado por el usuario en la app) que hay que restar de la ganancia y
-  sumar a la pérdida antes de validar que el ratio sigue siendo ≥1:1.5. No
-  está confirmado si también hay coste al cerrar — por prudencia se
-  comprueba que el ratio aguanta incluso asumiendo un coste doble
-  (apertura + cierre).
+- **Todo trade lleva entrada, stop loss y take profit explícitos**
+  (`trade` en el JSON), con el ratio riesgo/recompensa calculado sobre esos
+  niveles de precio. Si el ratio sale malo (arriesgar más de lo que se
+  puede ganar), se ajusta el stop/objetivo antes de publicar la señal en
+  vez de operar con una relación desfavorable solo porque "los niveles
+  técnicos dan eso".
+- **El ratio se calcula sobre niveles de precio, no en dólares exactos.**
+  Phantom permite abrir posición desde $5 con apalancamiento — el tamaño
+  exacto de posición y el apalancamiento los decides tú en la app. Esta
+  herramienta no conoce las comisiones/funding exactos de Phantom (no están
+  confirmados), así que no calcula P&L en dólares como se hacía antes con
+  el coste de apertura de eToro — da dirección y niveles de precio, y tú
+  aplicas el tamaño y apalancamiento que decidas. Ten en cuenta que el
+  funding rate de un perpetuo apalancado puede comerse una parte relevante
+  de la ganancia en posiciones mantenidas muchas horas.
 - Cada ciclo revisa qué pasó con el trade del ciclo anterior — si tocó el
   objetivo, el stop, o sigue pendiente — y lo registra en
   `previous_signal_outcome`. Así hay un histórico verificable de aciertos
@@ -98,21 +99,16 @@ o contradictoria:
   para abrir una posición nueva — se puede seguir gestionando una posición
   ya abierta, pero no abrir una nueva justo antes.
 
-## Criterio de crecimiento (tamaño de posición)
+## Apalancamiento — advertencia explícita
 
-La herramienta **no infla objetivos ni sube el tamaño de posición para que
-una operación individual "gane más"** — eso solo cambia la varianza, no la
-ventaja real. El tamaño se mantiene en el mínimo (1 contrato) por defecto.
-Solo tiene sentido subirlo cuando el histórico de `previous_signal_outcome`
-muestre suficientes señales con más aciertos que fallos — y en ese caso el
-usuario lo decide explícitamente, no se sube solo.
-
-**Decisión explícita del usuario (31 ago 2026):** ante la opción de subir
-el tamaño/objetivo para duplicar la ganancia potencial, el usuario eligió
-**esperar al primer resultado real** de una señal (ganancia o pérdida
-cerrada) antes de cambiar nada del tamaño o los niveles — no hacerlo por
-esperanza, sino por evidencia. Esta sección se actualizará cuando haya
-histórico suficiente para revisar esa decisión.
+Operar con apalancamiento en un perpetuo (aunque el tamaño de entrada sea
+solo $5) multiplica tanto las ganancias como las pérdidas, y una posición
+apalancada puede liquidarse (perder el margen por completo) si el precio se
+mueve en tu contra lo suficiente antes de que el stop loss se ejecute —
+sobre todo en momentos de alta volatilidad o poca liquidez, donde el precio
+puede saltar sin ejecutar el stop al nivel exacto. **El stop loss es tu
+protección real, no la confianza de la señal: configúralo siempre en la
+plataforma en cuanto abras la posición.**
 
 ## Limitaciones importantes
 
@@ -120,23 +116,21 @@ histórico suficiente para revisar esa decisión.
   No hay RSI/MACD calculado con precisión matemática propia — son lecturas
   técnicas citadas por las fuentes consultadas, por eso se contrastan varias
   antes de confiar en ellas.
-- **El precio del dashboard es un spot agregado, no la cotización exacta de
-  `ETH.SEP26` en CME.** Pueden diferir unos pocos dólares. **Verifica siempre
-  el precio y si el mercado está abierto en la app de eToro antes de
-  ejecutar** — el dashboard es una referencia para decidir la dirección, no
-  la fuente de verdad del precio de entrada exacto.
-- **Corregido:** CME ofrece trading 24/7 en futuros/opciones de cripto desde
-  mayo de 2026 — la afirmación anterior de que este futuro "seguía horario
-  limitado tipo bolsa tradicional" era imprecisa. Un "mercado cerrado" que
-  aparezca en la app es más probablemente una ventana de mantenimiento
-  puntual o una restricción propia de eToro, no un cierre de fin de semana
-  de CME en general. Aun así, comprueba siempre el estado real en la app.
-- Esto **no es asesoramiento financiero**. Los futuros/CFDs son productos
-  apalancados de alto riesgo. La decisión y ejecución final es siempre tuya.
+- **El precio del dashboard es un spot agregado, no la cotización exacta
+  del perpetuo de SOL en Phantom.** Pueden diferir. **Verifica siempre el
+  precio y las condiciones (funding rate, apalancamiento disponible) en la
+  app de Phantom antes de ejecutar** — el dashboard es una referencia para
+  decidir la dirección, no la fuente de verdad del precio de entrada exacto.
+- Esto **no es asesoramiento financiero**. Los perpetuos apalancados son
+  productos de alto riesgo, con riesgo de liquidación. La decisión y
+  ejecución final es siempre tuya.
 
 ## Estructura
 
 - `signals/latest.json` — última señal generada, incluye `data_quality`
   (fuentes consultadas y nivel de acuerdo) y `previous_signal_outcome`
   (seguimiento del escenario anterior).
-- `signals/history.jsonl` — histórico de señales (una por línea).
+- `signals/history.jsonl` — histórico de señales de SOL (una por línea).
+- `signals/eth_archive/` — histórico completo de la etapa anterior de la
+  herramienta (señales ETH/eToro, hasta el 3 sep 2026), conservado como
+  referencia. No se actualiza más.
