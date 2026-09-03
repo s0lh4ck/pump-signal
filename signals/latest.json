@@ -1,88 +1,79 @@
 {
-  "asset": "ETH/USD",
-  "etoro_instrument": "ETH.SEP26 (Micro Ether Future)",
-  "generated_at": "2026-09-03T17:49:00Z",
-  "price_usd": 2430,
-  "price_source": "Nucleo de precio $2.400-2.500 segun fuente: CoinDesk $2.495,30/$2.407,72 (lecturas distintas), Investing.com ~$2.412 (MA5 $2.411,02, MA50 $2.316,87). Se usa ~$2.430 como estimacion central. ALERTA PERSISTENTE: la cifra alucinada $3.323 (Binance.com) SIGUE APARECIENDO, contradicha por multiples fuentes independientes -- se reconfirma como artefacto de busqueda, se descarta. Soporte 20-EMA ~$2.307/MA50 ~$2.317; resistencia sesion ~$2.484, minimo sesion ~$2.383. No es la cotizacion exacta de CME -- verifica siempre en tu app antes de operar.",
-  "market_status": "CME ofrece trading 24/7 para futuros/opciones de cripto desde mayo de 2026. Verifica en tu app el estado actual antes de operar.",
-  "change_24h_pct": -1.5,
-  "change_7d_pct": -3.6,
+  "asset": "SOL/USD",
+  "platform": "Phantom (perpetuos apalancados, posicion desde $5)",
+  "generated_at": "2026-09-03T18:29:00Z",
+  "price_usd": 101,
+  "price_source": "Rango de consenso $99-105 segun fuente: CoinGecko ~$100,01, CoinDesk $99,14, Coinbase $99,63, OKX $101,10, CoinMarketCap $104,28, Kraken $105,13. Se usa ~$101 como estimacion central. Se descarta MetaMask ($76,33) por ser un valor claramente obsoleto/roto, muy por debajo del resto. No es la cotizacion exacta del perpetuo de SOL en Phantom -- verifica siempre en tu app antes de operar.",
+  "change_24h_pct": 3.99,
+  "change_7d_pct": null,
   "bias": "short",
-  "confidence": "alta",
+  "confidence": "media",
   "data_quality": {
-    "sources_checked": 15,
-    "categories_checked": ["tecnico_precio", "sentimiento_fear_greed", "derivados_funding_oi", "on_chain_flows", "correlacion_btc", "calendario_macro", "ballenas_individuales_y_figuras_publicas", "geopolitico"],
-    "agreement": "baja",
-    "note": "Confianza se MANTIENE en alta -- QUINCUAGESIMO SEGUNDO ciclo de reconfirmacion. El acuerdo se MANTIENE en 'baja' por decimonoveno ciclo consecutivo. AUTOCORRECCION IMPORTANTE: el ciclo anterior sugirio (con baja confianza) que la probabilidad de SUBIDA de tasas de CME habia bajado de 66% a ~45%; una investigacion mas profunda este ciclo indica que esa formulacion 'subida' era probablemente un error de sintesis de busqueda -- la lectura mas creible y fechada (fxstreet, 2 sep, citando CME FedWatch) apunta a ~89,7% de probabilidad de un RECORTE de tasas en septiembre, coherente con la narrativa mas amplia de relajacion de la Fed en 2026. Se corrige explicitamente: no hay evidencia fiable de subida de tasas: la senal probable es de recorte, no de subida. GEOPOLITICA -- LA ESCALADA CONTINUA, NO SE ENFRIA: ademas de los ataques del 2 de sep (petroleros y represalia contra Jordania/Bahrein/Kuwait/Erbil), el 3 de sep (hoy) Iran disparo directamente contra Kuwait -- sirenas activadas, defensas kuwaities interceptaron misiles/drones, el Ministerio de Defensa de Kuwait lo califico de 'agresion irani flagrante' (Washington Times, fechado hoy). Petroleo Brent confirmado >$95-96/barril, subiendo ~4,6% en el dia y ~7% en la semana (CNBC, fechado hoy) -- riesgo de mercado real y actual. Camp Titin y el caso CBS/Pentagono siguen sin resolucion (presion politica activa del Senado, sin declaracion nueva fechada hoy). ETF -- CONFIRMACION: la salida neta del 2 de sep se confirma en -$48,07M (fuente directa y fechada, bloomingbit.io), cerrando la racha de 12 dias -- desglose: BlackRock ETHA -$53,35M, Fidelity FETH -$26,17M, Grayscale ETHE -$23,49M, parcialmente compensado por ETHB +$52,91M y TETH +$2,03M. El 3 de sep sigue sin cifra (reporte con un dia de retraso). DERIVADOS -- SIN LECTURA LIMPIA ESTE CICLO: el acceso a CoinGlass/CoinDesk estuvo bloqueado por el proxy de red, y los fragmentos obtenidos eran incoherentes (OI emparejado con precio de ETH obsoleto ~$1.721; funding negativo emparejado con ETH 'reprobando $4.000', claramente desactualizado) -- se descartan, se mantienen las cifras previamente establecidas ($33,44B OI / +0,0035% funding) sin poder confirmarlas ni refutarlas este ciclo. BTC: lecturas mixtas -- manana ~$77.900-77.934 (consistente con el retroceso del ciclo anterior), pero una lectura de la tarde (CoinDesk) muestra ~$80.974, una recuperacion notable -- se trata con cautela dado el margen de ~$3.000 entre lecturas, no se confirma como resuelto. TECNICO: precio $2.400-2.500 segun fuente, RSI/MACD sin cambios (63,89/140,4-143,1/-2,7), cifra alucinada $3.323 persiste. SENTIMIENTO: Fear&amp;Greed sin cambios, misma division de cuatro vias (73/63/55/49). BALLENAS: transferencias previas reconfirmadas, mas una posible cifra nueva ($248,6M, ~102.913 ETH) que podria solapar con el movimiento de $253M ya reportado -- tratar con confianza moderada, no como movimiento adicional confirmado. Motivo de mantener alta sin subir mas: la escalada geopolitica sigue activa y ahora golpea directamente a Kuwait, pero el mercado (BTC con lectura mixta, posible recuperacion) aun no muestra panico claro -- no hay motivo suficiente para cambiar direccion segun la regla establecida."
+    "sources_checked": 20,
+    "categories_checked": ["tecnico_precio", "sentimiento_fear_greed", "derivados_funding_oi", "on_chain", "correlacion_btc_eth", "calendario_macro", "ballenas_individuales_y_figuras_publicas"],
+    "agreement": "media",
+    "note": "PRIMER CICLO DE SOL -- pivote desde ETH/eToro (historico completo archivado sin tocar en signals/eth_archive/). Las fuentes de precio discrepan ~5% entre si ($99-105), rango normal para agregados spot pero se anota. TECNICO: estructura de ruptura alcista por encima de $100, pero RSI 14d ~79,9 (sobrecompra) tras el rally reciente -- lectura mixta. SENTIMIENTO: mayoria de fuentes en neutral (49-58), una fuente (CoinStats 73) es un outlier hacia greed -- no hay lectura extrema. DERIVADOS: funding levemente positivo (+0,0008-0,0037%/h en venues principales), OI $5,25-6,95B (dos lecturas de CoinGlass con algo de dispersion) -- posicionamiento sesgado a largo (mas traders apostando a subida), lo que eleva el riesgo de long squeeze ante cualquier catalizador bajista. ON-CHAIN: senal estructural alcista solida -- ETFs de SOL con 10 dias consecutivos de entradas (+$192M este mes), staking al 69% (~5,25% yield), TVL DeFi subiendo a $5,85B, oferta en exchanges bajando (-4,91% ~2,6M SOL retirados). CORRELACION BTC/ETH: BTC y ETH llevan la semana ablandandose (BTC -1,38% 24h/-1,72% 7d, ETH tambien mas suave) mientras SOL sube +3,99% hoy -- esta divergencia positiva parece impulsada por flujos de ETF mas que por un cambio de animo de todo el mercado, y ese tipo de divergencia suele ser fragil si BTC lidera un movimiento a la baja. MACRO -- FACTOR DOMINANTE: NFP manana (4 sep, 12:30 UTC, ~18h de aqui) con consenso +53K tras el fallo de julio (-23K); FOMC 15-16 sep con probabilidad de SUBIDA de tasas del CME FedWatch en 66% (subio con fuerza desde 35% antes de Jackson Hole) -- contexto inflacionario/risk-off (bono 10 anos 4,78%, petroleo >$92). BALLENAS (peso bajo): ballena dormida 8 meses compro ~76.856 SOL (~$8M) el 1 sep; wallets con >=10.000 SOL subieron 1,58% -- sesgo levemente alcista pero de peso bajo por diseno. SINTESIS: la tesis on-chain/ETF es genuinamente alcista a medio plazo, pero ahora mismo choca con un reprecio hawkish de la Fed, un NFP inminente, una imagen tecnica estirada/sobrecomprada tras el rally, y un BTC/ETH ablandandose -- el sesgo neto pesa hacia SHORT tactico, no es una convccion fuerte. Confianza MEDIA: las fuentes discrepan genuinamente (on-chain alcista vs macro/tecnico bajista), los precios difieren ~5% entre si, y el NFP de manana puede invalidar esta tesis en cualquier direccion en cuestion de horas."
   },
-  "thesis": "SHORT se mantiene, confianza se MANTIENE en alta -- QUINCUAGESIMO SEGUNDO ciclo de reconfirmacion. El acuerdo se MANTIENE en 'baja' por decimonoveno ciclo. AUTOCORRECCION: la nota anterior sobre una posible bajada en la probabilidad de SUBIDA de tasas (66%->45%) era probablemente un error de sintesis -- la lectura mas creible (fxstreet/CME FedWatch, 2 sep) apunta a ~89,7% de probabilidad de un RECORTE de tasas, no una subida. GEOPOLITICA: la escalada continua -- hoy (3 sep) Iran disparo directamente contra Kuwait (sirenas, intercepciones, Kuwait lo llama 'agresion flagrante'), ademas de los ataques del 2 de sep a petroleros y la represalia contra 4 paises. Brent confirmado >$95-96/barril, subiendo con fuerza. Camp Titin y CBS/Pentagono siguen sin resolucion. ETF: la salida del 2 de sep se CONFIRMA en -$48,07M (fuente directa fechada), rompiendo la racha de 12 dias; el 3 de sep sigue sin cifra. DERIVADOS: sin lectura limpia este ciclo (acceso bloqueado, fragmentos incoherentes) -- se mantienen las cifras previas ($33,44B OI / +0,0035% funding) sin poder confirmar ni refutar. BTC: lectura mixta, manana ~$77.900-930 pero una lectura de tarde sugiere recuperacion a ~$80.974 -- tratado con cautela por el margen entre fuentes. TECNICO sin cambios relevantes (precio $2.400-2.500, RSI/MACD estancados, artefacto $3.323 persiste). SENTIMIENTO sin cambios (Fear&Greed en 4 vias). BALLENAS: transferencias previas reconfirmadas, posible cifra nueva ($248,6M) que podria solapar con una ya reportada. No se sube mas de alta: la escalada geopolitica sigue activa y golpea Kuwait directamente, pero el mercado aun no muestra panico claro -- no hay motivo suficiente para cambiar direccion segun la regla establecida.",
+  "thesis": "SHORT tactico de corto plazo con confianza MEDIA (primer ciclo de SOL). La estructura tecnica muestra ruptura alcista por encima de $100 pero con RSI en sobrecompra (~79,9) tras el rally reciente. Los derivados muestran posicionamiento sesgado a largo (funding positivo, OI creciente) lo que eleva el riesgo de long squeeze. El impulso mas fuerte es on-chain/estructural (ETFs con 10 dias de entradas, staking al 69%, TVL subiendo) -- genuinamente alcista mas es una tesis de medio plazo, no de las proximas horas. Lo que pesa en contra ahora mismo es macro: NFP manana (4 sep, 12:30 UTC) y probabilidad de subida de tasas del CME FedWatch subiendo con fuerza a 66% de cara al FOMC del 15-16 sep -- contexto inflacionario/risk-off. Ademas, la subida de SOL de hoy (+3,99%) diverge de un BTC/ETH que lleva la semana ablandandose, divergencia que suele ser fragil. ALERTA IMPORTANTE: el NFP de manana cae dentro de la ventana de ~24h antes de un evento macro binario -- segun la regla establecida en el README, no se recomienda abrir una posicion NUEVA en esta ventana por el riesgo de que el resultado sea puro azar. Esta senal da la direccion y niveles de referencia, pero lo prudente es esperar a que salga el NFP (o at least ver como reacciona el precio) antes de ejecutar.",
   "reasoning": [
-    "AUTOCORRECCION -- FED: la sugerencia del ciclo anterior de que la probabilidad de SUBIDA de tasas de CME habia bajado (66%->45%) parece haber sido un error de sintesis de busqueda. La lectura mas fiable y fechada (fxstreet, 2 sep, citando CME FedWatch) indica ~89,7% de probabilidad de un RECORTE de tasas en septiembre -- coherente con la narrativa mas amplia de relajacion de la Fed. Se corrige explicitamente esta confusion.",
-    "GEOPOLITICA -- LA ESCALADA CONTINUA: hoy (3 sep) Iran disparo directamente contra Kuwait -- sirenas, intercepciones por defensas kuwaities, calificado como 'agresion irani flagrante' por su Ministerio de Defensa (Washington Times, fechado hoy). Se suma a los ataques del 2 de sep (petroleros, represalia contra Jordania/Bahrein/Kuwait/Erbil). Petroleo Brent confirmado >$95-96/barril, subiendo ~4,6% en el dia (CNBC, fechado hoy). Camp Titin y CBS/Pentagono siguen sin resolucion, presion politica del Senado activa pero sin declaracion nueva fechada hoy.",
-    "ETF -- CONFIRMADO: la salida neta del 2 de sep se confirma en -$48,07M (fuente directa y fechada), cerrando la racha de 12 dias de entradas. Desglose: BlackRock ETHA -$53,35M, Fidelity FETH -$26,17M, Grayscale ETHE -$23,49M, parcialmente compensado por ETHB +$52,91M y TETH +$2,03M. El 3 de sep sigue sin cifra (reporte con un dia de retraso).",
-    "DERIVADOS -- SIN LECTURA LIMPIA: acceso a CoinGlass/CoinDesk bloqueado este ciclo, fragmentos obtenidos eran incoherentes (precios/cifras desactualizados) y se descartaron. Se mantienen las cifras previamente establecidas ($33,44B OI / +0,0035% funding) sin poder confirmarlas ni refutarlas.",
-    "BTC -- LECTURA MIXTA: manana ~$77.900-77.934 (consistente con el retroceso previo), pero una lectura de la tarde sugiere una recuperacion notable a ~$80.974 -- tratado con cautela dado el margen de ~$3.000 entre fuentes, no confirmado como resuelto.",
-    "TECNICO/SENTIMIENTO/BALLENAS sin cambios relevantes: precio $2.400-2.500, RSI/MACD estancados (63,89/140,4-143,1/-2,7), artefacto $3.323 persiste, Fear&Greed en division de 4 vias (73/63/55/49), transferencias de ballenas previas reconfirmadas mas una posible cifra nueva ($248,6M, posible solape con $253M ya reportado)."
+    "TECNICO: precio en rango de consenso $99-105 (~$101 central) tras discrepancia normal de ~5% entre fuentes agregadas. Ruptura por encima de $100 con estructura alcista de corto plazo, pero RSI 14d en sobrecompra (~79,9) -- imagen mixta, no un tecnico limpio en ninguna direccion.",
+    "DERIVADOS: funding levemente positivo y OI ($5,25-6,95B) con posicionamiento sesgado a largo -- mas traders apostando a que siga subiendo, lo que aumenta el riesgo de un long squeeze si aparece un catalizador bajista (como el NFP de manana).",
+    "ON-CHAIN (alcista estructural, medio plazo): ETFs de SOL con 10 dias consecutivos de entradas netas (+$192M este mes), staking al 69% (~5,25% yield), TVL DeFi subiendo a $5,85B, oferta en exchanges cayendo -- tesis solida pero de medio plazo, no necesariamente el catalizador de las proximas horas.",
+    "CORRELACION BTC/ETH: BTC (-1,38% 24h/-1,72% 7d) y ETH llevan la semana ablandandose mientras SOL sube +3,99% hoy -- divergencia positiva que parece mas impulsada por flujos de ETF que por un cambio de animo generalizado del mercado, tipo de divergencia que suele revertir si BTC lidera un movimiento a la baja.",
+    "MACRO -- FACTOR DOMINANTE ESTE CICLO: NFP manana (4 sep, 12:30 UTC, consenso +53K tras el fallo de julio de -23K) y probabilidad de subida de tasas del CME FedWatch subiendo con fuerza a 66% de cara al FOMC (15-16 sep) -- contexto inflacionario/risk-off (bono 10 anos 4,78%, petroleo >$92).",
+    "ALERTA -- VENTANA PRE-NFP: el NFP de manana cae dentro de las ~24h previas a un evento macro binario. Segun la regla del README, no se recomienda abrir posicion NUEVA en esta ventana -- se da la direccion y niveles como referencia, pero lo prudente es esperar a ver el resultado del NFP antes de ejecutar."
   ],
   "levels": {
-    "resistance_near": 2490,
-    "resistance_major": 2575,
-    "support_near": 2400,
-    "support_major": 2250,
-    "upside_target": [2600, 2700],
-    "downside_target": [2300, 2200]
+    "resistance_near": 105,
+    "resistance_major": 110,
+    "support_near": 100,
+    "support_major": 95,
+    "upside_target": [110, 118],
+    "downside_target": [95, 90]
   },
   "trade": {
     "direction": "short",
-    "entry": 2446.50,
-    "stop": 2490,
-    "target": 2300,
-    "breakeven_note": "Sin cambios: la regla de mover el stop a breakeven aplica en un movimiento a favor (hacia el soporte), no en este escenario. Respeta el stop tal cual esta.",
-    "invalidation": "Si ETH rompe y CIERRA por encima de 2.490, el sesgo pasa a alcista -- no mantener el short. Sin evidencia de que esto haya ocurrido ni este por ocurrir.",
-    "costs": {
-      "opening_cost_pct": 0.62,
-      "opening_cost_usd": 1.52,
-      "note": "eToro cobra ~0.62% de la exposicion ($244.65 con 1 contrato) como coste de apertura -- confirmado por el usuario en la app. No esta confirmado si hay un coste adicional al cerrar (spread de salida); por prudencia se asume que podria haberlo y se comprueba que el ratio aguanta incluso en ese caso."
-    },
-    "risk_reward": {
-      "point_value_usd": 0.10,
-      "gross_max_loss_usd": 4.35,
-      "gross_potential_gain_usd": 14.65,
-      "net_max_loss_usd": 5.87,
-      "net_potential_gain_usd": 13.13,
-      "max_loss_pct_of_margin": "~5% del margen de $115 en 1 contrato (neto de costes)",
-      "ratio": "~1:2.2 neto (arriesgas $5.87 con costes incluidos para optar a $13.13). Sin cambios en los niveles."
-    }
+    "entry": 104,
+    "stop_loss": 110,
+    "take_profit": 95,
+    "take_profit_extended": 90,
+    "risk_reward_ratio": "~1:1.5 al primer objetivo (95), ~1:2.3 al objetivo extendido (90). Calculado sobre niveles de precio, no en dolares -- el tamano de posicion y el apalancamiento los decides tu en Phantom.",
+    "invalidation": "Si SOL rompe y CIERRA por encima de $110, el sesgo pasa a alcista (coherente con la tesis on-chain/ETF) -- no mantener el short.",
+    "note": "NO SE RECOMIENDA ABRIR ESTA POSICION ANTES DEL NFP (4 sep, 12:30 UTC, ~18h de aqui) -- ver alerta en reasoning. Estos niveles son una referencia para despues del evento, no una entrada inmediata. Phantom permite abrir desde $5 con apalancamiento -- tu decides tamano y apalancamiento exactos en la app; recuerda que el funding de un perpetuo apalancado puede comerse parte de la ganancia en posiciones mantenidas muchas horas, y que una posicion apalancada puede liquidarse si el precio se mueve en tu contra antes de que el stop se ejecute."
   },
   "risk_notes": [
-    "RIESGO GEOPOLITICO -- LA ESCALADA CONTINUA HOY: ademas de los ataques del 2 de sep, hoy (3 sep) Iran disparo directamente contra Kuwait -- sirenas, intercepciones, calificado de 'agresion flagrante' por Kuwait. Brent >$95-96/barril, subiendo con fuerza. Esto es riesgo real de volatilidad subita -- el stop sigue siendo tu proteccion real: mantenlo configurado en la plataforma pase lo que pase, un titular puede mover el precio en minutos.",
-    "AUTOCORRECCION: la nota del ciclo anterior sobre una posible bajada en la probabilidad de SUBIDA de tasas de CME (66%->45%) parece haber sido un error -- la lectura mas fiable apunta a ~89,7% de probabilidad de RECORTE de tasas en septiembre, no de subida. Se corrige para evitar confusion.",
-    "ETF confirmado: salida neta de -$48,07M el 2 de sep (fuente directa), rompiendo la racha de 12 dias de entradas. BTC con lectura mixta hoy (manana ~$77.900, tarde posible recuperacion a ~$80.974) -- tratado con cautela.",
-    "La confianza se MANTIENE en alta (quincuagesimo segundo ciclo). El acuerdo entre fuentes SE MANTIENE en 'baja' por decimonoveno ciclo consecutivo -- derivados (OI/funding) sin lectura limpia este ciclo, Fear&Greed sigue con division de cuatro vias, cifra alucinada $3.323 persiste.",
-    "Con 1 contrato micro (valor de punto $0.10) las cifras en dolares son pequenas -- esto es una cuenta de aprendizaje/practica con capital real, no una forma de hacerse rico rapido. El tamano ya esta al minimo posible: no promediar ni anadir contratos para 'recuperar' una perdida.",
-    "Precio y costes: nucleo $2.400-2.500 segun fuente, se usa ~$2.430 como estimacion central. Soporte 20-EMA ~$2.307/MA50 ~$2.317, resistencia sesion ~$2.484. Verifica siempre en tu app antes de ejecutar. CME ofrece trading 24/7 en cripto desde mayo 2026.",
-    "EVENTO MUY PROXIMO: el NFP (4 sep, 12:30 UTC) sin cambios en el pronostico (+55.000). CPI 11 sep."
+    "PRIMER CICLO DE SOL: esta herramienta antes operaba sobre ETH/eToro (52 ciclos, historico completo en signals/eth_archive/, sin tocar). A partir de ahora opera sobre SOL para perpetuos apalancados en Phantom (desde $5).",
+    "VENTANA PRE-NFP -- NO ABRIR POSICION NUEVA: el NFP de manana (4 sep, 12:30 UTC) cae dentro de las ~24h previas a un evento macro binario. El resultado puede mover el precio con fuerza en cualquier direccion en minutos -- abrir ahora es apostar al ruido del evento, no al analisis. Espera a ver el resultado antes de ejecutar esta senal (o la que se actualice tras el NFP).",
+    "RIESGO DE APALANCAMIENTO: una posicion apalancada (aunque el tamano de entrada sea $5) puede liquidarse -- perder el margen por completo -- si el precio se mueve en tu contra lo suficiente antes de que el stop loss se ejecute, sobre todo en momentos de alta volatilidad como el NFP. Configura siempre el stop en la plataforma en cuanto abras la posicion.",
+    "Confianza MEDIA (no alta): las fuentes discrepan genuinamente entre una tesis on-chain/ETF alcista de medio plazo y un contexto macro/tecnico bajista de corto plazo -- no es un caso limpio en ninguna direccion.",
+    "Precio: rango de consenso $99-105 segun fuente, se usa ~$101 como estimacion central. Verifica siempre el precio, el funding rate y el apalancamiento disponible en tu app de Phantom antes de ejecutar -- el dashboard es una referencia, no la fuente de verdad del precio de entrada exacto.",
+    "DERIVADOS: posicionamiento sesgado a largo (funding positivo, mas traders apostando a subida) eleva el riesgo de un long squeeze si el NFP sale hawkish/negativo para cripto."
   ],
   "previous_signal_outcome": {
-    "status": "pendiente",
-    "note": "El precio sigue en la misma zona amplia de consolidacion (~$2.430). El acuerdo entre fuentes sigue en 'baja'. Este ciclo confirma que la escalada geopolitica continua -- Iran disparo directamente contra Kuwait hoy, ademas de los ataques del 2 de sep. El ETF del 2 de sep se confirma en -$48,07M (rompiendo la racha de 12 dias). BTC muestra una lectura mixta (posible recuperacion de tarde). Tambien se corrige una confusion del ciclo anterior sobre la direccion de las tasas de la Fed (recorte probable, no subida). Ni el objetivo (2.300) ni el stop (2.490) se han activado."
+    "status": "sin historico previo de SOL",
+    "note": "Primer ciclo de la senal de SOL -- no hay un trade anterior de SOL que evaluar. El historico de ETH/eToro (52 ciclos) queda archivado en signals/eth_archive/ y no se evalua aqui."
   },
   "sources": [
-    "https://www.coindesk.com/price/ethereum",
-    "https://www.investing.com/crypto/ethereum/technical",
-    "https://altindex.com/fear-and-greed-index-crypto",
+    "https://coinmarketcap.com/currencies/solana/",
+    "https://www.coingecko.com/en/coins/solana",
+    "https://www.coindesk.com/price/solana",
+    "https://www.coinbase.com/price/solana",
+    "https://www.kraken.com/prices/solana",
+    "https://altindex.com/ticker/sol/technical-analysis",
+    "https://cryptorank.io/news/feed/7a47c-solana-price-prediction-sol-recovery-setup-builds-as-rsi-and-macd-turn-higher",
     "https://cfgi.io/",
-    "https://feargreedmeter.com/crypto-fear-and-greed-index",
-    "https://coinstats.app/fear-and-greed/",
-    "https://en.bloomingbit.io/feed/news/119653",
-    "https://www.kucoin.com/news/flash/ethereum-spot-etfs-record-10-95m-net-inflow-on-sept-1-marking-12th-consecutive-day-of-inflows",
+    "https://altindex.com/fear-and-greed-index-crypto",
+    "https://www.coinglass.com/FundingRate/SOL",
+    "https://www.coinglass.com/currencies/SOL/futures",
+    "https://www.benzinga.com/crypto/26/08/61511229/solana-price-prediction-as-sol-etf-and-staking-inflows-jump",
+    "https://www.datawallet.com/crypto/solana-staking-statistics-and-trends",
     "https://fortune.com/article/price-of-bitcoin-09-03-2026/",
-    "https://www.coindesk.com/price/bitcoin",
-    "https://www.fxstreet.com/amp/analysis/usd-forecast-us-dollar-slips-ahead-of-nfp-as-fed-cut-odds-near-90-202509020844",
-    "https://www.washingtontimes.com/news/2026/sep/3/iran-targeting-kuwait-retaliation-us-bombardments-mideast-news/",
-    "https://www.cnbc.com/2026/09/03/oil-price-today-iran-war-strait-hormuz.html",
-    "https://www.aljazeera.com/news/2026/9/2/iran-us-exchange-new-attacks-who-was-hit-in-latest-strikes",
-    "https://www.cbsnews.com/news/tammy-baldwin-pentagon-iranian-attack-kuwait-six-u-s-troops/"
+    "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-tuesday-september-1-2026-crypto-prices-falling-as-inflation-concerns-persist-123554224.html",
+    "https://crypto.news/fed-rate-hike-september-crypto-thesis-etf-demand/",
+    "https://www.investing.com/economic-calendar/nonfarm-payrolls-227",
+    "https://en.coin-turk.com/solana-closes-first-monthly-green-candle-since-2025-whale-buys-8-million-sol/",
+    "https://coindcx.com/blog/crypto-news-global/solana-whale-accumulation-signals-long-term-confidence-in-2026/",
+    "https://solanacompass.com/learn/Lightspeed/whats-next-for-solana-in-2026"
   ],
-  "disclaimer": "No es asesoramiento financiero. Ningun sistema (ni IA ni humano) es 100% fiable con mercados, y contrastar mas fuentes reduce puntos ciegos pero no elimina el riesgo. Producto apalancado de alto riesgo. Ejecucion manual bajo tu propia responsabilidad. Un evento macro sorpresa puede invalidar este analisis en minutos -- el stop es tu proteccion real, no la confianza del analisis."
+  "disclaimer": "No es asesoramiento financiero. Ningun sistema (ni IA ni humano) es 100% fiable con mercados, y contrastar mas fuentes reduce puntos ciegos pero no elimina el riesgo. Los perpetuos apalancados son productos de alto riesgo con riesgo de liquidacion. Ejecucion manual bajo tu propia responsabilidad. Un evento macro sorpresa (como el NFP de manana) puede invalidar este analisis en minutos -- el stop es tu proteccion real, no la confianza del analisis."
 }
