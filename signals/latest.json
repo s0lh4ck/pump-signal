@@ -1,9 +1,9 @@
 {
   "asset": "SOL/USD",
   "platform": "Phantom (perpetuos apalancados, posicion desde $5)",
-  "generated_at": "2026-09-04T15:49:00Z",
+  "generated_at": "2026-09-04T16:49:00Z",
   "price_usd": 104,
-  "price_source": "CoinGecko $104,22 (+3,04% 24h), Coinbase $103,89, Kraken $105,13, MetaMask $103,62, OKX $104,22, Cryptonomist $104,08 -- consenso ~$103,6-105,1, sin cambio real respecto al ciclo anterior, sigue en el mismo rango $100-108. No es la cotizacion exacta del perpetuo de SOL en Phantom -- verifica siempre en tu app antes de operar.",
+  "price_source": "CoinGecko $103,62, Coinbase $103,89, OKX $104,22, CoinGlass $104,86 -- consenso ~$103,6-106, SOL toco intradia ~$106 y retrocedio a testear $103 como soporte, sin romper watch_above ($108). No es la cotizacion exacta del perpetuo de SOL en Phantom -- verifica siempre en tu app antes de operar.",
   "change_24h_pct": 3.0,
   "change_7d_pct": null,
   "bias": "neutral",
@@ -12,17 +12,17 @@
     "sources_checked": 20,
     "categories_checked": ["tecnico_precio", "sentimiento_fear_greed", "derivados_funding_oi", "on_chain", "correlacion_btc_eth", "calendario_macro", "ballenas_individuales_y_figuras_publicas"],
     "agreement": "media",
-    "note": "VIGESIMO TERCER CICLO DE SOL -- SE MANTIENE NEUTRAL, confianza baja hacia baja (baja desde media). PRECIO: sin cambio real -- SOL cotiza $103,6-105,1, exactamente el mismo rango $100-108 de hace varios ciclos. El unico contacto reciente con $108-110 fue un wick de hace mas de una semana (27-28 ago), ya descontado, no informacion nueva de este ciclo. TECNICO CONGELADO: RSI 67,33 y MACD -0,06 sin cambio respecto al ciclo anterior -- la fotografia tecnica de SOL lleva 3 ciclos practicamente identica. MACRO -- NUEVO GIRO (WHIPSAW): el short squeeze de BTC que justifico el cambio a NEUTRAL hace 1 hora se AGOTO/REVIRTIO PARCIALMENTE en las ultimas horas: BTC paso de un pico de $82.240 a sub-$80.000 tras reafirmarse el impacto hawkish del NFP (+162K vs +56K esperado) -- los yields del Treasury a 10 anos volvieron a subir (4,74%→4,80%), y la probabilidad de hike en el FOMC de sept. subio de ~50-52% a ~59%. Esto es lo opuesto al viento de cola alcista que se describio en el ciclo de las 14:49Z -- el mercado esta oscilando con fuerza en ambas direcciones dentro de la misma sesion (short squeeze -> reversion -> posible nueva reversion), un patron de alta volatilidad/whipsaw que reduce la confiabilidad de cualquier lectura direccional basada solo en BTC. CONTRAPESOS ALCISTAS QUE PERSISTEN: acumulacion de ballenas SOL (wallet dormida recompro $3,6-8M el 1 sep), volumen DEX en Solana en maximo mensual ($7,94B, superando a CEXs por novena semana consecutiva), estructura de EMAs diaria sigue alcista (precio por encima de EMA20/50/200). DERIVADOS SOL: funding rate mixto (-0,60 a +8,70 bps entre 39 exchanges) sin sesgo direccional fuerte, OI ~$6,95B estable, liquidaciones moderadas (~$3,03M) -- sin squeeze de largos ni de cortos especifico de SOL. SENTIMIENTO: Fear & Greed sigue en zona Greed (63-78 segun fuente, dispersion amplia). SINTESIS: SOL sigue en empate tecnico genuino (precio y RSI/MACD congelados), y el catalizador macro que en el ciclo anterior parecia inclinar la balanza al alza (short squeeze de BTC) se revirtio parcialmente -- el sesgo de riesgo macro esta ahora ligeramente inclinado a la baja de nuevo, pero dado que ya se registro un giro de tesis en la ultima hora (SHORT->NEUTRAL) basado en el mismo tipo de senal de BTC que ahora se revierte otra vez, se opta por NO reabrir SHORT todavia -- reforzar la cautela con NEUTRAL y confianza BAJA en vez de perseguir cada oscilacion del mismo catalizador dentro de la misma sesion. Vigilar de cerca si BTC pierde $80.000 de forma sostenida (no solo un vaiven) y si SOL finalmente testea la parte baja del rango antes del CPI (11 sep)."
+    "note": "VIGESIMO CUARTO CICLO DE SOL -- SE MANTIENE NEUTRAL, confianza BAJA (sin cambio). PRECIO: SOL toco intradia ~$106 (extension dentro del rango, no ruptura) y retrocedio a testear $103 como soporte -- sigue sin tocar watch_above ($108) ni confirmar caida sostenida hacia watch_below ($97). Sin evidencia de varias horas de estabilidad fuera del rango $100-108. TECNICO -- DATOS CONTRADICTORIOS ESTE CICLO: varias fuentes repiten literalmente RSI 67,33/MACD -0,06 identicos a hace 3 ciclos (sospecha de contenido cacheado/no actualizado), mientras otra fuente reporta RSI 79,9 (sobrecompra) y otra un MACD con cruce alcista +1,22 -- no hay base fiable para confirmar si el tecnico realmente se movio o sigue congelado, se trata con cautela adicional. Estructura de EMAs diaria sigue alcista (precio sobre EMA20/50/200), consistente entre fuentes. MACRO -- ESTABILIZACION PARCIAL, NO RESUELTA: BTC se sostiene sobre $80-81K de forma algo mas firme que el vaiven de hace 1h, pero sigue siendo rechazado repetidamente en resistencia ~$82K -- es un rango ($80-82K), no una tendencia direccional confirmada. Yields del Treasury a 10 anos siguen en 4,78-4,81% (sin reversion), probabilidad de hike Fed con amplia dispersion entre fuentes (50-68%) -- mismo nivel de tension/incertidumbre que el ciclo anterior, sin resolucion clara. ETH muestra fatiga: ETFs spot registraron ~$48M en salidas netas, rompiendo racha de 12 dias de entradas. ON-CHAIN: acumulacion de ballenas SOL sin cambio de signo (+52 wallets >=10.000 SOL, oferta en exchanges -4,91%), entradas ETF SOL continuan ($925K apertura de sept, rotacion BTC->SOL notada por una fuente). DISCREPANCIA A VIGILAR: volumen DEX en Solana con lecturas contradictorias entre fuentes (una indica maximo mensual, otra indica caida semanal de -24%) -- no se puede reconciliar con los datos disponibles este ciclo, se trata como senal debil. REGULATORIO: SEC/Nasdaq habria despejado el camino para productos de XRP y SOL segun una fuente -- catalizador institucional tangencial, sin movimiento de precio inmediato reportado. SINTESIS: SOL sigue en empate tecnico congelado (sin ruptura confirmada de niveles), y el contexto macro (BTC, yields, odds Fed) esta parcialmente mas estable que el whipsaw de hace 1h pero sigue sin resolverse en una direccion limpia -- no hay base solida para escalar de NEUTRAL a una direccion con mayor confianza. Se mantiene NEUTRAL con confianza BAJA, niveles de vigilancia sin cambios."
   },
-  "thesis": "NEUTRAL con confianza BAJA (vigesimo tercer ciclo de SOL) -- se mantiene el empate, confianza baja desde media por un giro macro tipo whipsaw. <b>Precio y tecnico congelados:</b> SOL sigue en $103,6-105,1, mismo rango $100-108 de varios ciclos, RSI (67,33) y MACD (-0,06) sin cambio real. <b>Macro -- nuevo giro:</b> el short squeeze de BTC que justifico el paso a NEUTRAL hace 1 hora se agoto/revirtio parcialmente -- BTC paso de un pico de $82.240 a sub-$80.000 al reafirmarse el impacto hawkish del NFP, los yields del Treasury a 10 anos volvieron a subir (4,74%→4,80%), y la probabilidad de hike en el FOMC subio a ~59%. Es un patron de alta volatilidad (short squeeze, luego reversion, dentro de la misma sesion) que reduce la fiabilidad de cualquier lectura basada solo en BTC. <b>Contrapesos alcistas que persisten:</b> acumulacion de ballenas SOL, volumen DEX en maximo mensual ($7,94B, superando a CEXs), estructura de EMAs diaria sigue alcista. <b>Derivados:</b> funding rate mixto sin sesgo fuerte, sin squeeze especifico de SOL. <b>Sintesis:</b> SOL sigue en empate tecnico genuino, y dado que ya se registro un giro de tesis en la ultima hora basado en el mismo tipo de senal de BTC que ahora vuelve a revertirse, se opta por NO perseguir cada oscilacion del mismo catalizador dentro de la misma sesion -- se mantiene NEUTRAL con confianza BAJA. Vigilar si BTC pierde $80.000 de forma sostenida (no un vaiven) y si SOL testea la parte baja del rango antes del CPI (11 sep).",
+  "thesis": "NEUTRAL con confianza BAJA (vigesimo cuarto ciclo de SOL) -- se mantiene el empate tecnico. <b>Precio:</b> SOL toco intradia ~$106 y retrocedio a testear $103 como soporte -- sigue sin romper $108 arriba ni confirmar caida sostenida hacia $97 abajo. <b>Tecnico contradictorio este ciclo:</b> varias fuentes repiten RSI 67,33/MACD -0,06 identicos a hace 3 ciclos (posible contenido no actualizado), otra reporta RSI 79,9 (sobrecompra) -- sin base fiable para confirmar si el momentum realmente cambio. Estructura de EMAs diaria sigue alcista. <b>Macro -- estabilizacion parcial, no resuelta:</b> BTC se sostiene sobre $80-81K algo mas firme que el vaiven de hace 1 hora, pero sigue rechazado repetidamente en ~$82K -- rango, no tendencia. Yields siguen en 4,78-4,81%, probabilidad de hike Fed con amplia dispersion (50-68% segun fuente), sin resolucion. ETH muestra fatiga (salidas netas de ETF tras 12 dias de entradas). <b>On-chain:</b> acumulacion de ballenas SOL sin cambio de signo, entradas ETF continuan. <b>Sintesis:</b> ni SOL rompio su rango con estabilidad de varias horas, ni BTC resolvio su banda $80-82K en una direccion limpia -- se mantiene NEUTRAL con confianza BAJA, niveles de vigilancia sin cambios.",
   "reasoning": [
-    "PRECIO Y TECNICO CONGELADOS: SOL sigue en $103,6-105,1, mismo rango $100-108 de varios ciclos. RSI (67,33) y MACD (-0,06) sin cambio real.",
-    "MACRO -- NUEVO GIRO WHIPSAW: el short squeeze de BTC que justifico el paso a NEUTRAL hace 1 hora se agoto/revirtio parcialmente -- BTC paso de un pico de $82.240 a sub-$80.000 al reafirmarse el impacto hawkish del NFP.",
-    "YIELDS Y ODDS FED DE VUELTA AL ALZA: el Treasury a 10 anos volvio a subir (4,74%→4,80%), probabilidad de hike en el FOMC subio a ~59% -- lo opuesto al viento de cola descrito hace 1 hora.",
-    "CONTRAPESOS ALCISTAS PERSISTEN: acumulacion de ballenas SOL, volumen DEX en maximo mensual ($7,94B, superando a CEXs), estructura de EMAs diaria sigue alcista.",
-    "DERIVADOS SOL: funding rate mixto sin sesgo fuerte, OI estable, sin squeeze especifico de largos ni cortos en SOL.",
-    "SENTIMIENTO: Fear & Greed sigue en zona Greed, sin cambio decisivo.",
-    "SINTESIS -- SIGUE NEUTRAL: SOL en empate tecnico genuino, y dado que el mismo tipo de senal de BTC ya provoco un giro de tesis en la ultima hora que ahora se revierte de nuevo, se evita perseguir cada oscilacion -- confianza BAJA por la volatilidad del catalizador macro."
+    "PRECIO: SOL toco intradia ~$106 (extension dentro del rango) y retrocedio a testear $103 como soporte -- sigue sin romper $108 ni $97.",
+    "TECNICO CONTRADICTORIO ESTE CICLO: varias fuentes repiten RSI 67,33/MACD -0,06 identicos a hace 3 ciclos (posible contenido cacheado), otra reporta RSI 79,9 -- sin base fiable para confirmar cambio real de momentum.",
+    "MACRO -- ESTABILIZACION PARCIAL: BTC se sostiene sobre $80-81K algo mas firme, pero sigue rechazado repetidamente en ~$82K -- rango, no tendencia resuelta.",
+    "YIELDS Y ODDS FED SIN RESOLUCION: Treasury a 10 anos en 4,78-4,81%, probabilidad de hike Fed con amplia dispersion (50-68% segun fuente) -- mismo nivel de tension que el ciclo anterior.",
+    "ETH CON FATIGA: salidas netas de ETF (~$48M) tras 12 dias de entradas -- primera senal de debilidad en el momentum de ETH.",
+    "ON-CHAIN SIN CAMBIO DE SIGNO: acumulacion de ballenas SOL continua, entradas ETF SOL persisten. Discrepancia sin reconciliar en volumen DEX (una fuente indica maximo, otra caida semanal) -- senal debil.",
+    "SINTESIS -- SIGUE NEUTRAL: ni SOL rompio su rango con estabilidad de varias horas, ni BTC resolvio su banda $80-82K en una direccion limpia -- confianza BAJA, sin base solida para escalar la direccion."
   ],
   "levels": {
     "resistance_near": 108,
@@ -39,45 +39,45 @@
     "take_profit": null,
     "watch_above": 108,
     "watch_below": 97,
-    "risk_reward_ratio": "Sin operacion nueva sugerida este ciclo -- empate tecnico genuino en SOL (precio y RSI/MACD congelados), agravado por un giro macro tipo whipsaw en BTC que reduce la fiabilidad de cualquier senal correlacionada. Se mantienen los mismos niveles de vigilancia: ruptura confirmada por encima de $108 reforzaria un giro a LONG; caida sostenida hacia $97 reabriria el caso bajista.",
+    "risk_reward_ratio": "Sin operacion nueva sugerida este ciclo -- empate tecnico genuino en SOL, agravado por datos tecnicos contradictorios entre fuentes este ciclo y un contexto macro parcialmente estabilizado pero no resuelto (BTC en rango $80-82K). Se mantienen los mismos niveles de vigilancia: ruptura confirmada por encima de $108 reforzaria un giro a LONG; caida sostenida hacia $97 reabriria el caso bajista.",
     "invalidation": "No aplica -- sin posicion nueva sugerida. Los niveles de vigilancia ($108 arriba / $97 abajo) son orientativos, no una entrada.",
-    "note": "SIGUE NEUTRAL, sin cambios respecto al ciclo anterior. El short squeeze de BTC que motivo el paso a NEUTRAL hace 1 hora se agoto/revirtio parcialmente (BTC de $82.240 a sub-$80.000, yields de vuelta a 4,80%, odds de hike de la Fed a ~59%) -- pero dado que SOL en si mismo sigue exactamente en el mismo rango tecnico sin cambios (RSI/MACD congelados), y que ya se registro un giro de tesis basado en el mismo tipo de senal de BTC hace solo 1 hora, se opta por NO reabrir SHORT ante esta nueva oscilacion del mismo catalizador -- se prioriza estabilidad de la senal sobre perseguir cada vaiven macro dentro de la misma sesion. Si tenias alguna posicion pendiente de cerrar del ciclo anterior, la logica sigue siendo la misma: SOL no ha confirmado tecnicamente ninguna direccion. Phantom permite abrir desde $5 con apalancamiento -- cualquier decision de operar es manual en la app."
+    "note": "SIGUE NEUTRAL, sin cambios respecto al ciclo anterior. SOL toco intradia ~$106 pero retrocedio a testear $103, sin romper ningun nivel de vigilancia. BTC se sostiene algo mas firme sobre $80-81K que hace 1 hora, pero sigue rechazado en ~$82K -- rango, no tendencia resuelta. Los datos tecnicos de SOL (RSI/MACD) son contradictorios entre fuentes este ciclo, lo que refuerza la cautela. Sin base solida para abrir una posicion nueva en ninguna direccion. Phantom permite abrir desde $5 con apalancamiento -- cualquier decision de operar es manual en la app."
   },
   "risk_notes": [
-    "SIGUE NEUTRAL: sin cambio de direccion respecto al ciclo anterior, pero confianza baja desde media.",
-    "MACRO WHIPSAW: el short squeeze de BTC que justifico el paso a NEUTRAL hace 1 hora se agoto/revirtio parcialmente -- BTC de un pico de $82.240 a sub-$80.000, yields de vuelta a 4,80%, odds de hike de la Fed a ~59%.",
-    "DECISION DELIBERADA DE NO PERSEGUIR EL VAIVEN: dado que la misma senal de BTC ya causo un giro de tesis (SHORT->NEUTRAL) hace 1 hora y ahora se revierte de nuevo, se evita reabrir SHORT solo por esta oscilacion -- se prioriza estabilidad de la senal.",
-    "SOL TECNICO CONGELADO: RSI (67,33) y MACD (-0,06) sin cambio en 3 ciclos consecutivos -- precio en el mismo rango $100-108.",
-    "CONTRAPESOS ALCISTAS PERSISTEN: acumulacion de ballenas SOL, volumen DEX en maximo mensual, estructura de EMAs diaria alcista.",
+    "SIGUE NEUTRAL: sin cambio de direccion ni de confianza respecto al ciclo anterior.",
+    "PRECIO EN RANGO: SOL toco intradia ~$106 y retrocedio a testear $103 -- sigue sin romper $108 ni $97.",
+    "MACRO -- ESTABILIZACION PARCIAL: BTC algo mas firme sobre $80-81K que hace 1 hora, pero rechazado repetidamente en ~$82K -- rango, no tendencia limpia.",
+    "TECNICO CONTRADICTORIO: fuentes reportan RSI 67,33 (posible dato cacheado) vs RSI 79,9 en otra -- no hay confirmacion fiable de cambio de momentum este ciclo.",
+    "ETH CON FATIGA: salidas netas de ETF (~$48M) tras 12 dias de entradas -- primera senal de debilidad en el momentum de ETH.",
     "PROXIMOS CATALIZADORES: CPI el 11 de sep y FOMC el 15-16 de sep -- fuera de la ventana de 24-48h.",
     "RIESGO DE APALANCAMIENTO: si mantienes cualquier posicion abierta, recuerda que puede liquidarse si el precio se mueve en tu contra antes de que el stop se ejecute.",
-    "Confianza BAJA (baja desde media): la volatilidad del catalizador macro (short squeeze, luego reversion, en la misma sesion) reduce la fiabilidad de cualquier lectura direccional por ahora."
+    "Confianza BAJA (sin cambios): datos tecnicos contradictorios y macro sin resolucion clara impiden subir la confianza en cualquier direccion."
   ],
   "previous_signal_outcome": {
     "status": "vigente",
-    "note": "El ciclo anterior (14:49Z) paso de SHORT a NEUTRAL por invalidacion de tesis, sin trade nuevo abierto. Este ciclo confirma NEUTRAL, sin cambios en niveles de vigilancia ($108 arriba / $97 abajo), aunque el catalizador macro que motivo el cambio (short squeeze de BTC) se revirtio parcialmente en la ultima hora."
+    "note": "El ciclo anterior (15:49Z) confirmo NEUTRAL, sin trade abierto. Este ciclo confirma de nuevo NEUTRAL, sin cambios en niveles de vigilancia ($108 arriba / $97 abajo) -- SOL sigue sin romper su rango tecnico."
   },
   "sources": [
     "https://www.coingecko.com/en/coins/solana",
     "https://www.coinbase.com/price/solana",
-    "https://www.kraken.com/prices/solana",
+    "https://coinmarketcap.com/currencies/solana/",
     "https://metamask.io/price/solana",
     "https://www.okx.com/en-us/price/solana-sol",
-    "https://en.cryptonomist.ch/2026/09/04/solana-price-today-analysis-2026/",
-    "https://crypto.news/solana-price-holds-rising-trendline-with-115-in-sight/",
-    "https://bravenewcoin.com/insights/solana-price-prediction-sol-breaks-above-106-as-120-and-140-targets-move-closer",
-    "https://www.coindesk.com/markets/2026/09/04/u-s-added-stronger-than-expected-162-000-jobs-in-august-as-labor-market-bounced-back",
-    "https://dailycoin.com/bitcoin-price-us-jobs-report-fed-rate-hike-bitcoin-news",
-    "https://cryptopotato.com/bitcoin-price-plunges-after-blowout-us-jobs-report-heres-why/",
-    "https://247wallst.com/investing/cryptocurrency/2026/09/04/the-jobs-report-came-in-at-three-times-the-estimate-can-bitcoin-get-80000-back/",
-    "https://beincrypto.com/bitcoin-gold-fall-us-payrolls-forecasts/",
     "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-friday-september-4-2026-bitcoin-holding-above-81000-following-massive-etf-inflows-113751298.html",
+    "https://247wallst.com/investing/cryptocurrency/2026/09/03/bitcoin-reclaimed-80000-after-falling-below-78000-can-it-hold/",
+    "https://crypto.news/bitcoin-price-stalls-near-82k-as-key-resistance-holds/",
+    "https://seekingalpha.com/article/4940387-bitcoin-at-80000-the-short-squeeze-is-real-but-the-breakout-isnt-confirmed",
     "https://www.coinglass.com/currencies/SOL",
-    "https://loris.tools/funding/coin/sol",
-    "https://coinpaper.com/35157/bitcoin-etfs-just-had-their-best-month-of-2026-but-september-starts-with-a-warning",
-    "https://en.coinotag.com/solana-whale-resurfaces-with-36m-buy-after-two-year-hiatus",
-    "https://blockchainmagazine.net/why-solana-is-going-up-defi-capital-and-dex-volume-both-surging-on-chain/",
-    "https://feargreedmeter.com/crypto-fear-and-greed-index"
+    "https://www.coinglass.com/FundingRate/SOL",
+    "https://feargreedmeter.com/crypto-fear-and-greed-index",
+    "https://altindex.com/fear-and-greed-index-crypto",
+    "https://milkroad.com/fear-greed/",
+    "https://www.kucoin.com/news/flash/solana-etfs-record-925k-inflows-as-september-opens",
+    "https://financefeeds.com/bitcoin-etfs-shed-236-5m-as-solana-funds-draw-101-9m-in-september-opener/",
+    "https://en.coin-turk.com/solana-climbs-above-103-as-whale-accumulation-and-etf-inflows-support-price-rally/",
+    "https://coindcx.com/blog/crypto-news-global/solana-whale-accumulation-signals-long-term-confidence-in-2026/",
+    "https://www.kucoin.com/news/articles/crypto-daily-market-report-september-4-2026",
+    "https://u.today/xrp-and-solana-cleared-in-fresh-sec-nasdaq-order-main-crypto-news-this-morning"
   ],
   "disclaimer": "No es asesoramiento financiero. Ningun sistema (ni IA ni humano) es 100% fiable con mercados, y contrastar mas fuentes reduce puntos ciegos pero no elimina el riesgo. Los perpetuos apalancados son productos de alto riesgo con riesgo de liquidacion. Ejecucion manual bajo tu propia responsabilidad. Un evento macro sorpresa (como el NFP de manana) puede invalidar este analisis en minutos -- el stop es tu proteccion real, no la confianza del analisis."
 }
