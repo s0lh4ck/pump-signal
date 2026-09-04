@@ -1,28 +1,28 @@
 {
   "asset": "SOL/USD",
   "platform": "Phantom (perpetuos apalancados, posicion desde $5)",
-  "generated_at": "2026-09-04T05:49:00Z",
+  "generated_at": "2026-09-04T06:49:00Z",
   "price_usd": 104,
-  "price_source": "El precio parece haberse estabilizado justo debajo de $104-105, sin continuar la caida ni recuperar con fuerza: multiples fuentes convergen en $103-104 (con chop intradia, un toque bajo ~$100 durante un evento de liquidaciones el 2 de sep). Cambio 7d citado en -5,10%, consistente con el pullback desde ~$108. Se usa ~$104 como estimacion central. No es la cotizacion exacta del perpetuo de SOL en Phantom -- verifica siempre en tu app antes de operar.",
+  "price_source": "El precio se mantiene en la misma zona de estabilizacion: CoinMarketCap $104,28, Coinbase $103,89, CoinGecko $103,30, sin ruptura en ninguna direccion. Volumen 24h elevado (~$3,6-4,3B, +44% dia contra dia) pero sin resolver el rango. Se usa ~$104 como estimacion central. No es la cotizacion exacta del perpetuo de SOL en Phantom -- verifica siempre en tu app antes de operar.",
   "change_24h_pct": null,
-  "change_7d_pct": -5.1,
+  "change_7d_pct": null,
   "bias": "neutral",
   "confidence": "baja",
   "data_quality": {
     "sources_checked": 20,
     "categories_checked": ["tecnico_precio", "sentimiento_fear_greed", "derivados_funding_oi", "on_chain", "correlacion_btc_eth", "calendario_macro", "ballenas_individuales_y_figuras_publicas"],
     "agreement": "media",
-    "note": "DECIMOTERCER CICLO DE SOL -- se mantiene NEUTRAL. PRECIO -- ESTABILIZACION, NO RESOLUCION: el precio parece haberse estabilizado justo debajo de $104-105 tras el pullback desde ~$108, con chop intradia (un toque bajo ~$100 el 2 de sep durante un evento de liquidaciones de $369M que golpeo a XRP/ETH/SOL). Cambio 7d citado en -5,10%. No hay evidencia clara de rebote fuerte ni de continuacion de la caida -- se trata como zona de disputa. TECNICO: RSI/MACD reportados (RSI ~79,9, MACD positivo) probablemente calculados sobre el pico anterior ($108), no sobre el precio actual (~$104) -- se descartan como no representativos de este momento. Estructura soporte/resistencia sin cambios: soporte $100-102, resistencia $108-110. DERIVADOS: OI contradictorio entre agregadores (~$6,95B vs ~$4,55B, discrepancia de ~50%, no solo de fecha) -- se trata como no fiable, sin cifra nueva utilizable. ON-CHAIN -- GAP DE ETF SIGUE SIN RESOLVER: una tercera cifra distinta aparece para principios de septiembre ($101,9M de entrada, sumada a las ya vistas $925K y $10,19M) -- la unica lectura de confianza razonable es la DIRECCION (entrada neta), no la magnitud exacta. Staking y fundamentales de red sin cambios. CORRELACION BTC/ETH: BTC sigue sin rango resuelto, consolidando cerca de la parte alta de su banda ($77,5K-81K segun una fuente) -- NUEVO: se identifica un riesgo de liquidacion asimetrico de cara al NFP (aprox. $3,00B en apalancamiento largo por debajo del precio actual en Binance vs $1,80B en corto por encima), lo que sugiere mas riesgo de movimiento brusco a la baja si el dato sorprende hacia el lado hawkish. No se pudo confirmar con dato fresco si SOL sigue de rezagado frente a BTC/ETH (dato del ciclo anterior no revalidado esta vez). MACRO: los odds de la Fed se mantienen en la misma direccion (recorte descartado, subida en juego) pero con MAGNITUDES QUE DIFIEREN SEGUN LA FUENTE -- Kalshi ~47% de subida, futuros de fed funds ~58% -- ambos apuntan a mayor riesgo de subida/mantener, no de recorte, solo difieren en el numero exacto. NFP consenso +55.000 sin cambios, publicacion a las 12:30 UTC de hoy (~6h41m desde este ciclo). SINTESIS: se mantiene NEUTRAL -- el precio parece estabilizado en zona de disputa sin resolucion clara, el riesgo de liquidacion asimetrico de cara al NFP es una nueva consideracion relevante para quien ya tenga posiciones, y la ventana de prudencia pre-NFP sigue siendo dominante con el catalizador cada vez mas cerca. Confianza se mantiene BAJA."
+    "note": "DECIMOCUARTO CICLO DE SOL -- se mantiene NEUTRAL, ultimo ciclo completo antes del NFP. PRECIO: sigue estable en $103-104, sin ruptura en ninguna direccion, volumen 24h elevado (+44% dia contra dia) pero sin resolver el rango. TECNICO: RSI/MACD reportados (RSI ~79,9, MACD positivo) siguen siendo de baja confianza -- la propia fuente empareja ese RSI con medias moviles ($79-81) inconsistentes con el precio actual, sugiriendo un modelo desactualizado, no un dato fresco -- se mantienen descartados. Niveles de swing mas amplios (soporte $94,40/$85,79, resistencia $123/$132) aparecieron en una fuente, pero no sustituyen la estructura intradia ya establecida ($100-102 soporte, $108-110 resistencia) que sigue siendo la mas relevante para el rango de trading actual. DERIVADOS: sin cifra nueva fiable, se mantiene la politica de no reintentar. ON-CHAIN -- GAP DE ETF EMPEORA: aparece una CUARTA cifra distinta ($153,87M en la semana mas fuerte desde octubre de 2025, via CoinMarketCap), sumada a las ya vistas ($925K, $10,19M, $101,9M) -- las cuatro cifras son mutuamente incompatibles, se mantiene solo la lectura direccional (entrada neta positiva), nunca la magnitud. Evento estructural de fondo: SGP 0002 aprobado el 29 de agosto, duplica la tasa de desinflacion (30%) y recorta 18,9M SOL de emision futura -- levemente alcista a largo plazo, no relevante para el ciclo horario. CORRELACION BTC/ETH: BTC empuja hacia $81.100, la parte alta de su banda de consolidacion, sin romperla todavia -- consistente con rango sin resolver. El riesgo de liquidacion asimetrico senalado el ciclo anterior no se pudo reconfirmar con datos frescos esta vez (dato de liquidaciones del 3 de sep mostro liquidaciones de cortos mucho mayores que de largos ese dia especifico, lo cual no contradice necesariamente la estructura de apalancamiento subyacente, pero tampoco la reconfirma) -- se mantiene como posible riesgo, sin nueva confirmacion. MACRO -- NUEVO DATO PRE-NFP: el ADP de agosto (publicado 2 de sep) salio en +38.000, por debajo del pronostico de +47.000 y el julio revisado de +46.000 -- 'el mas debil desde enero', senal privada suave que anade riesgo de sorpresa a la baja en el NFP de hoy. Los odds de subida de la Fed se vuelven MAS DISPERSOS entre fuentes (Kalshi 44-59% segun instantanea, CME FedWatch 56-66% segun fuente, Polymarket 41% para septiembre) -- todos siguen apuntando a que el recorte esta descartado, pero el numero exacto varia mas que en ciclos anteriores, reflejando probablemente volatilidad genuina de mercado de cara al dato, no mala calidad de datos. NFP consenso +55.000 sin cambios, publicacion a las 12:30 UTC de hoy (~5h41m desde este ciclo). SINTESIS: se mantiene NEUTRAL -- nada de este ciclo rompe el empate, el ADP debil anade un matiz de riesgo a la baja en las expectativas pero no es suficiente para inclinar la balanza, y la ventana de prudencia pre-NFP domina con el catalizador cada vez mas cerca. Este es el ultimo ciclo completo antes del dato -- el proximo (~07:49Z) probablemente sea el ultimo antes de la publicacion, y el ciclo posterior al NFP (~12:49Z-13:49Z) debe tratarse como punto de reevaluacion fresca con el resultado real en mano. Confianza se mantiene BAJA."
   },
-  "thesis": "NEUTRAL con confianza BAJA (decimotercer ciclo de SOL) -- se mantiene el empate. <b>Estabilizacion, no resolucion:</b> el precio parece haberse estabilizado justo debajo de $104-105 tras el pullback desde ~$108, con chop intradia (toque bajo ~$100 el 2 de sep durante un evento de liquidaciones de $369M). No hay evidencia clara de rebote ni de continuacion de la caida. El RSI/MACD citados probablemente reflejan el pico anterior, no el precio actual -- se descartan. <b>Nuevo:</b> se identifica un riesgo de liquidacion asimetrico de cara al NFP (mas apalancamiento largo por debajo del precio que corto por encima en Binance) -- mayor riesgo de movimiento brusco a la baja si el dato sorprende hacia el lado hawkish. Los odds de la Fed se mantienen en la misma direccion (recorte descartado) pero con magnitudes que difieren segun la fuente (Kalshi ~47% subida, futuros ~58%). NFP se publica hoy a las 12:30 UTC (~6h41m desde este ciclo), consenso +55.000 sin cambios. Se mantiene NEUTRAL: el precio en zona de disputa sin resolucion clara, y predomina la ventana de prudencia pre-NFP -- el riesgo de liquidacion asimetrico es relevante sobre todo para quien ya tenga posiciones abiertas.",
+  "thesis": "NEUTRAL con confianza BAJA (decimocuarto ciclo de SOL) -- se mantiene el empate, ultimo ciclo completo antes del NFP. El precio sigue estable en $103-104, sin ruptura en ninguna direccion. El RSI/MACD citados siguen siendo de baja confianza -- probablemente reflejan un modelo desactualizado, no el precio actual. <b>Nuevo dato pre-NFP:</b> el ADP de agosto salio en +38.000, por debajo del pronostico de +47.000 -- 'el mas debil desde enero', anade un matiz de riesgo a la baja en las expectativas del NFP de hoy. Los odds de subida de la Fed se vuelven mas dispersos entre fuentes (Kalshi 44-59%, CME 56-66%, Polymarket 41%) -- todos coinciden en que el recorte esta descartado, pero el numero exacto varia mas, reflejando probablemente volatilidad genuina de mercado de cara al dato. El gap de datos de ETF empeora con una cuarta cifra distinta ($153,87M). NFP se publica hoy a las 12:30 UTC (~5h41m desde este ciclo), consenso +55.000 sin cambios. Se mantiene NEUTRAL: nada de este ciclo rompe el empate, y predomina la ventana de prudencia pre-NFP. El ciclo posterior al dato (~12:49Z-13:49Z) sera el punto de reevaluacion fresca.",
   "reasoning": [
-    "PRECIO -- ESTABILIZACION, NO RESOLUCION: el precio parece haberse estabilizado justo debajo de $104-105 tras el pullback desde ~$108, con chop intradia (toque bajo ~$100 el 2 de sep durante un evento de liquidaciones). Cambio 7d: -5,10%.",
-    "TECNICO: RSI/MACD citados probablemente reflejan el pico anterior ($108), no el precio actual (~$104) -- se descartan como no representativos. Estructura soporte/resistencia sin cambios: soporte $100-102, resistencia $108-110.",
-    "DERIVADOS: OI contradictorio entre agregadores por ~50%, no solo por fecha -- se trata como no fiable.",
-    "ON-CHAIN -- GAP DE ETF SIGUE SIN RESOLVER: una tercera cifra distinta aparece para principios de sep ($101,9M de entrada) -- solo la direccion (entrada neta) es razonablemente fiable, no la magnitud.",
-    "CORRELACION BTC/ETH: BTC sigue sin rango resuelto, consolidando cerca de la parte alta de su banda. NUEVO -- riesgo de liquidacion asimetrico de cara al NFP: mas apalancamiento largo por debajo del precio que corto por encima en Binance, mayor riesgo de movimiento brusco a la baja si el dato sorprende hawkish.",
-    "MACRO: los odds de la Fed se mantienen en la misma direccion (recorte descartado, subida en juego) pero con magnitudes que difieren segun fuente (Kalshi ~47%, futuros ~58%) -- ambos apuntan igual, solo difiere el numero exacto. NFP consenso +55.000 sin cambios.",
-    "SINTESIS -- SIGUE NEUTRAL: el precio en zona de disputa sin resolucion, y predomina la ventana de prudencia pre-NFP. NFP a las 12:30 UTC de hoy (~6h41m) sigue siendo el catalizador real pendiente."
+    "PRECIO: sigue estable en $103-104, sin ruptura en ninguna direccion, volumen 24h elevado (+44% dia contra dia) pero sin resolver el rango.",
+    "TECNICO: RSI/MACD citados siguen siendo de baja confianza -- la propia fuente empareja ese RSI con medias moviles inconsistentes con el precio actual, sugiriendo un modelo desactualizado. Estructura intradia sin cambios: soporte $100-102, resistencia $108-110.",
+    "DERIVADOS: sin cifra nueva fiable -- se mantiene la politica de no reintentar.",
+    "ON-CHAIN -- GAP DE ETF EMPEORA: aparece una cuarta cifra distinta ($153,87M en la semana mas fuerte desde octubre de 2025) -- se mantiene solo la lectura direccional (entrada neta positiva), nunca la magnitud.",
+    "CORRELACION BTC/ETH: BTC empuja hacia $81.100, la parte alta de su banda, sin romperla -- consistente con rango sin resolver. El riesgo de liquidacion asimetrico del ciclo anterior no se pudo reconfirmar con datos frescos esta vez.",
+    "MACRO -- NUEVO DATO PRE-NFP: el ADP de agosto salio en +38.000 (bajo el pronostico de +47.000), 'el mas debil desde enero' -- senal privada suave que anade riesgo de sorpresa a la baja. Odds de subida de la Fed mas dispersos entre fuentes (Kalshi 44-59%, CME 56-66%, Polymarket 41%), pero todos coinciden en que el recorte esta descartado.",
+    "SINTESIS -- SIGUE NEUTRAL: nada de este ciclo rompe el empate. NFP a las 12:30 UTC de hoy (~5h41m) sigue siendo el catalizador real pendiente -- ultimo ciclo completo antes del dato."
   ],
   "levels": {
     "resistance_near": 108,
@@ -39,19 +39,19 @@
     "take_profit": null,
     "watch_above": 110,
     "watch_below": 97,
-    "risk_reward_ratio": "Sin operacion sugerida este ciclo -- se mantienen los niveles de vigilancia (resistencia $110, soporte $97), sin cambios porque ninguno se ha activado. El precio (~$104) parece haberse estabilizado en la misma zona que el ciclo anterior.",
+    "risk_reward_ratio": "Sin operacion sugerida este ciclo -- se mantienen los niveles de vigilancia (resistencia $110, soporte $97), sin cambios porque ninguno se ha activado. El precio (~$104) sigue estable en la misma zona.",
     "invalidation": "No aplica -- sin posicion sugerida. Los niveles de vigilancia ($110 arriba / $97 abajo) son orientativos, no una entrada.",
-    "note": "NO SE RECOMIENDA ABRIR NINGUNA POSICION (ni long ni short) ANTES DEL NFP (4 sep, 12:30 UTC, ~6h41m de aqui). El precio parece estabilizado en zona de disputa (~$103-105), sin resolucion clara. NUEVO: se identifica un riesgo de liquidacion asimetrico de cara al NFP -- mas apalancamiento largo por debajo del precio actual que corto por encima -- si ya tienes una posicion long abierta, esto es especialmente relevante para vigilar de cerca. El ciclo justo despues del dato (aprox. 12:49Z-13:49Z) sera el punto de reevaluacion fresca. Phantom permite abrir desde $5 con apalancamiento -- si decides operar tras el NFP, recuerda que una posicion apalancada puede liquidarse si el precio se mueve en tu contra antes de que el stop se ejecute."
+    "note": "NO SE RECOMIENDA ABRIR NINGUNA POSICION (ni long ni short) ANTES DEL NFP (4 sep, 12:30 UTC, ~5h41m de aqui) -- este es el ultimo ciclo completo antes del dato. El ADP de agosto salio debil (+38.000 vs +47.000 esperado), lo que anade riesgo de sorpresa a la baja en el NFP. Los odds de la Fed son mas dispersos entre fuentes este ciclo, reflejo de volatilidad genuina de mercado de cara al dato. Si ya tienes una posicion long abierta, el riesgo de liquidacion asimetrico senalado el ciclo anterior sigue siendo relevante para vigilar de cerca. El ciclo justo despues del dato (aprox. 12:49Z-13:49Z) sera el punto de reevaluacion fresca. Phantom permite abrir desde $5 con apalancamiento -- si decides operar tras el NFP, recuerda que una posicion apalancada puede liquidarse si el precio se mueve en tu contra antes de que el stop se ejecute."
   },
   "risk_notes": [
-    "ESTABILIZACION, NO RESOLUCION: el precio parece haberse estabilizado justo debajo de $104-105 tras el pullback desde ~$108, con chop intradia (toque bajo ~$100 el 2 de sep durante un evento de liquidaciones de $369M).",
-    "NUEVO -- RIESGO DE LIQUIDACION ASIMETRICO DE CARA AL NFP: mas apalancamiento largo por debajo del precio actual que corto por encima en Binance -- mayor riesgo de movimiento brusco a la baja si el NFP sorprende hacia el lado hawkish.",
-    "TECNICO SIN LECTURA REPRESENTATIVA: RSI/MACD citados probablemente reflejan el pico anterior ($108), no el precio actual -- se descartan este ciclo.",
-    "GAP DE DATOS EN ETF SIGUE SIN RESOLVER: una tercera cifra distinta aparece para principios de sep ($101,9M de entrada) -- solo la direccion (entrada neta) es razonablemente fiable.",
-    "MACRO -- MISMA DIRECCION, MAGNITUD DISCUTIDA: Kalshi ~47% de subida vs futuros de fed funds ~58% -- ambos confirman que el recorte esta descartado, solo difiere el numero exacto.",
-    "VENTANA PRE-NFP -- NO ABRIR NINGUNA POSICION (se mantiene, mas cerca): el NFP (4 sep, 12:30 UTC, ~6h41m) sigue siendo el catalizador real pendiente, consenso +55.000 sin cambios.",
+    "ULTIMO CICLO COMPLETO ANTES DEL NFP: el precio sigue estable en $103-104, sin ruptura en ninguna direccion.",
+    "NUEVO -- ADP DEBIL: el ADP de agosto salio en +38.000, bajo el pronostico de +47.000, 'el mas debil desde enero' -- anade riesgo de sorpresa a la baja en el NFP de hoy.",
+    "MACRO -- ODDS DE LA FED MAS DISPERSOS: Kalshi 44-59%, CME 56-66%, Polymarket 41% de probabilidad de subida segun fuente -- mayor dispersion que en ciclos anteriores, probablemente volatilidad genuina de mercado de cara al dato. Todos coinciden en que el recorte esta descartado.",
+    "TECNICO SIN LECTURA REPRESENTATIVA: RSI/MACD citados siguen siendo de baja confianza (modelo probablemente desactualizado) -- se descartan este ciclo.",
+    "GAP DE DATOS EN ETF EMPEORA: una cuarta cifra distinta aparece ($153,87M) -- solo la direccion (entrada neta) es razonablemente fiable.",
+    "VENTANA PRE-NFP -- NO ABRIR NINGUNA POSICION (se mantiene, mas cerca): el NFP (4 sep, 12:30 UTC, ~5h41m) sigue siendo el catalizador real pendiente, consenso +55.000 sin cambios. El ciclo posterior al dato sera el punto de reevaluacion fresca.",
     "RIESGO DE APALANCAMIENTO: una posicion apalancada (aunque el tamano de entrada sea $5) puede liquidarse -- perder el margen por completo -- si el precio se mueve en tu contra lo suficiente antes de que el stop loss se ejecute, sobre todo en momentos de alta volatilidad como el NFP. Configura siempre el stop en la plataforma en cuanto abras la posicion.",
-    "Confianza BAJA (sin cambios): tecnico sin lectura representativa, OI contradictorio, NFP pendiente."
+    "Confianza BAJA (sin cambios): tecnico sin lectura representativa, odds de la Fed dispersos, NFP pendiente."
   ],
   "previous_signal_outcome": {
     "status": "pendiente",
@@ -60,24 +60,24 @@
   "sources": [
     "https://www.coinbase.com/price/solana",
     "https://altindex.com/ticker/sol/technical-analysis",
+    "https://coinmarketcap.com/cmc-ai/solana/price-analysis/",
     "https://coinmarketcap.com/currencies/solana/",
-    "https://roboforex.com/beginners/analytics/forex-forecast/cryptocurrency/sol-usd-solana-forecast-2026-09-03/",
-    "https://www.cryptotimes.io/2026/09/03/solana-price-holds-above-99-as-etf-inflows-reach-11-day-streak/",
-    "https://alternative.me/crypto/fear-and-greed-index/",
-    "https://feargreedmeter.com/crypto-fear-and-greed-index",
+    "https://www.coingecko.com/en/coins/solana",
+    "https://finance.yahoo.com/markets/crypto/articles/crypto-fear-greed-index-flips-081252407.html",
+    "https://milkroad.com/fear-greed/",
     "https://www.coinglass.com/currencies/SOL/futures",
-    "https://coinalyze.net/solana/open-interest/",
     "https://www.kucoin.com/news/flash/solana-etfs-record-925k-inflows-as-september-opens",
-    "https://financefeeds.com/bitcoin-etfs-shed-236-5m-as-solana-funds-draw-101-9m-in-september-opener/",
-    "https://fortune.com/article/price-of-bitcoin-09-03-2026/",
-    "https://www.coingecko.com/en/coins/bitcoin",
-    "https://support.coincall.com/hc/en-us/articles/61821073094937-September-2-2026-Bitcoin-Holds-78K-as-ETF-Flows-Reverse-and-Fed-Hike-Bets-Rise",
-    "https://pluang.com/en/news-feed/xrp-bergabung-dengan-ether-solana-dalam-gelombang-likuidasi-369-juta-dolar-di",
-    "https://www.investing.com/economic-calendar/nonfarm-payrolls-227",
-    "https://news.kalshi.com/p/fed-rate-hike-odds-september-2026-jackson-hole-speech",
-    "https://www.forbes.com/sites/bill_stone/2026/08/30/fed-rate-hike-odds-rise-after-warshs-jackson-hole-speech/",
+    "https://coingape.com/markets/solana-price-forecast-as-etf-inflows-extend-to-11-straight-days/",
+    "https://www.stakingrewards.com/asset/solana",
+    "https://www.coindesk.com/price/bitcoin",
+    "https://news.bitcoin.com/market-updates/bitcoin-price-update-77k-support-is-key-as-september-begins/",
+    "https://www.gate.com/crypto-market-data/funds/liquidation-data/btc",
+    "https://features.financialjuice.com/2026/08/31/us-nfp-prep-4th-september/",
+    "https://tradingeconomics.com/united-states/adp-employment-change",
+    "https://news.kalshi.com/p/september-fed-rate-hike-odds-54-percent",
+    "https://www.forbes.com/sites/digital-assets/2026/08/31/cme-fedwatch-provides-a-66-chance-fed-will-hike-rates-in-september/",
     "https://yellow.com/news/dormant-solana-whale-suddenly-move-dollar11m-after-one-year-of-silence",
-    "https://cryptorank.io/news/feed/f5013-solana-whale-transfer-binance-446-million"
+    "https://www.thestreet.com/crypto/markets/trumps-fed-pick-discloses-holdings-in-musks-spacex-polymarket-and-solana"
   ],
   "disclaimer": "No es asesoramiento financiero. Ningun sistema (ni IA ni humano) es 100% fiable con mercados, y contrastar mas fuentes reduce puntos ciegos pero no elimina el riesgo. Los perpetuos apalancados son productos de alto riesgo con riesgo de liquidacion. Ejecucion manual bajo tu propia responsabilidad. Un evento macro sorpresa (como el NFP de manana) puede invalidar este analisis en minutos -- el stop es tu proteccion real, no la confianza del analisis."
 }
