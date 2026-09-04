@@ -1,10 +1,10 @@
 {
   "asset": "SOL/USD",
   "platform": "Phantom (perpetuos apalancados, posicion desde $5)",
-  "generated_at": "2026-09-04T12:49:00Z",
+  "generated_at": "2026-09-04T13:49:00Z",
   "price_usd": 104,
-  "price_source": "Post-NFP: CoinGecko/Coinbase ~$103,6-103,9, Kraken $105,1, OKX $104,2, MetaMask $103,62 -- precio practicamente plano frente al ciclo anterior (~$104), sin replicar la caida de BTC/ETH. No es la cotizacion exacta del perpetuo de SOL en Phantom -- verifica siempre en tu app antes de operar.",
-  "change_24h_pct": null,
+  "price_source": "Rango extremadamente comprimido en la ultima hora: CoinGecko $103,30, Coinbase $103,89, CoinMarketCap $104,28, Kraken $105,13. ATR horario de solo 0,74, pivote intradia $103,97-$104,15 -- confirma que el precio no se ha movido de forma significativa desde el ciclo anterior. No es la cotizacion exacta del perpetuo de SOL en Phantom -- verifica siempre en tu app antes de operar.",
+  "change_24h_pct": 3.0,
   "change_7d_pct": null,
   "bias": "short",
   "confidence": "media",
@@ -12,18 +12,17 @@
     "sources_checked": 20,
     "categories_checked": ["tecnico_precio", "sentimiento_fear_greed", "derivados_funding_oi", "on_chain", "correlacion_btc_eth", "calendario_macro", "ballenas_individuales_y_figuras_publicas"],
     "agreement": "media",
-    "note": "VIGESIMO CICLO DE SOL -- CICLO CRITICO POST-NFP, PRIMERA DIRECCION CLARA DESDE HACE VARIOS CICLOS: pasa de NEUTRAL a SHORT (confianza MEDIA). NFP publicado a las 12:30 UTC de hoy (hace ~19 min al momento de la investigacion): resultado real +162.000 empleos vs consenso ~55-56.000 -- sorpresa alcista de ~+106K, la mayor de varios meses. Tasa de paro estable en 4,1% (en linea), salarios +3,0-3,1% YoY (en linea/ligeramente por debajo). Calidad del dato cuestionable (concentrado en sanidad/educacion/restauracion, ~93K de los 162K en sectores estacionales), pero el titular es inequivocamente hawkish: quita urgencia a un giro dovish inmediato de la Fed. Probabilidad de hike en FedWatch repunto de ~50-54% pre-dato a ~53%+ post-dato -- subida moderada, no un salto violento, coherente con la calidad mixta del dato. REACCION DE MERCADO: BTC cayo ~2% por debajo de $80.000 (revirtiendo parcialmente el short squeeze dovish del 3 sep atribuido a Waller), yields del Treasury a 10 anos +3,3pb a 4,80%, dolar mas fuerte. ETH replico la caida (~$2.400-2.412, bajando desde ~$2.503 pre-NFP). SOL SE MOSTRO MAS RESILIENTE: precio practicamente plano (~$103,6-104,2) frente al baseline pre-NFP (~$104), sin replicar la caida proporcional de BTC/ETH -- posible fuerza relativa, aunque podria ser tambien lag de datos. TECNICO: RSI de SOL en 67,33 (fuente Cryptonomist), enfriandose desde sobrecompra, con MACD en territorio ligeramente negativo -- momentum perdiendo fuerza, sin margen para absorber otro shock hawkish sin correccion. Estructura de medias (EMA20 $96,39, EMA50 $87,64, EMA200 $89,70) mantiene sesgo alcista de fondo en el medio plazo, pero en el corto plazo el pivote diario ($104,03) y S1 ($103,26) sugieren riesgo inmediato a la baja si se pierde el EMA50 de 1h ($102,66). SENTIMIENTO: sigue contradictorio (Fear & Greed 55 segun una fuente vs 74 segun otra, sesgo hacia Greed en la lectura mas reciente). DERIVADOS: sin cifra de funding/OI con timestamp fiable post-NFP -- se trata como no confirmado, igual que ciclos anteriores. ON-CHAIN/ETF -- SENAL CONTRADICTORIA NUEVA: entradas ETF de BTC de $731M el mismo dia (mejor dia desde enero) pese a la caida de precio -- demanda institucional no capitulo, contrapeso alcista relevante. Acumulacion on-chain de SOL (retiro de exchanges, nuevas whale wallets) sigue de fondo pero sin dato fresco especifico de esta hora. SINTESIS -- CAMBIO DE DIRECCION JUSTIFICADO: el peso de la evidencia (reaccion de risk-off ya confirmada en BTC/ETH, RSI de SOL enfriandose desde sobrecompra sin ruptura de resistencia, estructura de rango sin romper al alza) inclina la balanza hacia SHORT tactico, pero la resiliencia relativa de SOL y los flujos ETF institucionales fuertes son motivo para confianza MEDIA (no alta) y una gestion de riesgo estricta. Proximos catalizadores: CPI 11 sep, FOMC 15-16 sep -- ambos fuera de la ventana de 24-48h, por lo que no aplica la restriccion de evento macro inminente a esta operacion."
+    "note": "VIGESIMO PRIMER CICLO DE SOL -- CONTINUACION DE LA OPERACION SHORT ABIERTA EN EL CICLO ANTERIOR (12:49Z), CONFIRMADA VIGENTE. Ni el stop ($108) ni el objetivo ($97) se han activado en la ultima hora: el precio de SOL se ha mantenido en un rango extremadamente comprimido ($103,97-$104,15 de pivote intradia, ATR horario de solo 0,74) -- confirma cuantitativamente que SOL sigue sin replicar la caida de BTC/ETH del post-NFP. REACCION DE MERCADO CONTINUADA: los yields del Treasury a 10 anos siguieron subiendo (+3,3pb a 4,80%, 2 anos +7pb a 4,40%), las probabilidades de hike de la Fed subieron ligeramente a ~52,6% (desde 49,4% el jueves) -- confirma que el sesgo hawkish del NFP sigue vigente. Liquidaciones acumuladas de $768,5M en 24h ($202M en la ultima hora, mayoritariamente longs) -- el mercado de derivados amplio sigue nervioso/bajista. Hay señales contradictorias y no confirmadas sobre si BTC ya recupero $81.000+ tras la caida inicial -- tratado como senal debil, no verificada con timestamp fiable. TECNICO SOL: RSI se mantiene en 67,33 (sin cambio), MACD sigue ligeramente negativo -- momentum enfriandose sin senal de reversion alcista clara. SENTIMIENTO: sigue contradictorio (lecturas de 49-55 Neutral hasta 63-74 Greed segun la fuente) -- no hay evidencia de panico/capitulacion pese al shock hawkish, lo cual es en si mismo un dato mixto (ni confirma mas caida, ni descarta sesgo bajista). DERIVADOS: sigue sin cifra de funding/OI de SOL con timestamp fiable -- no confirmado, igual que ciclos anteriores. ON-CHAIN/ETF: sin novedades nuevas desde hace 1 hora (el inflow de $731M en ETF de BTC corresponde a la sesion del jueves, ya contextualizado en el ciclo anterior). SEÑAL DE ALERTA TEMPRANA (YELLOW FLAG): SOL lleva ya mas de 1 hora sin seguir la caida de BTC/ETH pese a un catalizador macro claramente hawkish -- esta resiliencia relativa podria indicar demanda subyacente que eventualmente sostenga el precio, motivo adicional (junto al contrapeso ETF ya senalado) para mantener la confianza en MEDIA y vigilar de cerca los proximos ciclos. SINTESIS: se MANTIENE SHORT sin modificar entrada/stop/objetivo -- no hay evidencia que invalide la tesis (ni ruptura de $108 ni capitulacion hacia $97), pero tampoco hay confirmacion adicional que suba la confianza. Los fundamentos macro (yields al alza, odds de hike subiendo, liquidaciones elevadas) siguen respaldando el sesgo bajista de fondo."
   },
-  "thesis": "SHORT con confianza MEDIA (vigesimo ciclo de SOL) -- primer cambio de direccion tras varios ciclos en empate, tras el NFP de hoy (12:30 UTC). <b>NFP:</b> resultado real +162.000 vs consenso ~55-56.000 -- sorpresa alcista hawkish (~+106K), aunque de calidad cuestionable (concentrada en sanidad/educacion/restauracion). Paro estable en 4,1%, salarios en linea (~3,0-3,1%). Odds de hike de la Fed repuntaron a ~53%+ tras el dato. <b>Reaccion de mercado:</b> BTC cayo ~2% por debajo de $80.000 (revirtiendo parte del short squeeze dovish de Waller del 3 sep), yields a 10 anos al alza, ETH replico la caida a ~$2.400-2.412. <b>SOL:</b> se mostro mas resiliente, precio practicamente plano (~$103,6-104,2) sin replicar la caida de BTC/ETH. RSI 67,33, enfriandose desde sobrecompra, MACD ligeramente negativo -- momentum perdiendo fuerza sin margen para absorber otro shock hawkish. <b>Contrapeso alcista (motivo de confianza MEDIA, no alta):</b> entradas ETF de BTC de $731M el mismo dia (mejor dia desde enero) pese a la caida de precio -- demanda institucional no capitulo -- y la resiliencia relativa de SOL frente a BTC/ETH. <b>Sintesis:</b> el peso de la evidencia (risk-off confirmado en BTC/ETH, RSI enfriandose sin ruptura al alza, rango sin resolver) inclina la balanza hacia SHORT tactico con gestion de riesgo estricta. Proximos catalizadores (CPI 11 sep, FOMC 15-16 sep) estan fuera de la ventana de 24-48h, por lo que esta operacion no viola la regla de prudencia pre-evento.",
+  "thesis": "SHORT con confianza MEDIA (vigesimo primer ciclo de SOL) -- operacion abierta en el ciclo anterior (12:49Z, post-NFP), CONFIRMADA VIGENTE. <b>Estado del trade:</b> ni el stop ($108) ni el objetivo ($97) se han activado -- SOL se ha mantenido en un rango extremadamente comprimido (pivote intradia $103,97-$104,15, ATR horario 0,74). <b>Contexto macro continuado:</b> yields del Treasury a 10 anos siguieron subiendo (+3,3pb a 4,80%), odds de hike de la Fed subieron ligeramente a ~52,6% -- el sesgo hawkish del NFP sigue vigente. Liquidaciones acumuladas de $768,5M en 24h. <b>Tecnico:</b> RSI sin cambio en 67,33, MACD sigue ligeramente negativo -- sin senal de reversion alcista clara. <b>Yellow flag a vigilar:</b> SOL lleva ya mas de 1 hora sin seguir la caida de BTC/ETH pese al catalizador hawkish -- esta resiliencia relativa, junto al contrapeso de flujos ETF institucionales en BTC, es motivo para mantener la confianza en MEDIA (no subirla) y vigilar de cerca los proximos ciclos. <b>Sintesis:</b> se mantiene SHORT sin modificar entrada/stop/objetivo -- los fundamentos macro (yields al alza, odds de hike subiendo, liquidaciones elevadas) siguen respaldando el sesgo bajista de fondo, sin evidencia nueva que invalide la tesis.",
   "reasoning": [
-    "NFP -- RESULTADO REAL, HAWKISH: +162.000 empleos vs consenso ~55-56.000, sorpresa de ~+106K. Paro estable en 4,1%, salarios en linea (~3,0-3,1%). Calidad del dato cuestionable (concentrado en sanidad/educacion/restauracion), pero el titular quita urgencia a un giro dovish de la Fed.",
-    "FED: probabilidad de hike repunto de ~50-54% pre-dato a ~53%+ post-dato -- subida moderada, coherente con la calidad mixta del dato.",
-    "REACCION DE MERCADO: BTC cayo ~2% por debajo de $80.000, revirtiendo parte del short squeeze dovish del 3 sep (Waller). Yields a 10 anos al alza, dolar mas fuerte. ETH replico la caida a ~$2.400-2.412 desde ~$2.503 pre-NFP.",
-    "SOL -- RESILIENCIA RELATIVA: precio practicamente plano (~$103,6-104,2) sin replicar la caida de BTC/ETH -- motivo de cautela (confianza media, no alta) mas que senal alcista confirmada.",
-    "TECNICO: RSI 67,33, enfriandose desde sobrecompra, MACD ligeramente negativo -- momentum perdiendo fuerza. Estructura de EMAs de medio plazo (20/50/200) sigue alcista, pero el corto plazo (pivote diario, S1, EMA50 1h) senala riesgo inmediato a la baja.",
-    "ON-CHAIN/ETF -- CONTRAPESO ALCISTA: entradas ETF de BTC de $731M el mismo dia (mejor dia desde enero) pese a la caida de precio -- demanda institucional no capitulo.",
-    "SENTIMIENTO: sigue contradictorio (Fear & Greed 55 vs 74 segun la fuente), sin usarse como senal decisiva.",
-    "SINTESIS -- CAMBIO A SHORT: el peso de la evidencia (risk-off confirmado en BTC/ETH, RSI enfriandose sin ruptura al alza, rango sin resolver) justifica una direccion clara por primera vez en varios ciclos, con gestion de riesgo estricta dado el contrapeso alcista (ETF, resiliencia de SOL)."
+    "ESTADO DEL TRADE: la operacion SHORT abierta en el ciclo anterior sigue vigente -- ni stop ($108) ni objetivo ($97) se han activado. Precio en rango extremadamente comprimido (pivote $103,97-$104,15, ATR horario 0,74).",
+    "MACRO CONTINUADO: yields del Treasury a 10 anos siguieron subiendo (+3,3pb a 4,80%), odds de hike de la Fed subieron a ~52,6% -- el sesgo hawkish del NFP sigue vigente.",
+    "DERIVADOS AMPLIOS: liquidaciones acumuladas de $768,5M en 24h ($202M en la ultima hora) -- el mercado sigue nervioso/bajista tras el NFP.",
+    "TECNICO: RSI sin cambio en 67,33, MACD sigue ligeramente negativo -- sin senal de reversion alcista clara.",
+    "SENTIMIENTO: sigue contradictorio (49-55 Neutral hasta 63-74 Greed segun la fuente) -- no hay evidencia de panico/capitulacion, dato mixto que ni confirma mas caida ni descarta el sesgo bajista.",
+    "YELLOW FLAG A VIGILAR: SOL lleva mas de 1 hora sin seguir la caida de BTC/ETH pese al catalizador hawkish -- posible resiliencia por demanda subyacente, motivo para no subir la confianza por ahora.",
+    "SINTESIS -- SE MANTIENE SHORT: sin evidencia nueva que invalide la tesis ni que la refuerce lo suficiente para subir la confianza -- se mantienen entrada/stop/objetivo sin cambios."
   ],
   "levels": {
     "resistance_near": 108,
@@ -42,43 +41,44 @@
     "watch_below": 97,
     "risk_reward_ratio": "Riesgo $4 (104 a 108) / recompensa $7 (104 a 97) = aprox. 1:1,75. Stop en resistance_near ($108), objetivo en support_major ($97). Calculado sobre niveles de precio, no en dolares -- ajusta el tamano de tu posicion segun tu propio capital.",
     "invalidation": "Cierre firme por encima de resistance_near $108 invalida la tesis short -- especialmente si se confirma ruptura de resistance_major/watch_above $110.",
-    "note": "PRIMERA DIRECCION CLARA TRAS VARIOS CICLOS EN EMPATE, justo despues del NFP de hoy (resultado real +162.000 vs consenso ~55-56.000 -- sorpresa hawkish). BTC y ETH ya reaccionaron a la baja (~-2% BTC, ETH a ~$2.400-2.412) tras el dato; SOL se ha mostrado mas resiliente hasta ahora (precio plano), lo que es motivo de CONFIANZA MEDIA, no alta. Entrada alrededor de $104, stop en $108 (resistencia cercana), objetivo en $97 (soporte mayor). Los proximos catalizadores macro (CPI 11 sep, FOMC 15-16 sep) estan fuera de la ventana de 24-48h, por lo que esta operacion no viola la regla de prudencia pre-evento -- pero vigila de cerca los proximos ciclos por si SOL empieza a replicar la caida de BTC/ETH con mas fuerza, o por si el contrapeso alcista (entradas ETF institucionales de $731M en BTC el mismo dia) hace que el precio rebote antes de tiempo. Phantom permite abrir desde $5 con apalancamiento -- configura el stop en la plataforma en cuanto abras la posicion, una posicion apalancada puede liquidarse si el precio se mueve en tu contra antes de que el stop se ejecute."
+    "note": "OPERACION SHORT ABIERTA EN EL CICLO ANTERIOR (12:49Z, post-NFP), CONFIRMADA VIGENTE este ciclo -- ni el stop ($108) ni el objetivo ($97) se han activado. El precio se ha mantenido en un rango extremadamente comprimido (pivote $103,97-$104,15, ATR horario 0,74). Los fundamentos macro (yields al alza, odds de hike de la Fed subiendo a ~52,6%, liquidaciones de $768,5M en 24h) siguen respaldando el sesgo bajista de fondo. YELLOW FLAG: SOL lleva mas de 1 hora sin seguir la caida de BTC/ETH pese al catalizador hawkish -- vigila de cerca si esta resiliencia se convierte en una ruptura al alza (invalidacion en $108) o si finalmente SOL empieza a ceder hacia el objetivo ($97). Se mantiene la misma entrada (~$104), stop ($108) y objetivo ($97) sin cambios. Phantom permite abrir desde $5 con apalancamiento -- si aun no has abierto la posicion, configura el stop en la plataforma en cuanto la abras."
   },
   "risk_notes": [
-    "CAMBIO DE DIRECCION: de NEUTRAL a SHORT tras el NFP de hoy -- primera senal direccional clara en varios ciclos. Confianza MEDIA, no alta, por el contrapeso alcista descrito abajo.",
-    "NFP REAL: +162.000 vs consenso ~55-56.000 -- sorpresa hawkish de ~+106K, aunque de calidad cuestionable (concentrada en sectores estacionales: sanidad, educacion, restauracion).",
-    "REACCION YA CONFIRMADA EN BTC/ETH: BTC -2% (por debajo de $80.000), ETH tambien a la baja (~$2.400-2.412) -- el mercado cripto amplio esta en modo risk-off tras el dato.",
-    "CONTRAPESO ALCISTA A VIGILAR: entradas ETF de BTC de $731M el mismo dia (mejor dia desde enero) pese a la caida de precio -- demanda institucional no capitulo. SOL tambien se ha mostrado mas resiliente que BTC/ETH hasta el momento de este ciclo.",
-    "TECNICO: RSI de SOL en 67,33, enfriandose desde sobrecompra -- sin margen para absorber otro shock hawkish sin correccion, pero sin ruptura confirmada de niveles clave todavia.",
+    "TRADE VIGENTE: la operacion SHORT abierta en el ciclo anterior (entrada ~$104, stop $108, objetivo $97) sigue activa -- ni stop ni objetivo se han tocado en la ultima hora.",
+    "MACRO CONTINUADO: yields del Treasury a 10 anos siguieron subiendo (+3,3pb a 4,80%), odds de hike de la Fed subieron a ~52,6% -- el sesgo hawkish del NFP sigue vigente.",
+    "DERIVADOS AMPLIOS: liquidaciones acumuladas de $768,5M en 24h ($202M en la ultima hora) -- el mercado sigue nervioso/bajista.",
+    "YELLOW FLAG A VIGILAR: SOL lleva mas de 1 hora sin seguir la caida de BTC/ETH pese al catalizador hawkish -- posible resiliencia por demanda subyacente. Vigilar de cerca en los proximos ciclos.",
+    "TECNICO: RSI sin cambio en 67,33, MACD sigue ligeramente negativo -- sin senal de reversion alcista clara.",
+    "SENTIMIENTO: sigue contradictorio (49-55 Neutral hasta 63-74 Greed segun la fuente) -- sin evidencia de panico/capitulacion.",
     "PROXIMOS CATALIZADORES: CPI el 11 de sep y FOMC el 15-16 de sep -- fuera de la ventana de 24-48h, no aplica la restriccion de evento macro inminente a esta operacion.",
     "RIESGO DE APALANCAMIENTO: una posicion apalancada (aunque el tamano de entrada sea $5) puede liquidarse -- perder el margen por completo -- si el precio se mueve en tu contra antes de que el stop loss se ejecute. Configura siempre el stop en la plataforma en cuanto abras la posicion.",
-    "Confianza MEDIA (sube desde BAJA): direccion justificada por evidencia de risk-off ya confirmada, pero con contrapesos alcistas genuinos (ETF, resiliencia relativa de SOL) que exigen gestion de riesgo estricta."
+    "Confianza MEDIA (sin cambios): sin evidencia nueva que suba ni baje la confianza -- se mantiene la misma gestion de riesgo."
   ],
   "previous_signal_outcome": {
-    "status": "pendiente",
-    "note": "El ciclo anterior (11:49Z, justo antes del NFP) era NEUTRAL sin trade de referencia, con niveles de vigilancia $110 arriba / $97 abajo, ninguno activado. Este ciclo (post-NFP) abre la primera operacion real en varios ciclos: SHORT con entrada ~$104, stop $108, objetivo $97."
+    "status": "vigente",
+    "note": "El ciclo anterior (12:49Z, post-NFP) abrio una operacion SHORT con entrada ~$104, stop $108, objetivo $97. Este ciclo confirma que sigue vigente -- ni el stop ni el objetivo se han activado en la ultima hora, precio en rango extremadamente comprimido ($103,97-$104,15)."
   },
   "sources": [
-    "https://ca.finance.yahoo.com/news/us-added-162000-jobs-in-august-as-fed-weighs-next-hike-jobs-report-175614216.html",
-    "https://ca.finance.yahoo.com/news/august-jobs-report-live-updates-labor-market-155619193.html",
-    "https://investinglive.com/news/us-august-non-farm-payrolls-vs-56k-expected/",
-    "https://fox2now.com/hill-politics/us-added-162k-jobs-in-august-blowing-past-expectations/",
-    "https://cryptobriefing.com/us-economy-adds-162000-jobs-august-2026/",
-    "https://cryptobriefing.com/us-jobs-report-beats-forecasts-fueling-fed-rate-hike-speculation/",
-    "https://www.foxbusiness.com/economy/us-jobs-report-august-2026",
-    "https://www.tipranks.com/news/u-s-jobs-report-blows-past-forecasts",
-    "https://www.coindesk.com/business/2026/09/04/live-updates-bitcoin-etfs-take-usd731-million-their-biggest-day-since-january",
-    "https://www.coindesk.com/daybook-us/2026/09/04/we-checked-6-years-of-bitcoin-data-the-nfp-report-isn-t-big-price-mover",
-    "https://www.theblock.co/news/markets/2026-09-04-us-bitcoin-etfs-largest-inflow-day-since-january-413515",
-    "https://crypto.news/u-s-bitcoin-etfs-draw-731-million-in-biggest-inflow-since-january/",
     "https://en.cryptonomist.ch/2026/09/04/solana-price-today-analysis-2026/",
     "https://www.coingecko.com/en/coins/solana",
     "https://www.coinbase.com/price/solana",
-    "https://metamask.io/price/solana",
-    "https://metamask.io/price/ethereum",
-    "https://www.globenewswire.com/news-release/2026/09/04/3356538/0/en/eth-news-today-ethereum-nears-2-400-amid-fed-pressure-as-apeing-nears-its-september-8-crypto-presale-opening-at-15-00-utc.html",
-    "https://milkroad.com/fear-greed/",
-    "https://coindcx.com/blog/crypto-news-global/solana-whale-accumulation-signals-long-term-confidence-in-2026/"
+    "https://coinmarketcap.com/currencies/solana/",
+    "https://www.kraken.com/prices/solana",
+    "https://www.coindesk.com/markets/2026/09/04/u-s-added-stronger-than-expected-162-000-jobs-in-august-as-labor-market-bounced-back",
+    "https://www.coindesk.com/business/2026/09/04/live-updates-bitcoin-etfs-take-usd731-million-their-biggest-day-since-january",
+    "https://coingape.com/bitcoin-tumbles-as-non-farm-payrolls-surge-to-162k-in-august/",
+    "https://beincrypto.com/bitcoin-gold-fall-us-payrolls-forecasts/",
+    "https://247wallst.com/investing/cryptocurrency/2026/09/04/the-jobs-report-came-in-at-three-times-the-estimate-can-bitcoin-get-80000-back/",
+    "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-friday-september-4-2026-bitcoin-holding-above-81000-following-massive-etf-inflows-113751298.html",
+    "https://www.theblock.co/news/markets/2026-09-04-us-bitcoin-etfs-largest-inflow-day-since-january-413515",
+    "https://coinpaper.com/35249/bitcoin-etfs-see-biggest-inflows-since-january-as-btc-surges-above-81k",
+    "https://panews.io/articles/01a06a92-beca-7373-910e-3aa3691cd746",
+    "https://www.ibtimes.com/jobs-report-surprised-upside-chances-fed-rate-hike-edged-3807133",
+    "https://feargreedmeter.com/crypto-fear-and-greed-index",
+    "https://altindex.com/fear-and-greed-index-crypto",
+    "https://www.bitdegree.org/cryptocurrency-prices/fear-and-greed-index",
+    "https://en.coin-turk.com/solana-closes-first-monthly-green-candle-since-2025-whale-buys-8-million-sol/",
+    "https://www.fxstreet.com/cryptocurrencies/news/bitcoin-weekly-forecast-gearing-up-for-a-sharp-move-202609041018"
   ],
   "disclaimer": "No es asesoramiento financiero. Ningun sistema (ni IA ni humano) es 100% fiable con mercados, y contrastar mas fuentes reduce puntos ciegos pero no elimina el riesgo. Los perpetuos apalancados son productos de alto riesgo con riesgo de liquidacion. Ejecucion manual bajo tu propia responsabilidad. Un evento macro sorpresa (como el NFP de manana) puede invalidar este analisis en minutos -- el stop es tu proteccion real, no la confianza del analisis."
 }
